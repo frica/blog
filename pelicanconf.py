@@ -1,12 +1,40 @@
 AUTHOR = 'Fabien'
-SITENAME = "Fabien's personal site"
+SITENAME = "Blog like it's 2002"
+SITESUBTITLE = 'Tech and stuff'
 SITEURL = "https://frica.github.io/blog"
+TIMEZONE = 'Europe/Brussels'
+DEFAULT_LANG = 'en'
 
 PATH = "content"
+STATIC_PATHS = ['images', 'extra', 'pages/assets']
+PLUGIN_PATHS = ['pelican-plugins']
+PAGE_PATHS = ['pages']
 
-TIMEZONE = 'Europe/Brussels'
+# Main Menu
+MAIN_MENU = True
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = (
+    ('Home', '/'),
+    ('About', '/pages/about.html'),
+    ('Tech', '/category/tech.html'),
+    ('Books', '/category/books.html'),
+    ('Archives', '/archives'),
+    ('Tags', '/tags')
+)
 
-DEFAULT_LANG = 'en'
+# European date format
+DEFAULT_DATE_FORMAT = '%d-%m-%Y'
+
+# provide a list of paths to overrides files in original template
+THEME_TEMPLATES_OVERRIDES = ['./themes/templates/overrides']
+
+# post_stats only works if you update the template
+PLUGINS = ['post_stats', 
+           'liquid_tags']
+
+LIQUID_TAGS = ["img", "literal", "video", "youtube",
+               "vimeo"]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -15,21 +43,49 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-)
-
-# Social widget
-SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
-)
-
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = True
+
+# Code highlighting the theme
+PYGMENTS_STYLE = 'friendly'
+
+HIDE_AUTHORS = True
+
+# Blogroll
+# LINKS = (
+#    ("Pelican", "https://getpelican.com/"),
+# )
+
+# Social widget
+#SOCIAL = (
+#    ("linkedin", "https://www.linkedin.com/in/fabien-rica/"),
+#    ("github", "https://github.com/frica"),
+#)
+
+# customized to make admonition work but it doesn't
+#MARKDOWN = {
+#    'extension_configs': {
+#        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+#        'markdown.extensions.extra': {},
+#        'markdown.extensions.meta': {},
+#        'markdown.extensions.admonition':{}
+#    },
+#    'output_format': 'html5',
+#}
+
+# for Flex
+#SITELOGO = 'images/profile.png'
+#FAVICON = 'images/favicon.ico'
+
+# Alchemy
+# SITEIMAGE = 'images/test.jpg width=200 height=200'
+
+# ICONS = (
+#     ("linkedin", "https://www.linkedin.com/in/fabien-rica/"),
+#    ("github", "https://github.com/frica"),
+#)
+
+#THEME = 'themes/pelican-alchemy/alchemy'
+# BOOTSTRAP_CSS = 'http://bootswatch.com/3/united/bootstrap.min.css'
