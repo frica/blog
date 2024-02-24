@@ -15,7 +15,7 @@ MAIN_MENU = True
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
-    ('Home', '.'),
+    ('Home', 'index.html'),
     ('About', '/pages/about.html'),
     ('Tech', '/category/tech.html'),
     ('Books', '/category/books.html'),
