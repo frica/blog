@@ -1,7 +1,7 @@
 AUTHOR = 'Fabien'
 SITENAME = "Blog like it's 2002"
 SITESUBTITLE = 'Tech and stuff'
-SITEURL = "https://frica.github.io/blog"
+SITEURL = ""
 TIMEZONE = 'Europe/Brussels'
 DEFAULT_LANG = 'en'
 
@@ -15,7 +15,7 @@ MAIN_MENU = True
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
-    ('Home', '/'),
+    ('Home', '.'),
     ('About', '/pages/about.html'),
     ('Tech', '/category/tech.html'),
     ('Books', '/category/books.html'),
@@ -46,7 +46,7 @@ AUTHOR_FEED_RSS = None
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+#RELATIVE_URLS = True
 
 # Code highlighting the theme
 PYGMENTS_STYLE = 'friendly'
