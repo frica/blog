@@ -2,10 +2,14 @@ AUTHOR = 'Fabien'
 SITENAME = "Blog like it's 2002"
 SITESUBTITLE = 'Tech and stuff'
 SITEURL = ""
+#WEB_URL = "https://frica.github.io/blog"
+
 TIMEZONE = 'Europe/Brussels'
 DEFAULT_LANG = 'en'
 
+# Path to content directory to be processed by Pelican
 PATH = "content"
+
 STATIC_PATHS = ['images', 'pages/assets']
 PLUGIN_PATHS = ['pelican-plugins']
 PAGE_PATHS = ['pages']
@@ -16,11 +20,11 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
     ('Home', 'index.html'),
-    ('About', '/pages/about.html'),
-    ('Tech', '/category/tech.html'),
-    ('Books', '/category/books.html'),
-    ('Archives', '/archives'),
-    ('Tags', '/tags')
+    ('About', 'pages/about.html'),
+    ('Tech', 'category/tech.html'),
+    ('Books', 'category/books.html'),
+    ('Archives', 'archives'),
+    ('Tags', 'tags')
 )
 
 # European date format

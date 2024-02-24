@@ -12,6 +12,8 @@ from pelicanconf import *
 SITEURL = "https://frica.github.io/blog"
 RELATIVE_URLS = False
 
+print("Site url is:" + SITEURL + "\n")
+
 FEED_ALL_ATOM = "feeds/all.atom.xml"
 CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
 
