@@ -6,7 +6,7 @@ TIMEZONE = 'Europe/Brussels'
 DEFAULT_LANG = 'en'
 
 PATH = "content"
-STATIC_PATHS = ['images', 'extra', 'pages/assets']
+STATIC_PATHS = ['images', 'pages/assets']
 PLUGIN_PATHS = ['pelican-plugins']
 PAGE_PATHS = ['pages']
 
