@@ -12,7 +12,7 @@ Here are some things I learned after a few days working with Pelican.
 
 I now use:
 
-    $ ghp-import -op ./output -m "Upload content"
+    ghp-import -op ./output -m "Upload content"
 
 The `-p` option pushes to origin/master, which spares you an extra command.
 
@@ -39,6 +39,7 @@ I always disliked the US time format. But as my blog is configured in English, I
 
     # European date format
     DEFAULT_DATE_FORMAT = '%d-%m-%Y'
+
 
 # Syntax highlighting
 
