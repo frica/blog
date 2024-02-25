@@ -2,8 +2,6 @@ AUTHOR = 'Fabien'
 SITENAME = "Blog like it's 2002"
 SITESUBTITLE = 'Tech and stuff'
 SITEURL = ""
-#WEB_URL = "https://frica.github.io/blog"
-
 TIMEZONE = 'Europe/Brussels'
 DEFAULT_LANG = 'en'
 
@@ -33,6 +31,9 @@ DEFAULT_DATE_FORMAT = '%d-%m-%Y'
 # provide a list of paths to overrides files in original template
 THEME_TEMPLATES_OVERRIDES = ['./themes/templates/overrides']
 
+# doesn't work :(
+CSS_STYLE = "./themes/css/custom.css"
+
 # post_stats only works if you update the template
 PLUGINS = ['post_stats', 
            'liquid_tags']
@@ -53,7 +54,18 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 # Code highlighting the theme
-PYGMENTS_STYLE = 'friendly'
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.meta': {},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.codehilite': {'css_class': 'codehilite'},
+    },
+    'output_format': 'html5',
+}
+
+# deprecated
+#MD_EXTENSIONS = ['codehilite(noclasses=True, pygments_style=native)', 'extra']  # enable MD options
+#PYGMENTS_STYLE = 'monokai'
 
 HIDE_AUTHORS = True
 

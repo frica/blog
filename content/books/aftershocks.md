@@ -1,5 +1,5 @@
 Title: Aftershocks (The Palladium Wars #1)
-Date: 2024-02-25 15:00
+Date: 2024-02-24 15:00
 Category: Books
 Tags: scifi, reading
 Lang: fr

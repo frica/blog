@@ -4,7 +4,7 @@ Category: Tech
 Tags: pelican, github
 Lang: en
 
-I will explain here the complete steps to build your static website with [Pelican](https://getpelican.com/) and deploy it on GitHub Pages.
+I will explain here the steps to build your static website with [Pelican](https://getpelican.com/) and deploy it on GitHub Pages.
 
 But first, why use Pelican and not Wordpress or Dotclear, like back when I  started my first blog?
 
@@ -43,13 +43,13 @@ Create a file and write a dummy post:
 
     This is a test.
 
-Save it under blog/content.
+Save it under `blog/content`.
 
 Then run:
 
     pelican content
 
-Your site has now been generated inside the output/ directory.
+Your site has now been generated inside the `output/` directory.
 
 If you want to look at your generated site, run:
 
@@ -99,7 +99,7 @@ Push your gh-pages to GitHub
 **Note:**
 Normally, gh-pages should be set as your default branches now on GitHub.
 
-Wait a few seconds and check your blog on:
+Wait a minute or two and check your blog on:
 
     https://username.github.io/blog/
 
