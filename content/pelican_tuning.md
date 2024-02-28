@@ -33,6 +33,10 @@ You can configure the plugins in your `pelicanconf.py`:
     LIQUID_TAGS = ["img", "literal", "video", "youtube",
                "vimeo"]
 
+Example:
+
+{% vimeo 364868276 %}
+
 # Date format
 
 I always disliked the US time format. But as my blog is configured in English, I override it to display it to my taste. In my `pelicanconf.py` I added:
