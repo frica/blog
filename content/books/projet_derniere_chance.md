@@ -22,4 +22,4 @@ La fin est très inattendue aussi.
 
 Bref 3 étoiles ou 4 selon l'humeur du moment.
 
-(PS: Ce livre est totalement taillé pour devenir un film)
+**PS**: Ce livre est totalement taillé pour devenir un film !
