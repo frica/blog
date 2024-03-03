@@ -6,7 +6,7 @@ Lang: fr
 
 <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1548541838i/41211815.jpg" alt="Book cover of Aftershocks" width="150" height="auto">
 
-J'avais lu il y a quelques années "Terms of Enlistment" de Marko Kloos et je n'en gardais qu'un vague souvenir d'un livre bourrin et efficace. Je m'en suis rappelé en tombant par hasard sur ce [thread reddit sur la military scifi](https://www.reddit.com/r/scifi/comments/1am4uo9/looking_for_military_scifi_recs/) qui mentionnait l'auteur en termes élogieux pour sa série **The Palladium Wars**. Un petit achat sur le Kindle plus tard, j'ai commencé le premier tome.
+J'avais lu il y a quelques années "Terms of Enlistment" de Marko Kloos et je n'en gardais qu'un vague souvenir de livre bourrin et efficace. Je m'en suis rappelé en tombant par hasard sur ce [thread reddit sur la military scifi](https://www.reddit.com/r/scifi/comments/1am4uo9/looking_for_military_scifi_recs/) qui mentionnait l'auteur en termes élogieux pour sa série **The Palladium Wars**. Un petit achat sur le Kindle plus tard, j'ai commencé le premier tome.
 
 Aftershocks se passe dans un futur lointain mais tellement familier avec: de multiples planètes colonisées par des humains dans le système de Gaïa, des vaisseaux spatiaux, des guerres entre planètes... Du bon space opéra, classifié "militaire" ?
 
