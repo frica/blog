@@ -1,4 +1,3 @@
-AUTHOR = ''
 SITENAME = "Blog like it's 2002"
 SITESUBTITLE = 'Tech and stuff'
 SITEURL = ""
