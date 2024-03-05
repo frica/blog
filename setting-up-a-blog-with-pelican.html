@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Setting up a blog with Pelican</title>
+        <link rel="stylesheet" href="https://frica.github.io/blog/theme/css/main.css" />
+        <link href="https://frica.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Blog like it's 2002 Atom Feed" />
+        <meta name="description" content="I will explain here the steps to build your static website with Pelican and deploy it on GitHub Pages. But first, why use Pelican and not..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://frica.github.io/blog/">Blog like it's 2002 <strong>Tech and stuff</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://frica.github.io/blog/index.html">Home</a></li>
+                    <li><a href="https://frica.github.io/blog/pages/about.html">About</a></li>
+                    <li><a href="https://frica.github.io/blog/category/tech.html">Tech</a></li>
+                    <li><a href="https://frica.github.io/blog/category/books.html">Books</a></li>
+                    <li><a href="https://frica.github.io/blog/category/notes.html">Notes</a></li>
+                    <li><a href="https://frica.github.io/blog/archives">Archives</a></li>
+                    <li><a href="https://frica.github.io/blog/tags">Tags</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://frica.github.io/blog/setting-up-a-blog-with-pelican.html" rel="bookmark"
+           title="Permalink to Setting up a blog with Pelican">Setting up a blog with Pelican</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-02-23T10:47:00+01:00">
+                Published: 23-02-2024
+        </abbr>
+
+<p>In <a href="https://frica.github.io/blog/category/tech.html">Tech</a>.</p>
+<p>tags: <a href="https://frica.github.io/blog/tag/pelican.html">pelican</a> <a href="https://frica.github.io/blog/tag/github.html">github</a> </p>
+</footer><!-- /.post-info -->      <p>I will explain here the steps to build your static website with <a href="https://getpelican.com/">Pelican</a> and deploy it on GitHub Pages.</p>
+<p>But first, why use Pelican and not Wordpress or Dotclear, like back when I  started my first blog?</p>
+<p>I was looking for:</p>
+<ul>
+<li>simplicity: Pelican uses markdown syntax in plain text files, site structure generated is simple and stylish enough</li>
+<li>ease of deployment: generating html from the markdown files is done by Pelican</li>
+<li>free solution: it can be hosted on GitHub pages, so it's perfect</li>
+</ul>
+<h2>Installation</h2>
+<p>I used Ubuntu WSL on Windows because I had it setup from a Docker course that I followed recently and I quite liked it.</p>
+<p>So in the Terminal, type</p>
+<div class="codehilite"><pre><span></span><code>sudo apt install python3
+sudo apt install pelican 
+sudo apt install pip
+</code></pre></div>
+
+<h2>Create a project</h2>
+<p>Go where you want to create your blog:</p>
+<div class="codehilite"><pre><span></span><code>mkdir blog
+cd blog
+pelican-quickstart
+</code></pre></div>
+
+<p>Leave the default values in the quickstart.</p>
+<p>Create a file and write a dummy post:</p>
+<div class="codehilite"><pre><span></span><code>Title: My First Review
+Date: 2024-02-23 10:20
+Category: Test
+
+This is a test.
+</code></pre></div>
+
+<p>Save it under <code>blog/content</code>.</p>
+<p>Then run:</p>
+<div class="codehilite"><pre><span></span><code>pelican content
+</code></pre></div>
+
+<p>Your site has now been generated inside the <code>output/</code> directory.</p>
+<p>If you want to look at your generated site, run:</p>
+<div class="codehilite"><pre><span></span><code>pelican -l
+</code></pre></div>
+
+<h2>Hosting</h2>
+<p>In case you have a GitHub account, you can use the GitHub pages to host the generated website.</p>
+<p>Make sure you are in your blog directory and initialize the git repo:</p>
+<div class="codehilite"><pre><span></span><code>git init
+</code></pre></div>
+
+<p>Commit all your files locally (except the files not needed for the git repo):</p>
+<div class="codehilite"><pre><span></span><code>echo &quot;output/&quot; &gt;&gt; .gitignore
+echo &quot;__pycache__/&quot; &gt;&gt; .gitignore
+git add -all
+git commit -m &quot;Initialize blog&quot;
+</code></pre></div>
+
+<p><strong>Note:</strong>: the -A adds all unstaged files to the repo.</p>
+<p>Setup your GitHub pages locally:</p>
+<div class="codehilite"><pre><span></span><code><span class="n">pip</span> <span class="n">install</span> <span class="n">ghp</span><span class="o">-</span><span class="kn">import</span>
+<span class="nn">ghp</span><span class="o">-</span><span class="kn">import</span> <span class="nn">.</span><span class="o">/</span><span class="n">output</span> <span class="o">-</span><span class="n">m</span> <span class="s2">&quot;Initial upload&quot;</span>
+</code></pre></div>
+
+<p><strong>Note:</strong> ghp-import will itself create your gh-pages branch and a new commit in it.</p>
+<p>Go to you GitHub account and create an empty git repository with these properties:</p>
+<div class="codehilite"><pre><span></span><code><span class="n">Name</span><span class="o">:</span><span class="w"> </span><span class="n">Same</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">local</span><span class="w"> </span><span class="n">blog</span><span class="w"> </span><span class="n">directory</span><span class="o">;</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">my</span><span class="w"> </span><span class="k">case</span><span class="o">:</span><span class="w"> </span><span class="n">blog</span>
+<span class="n">Description</span><span class="o">:</span><span class="w"> </span><span class="n">My</span><span class="w"> </span><span class="n">blog</span>
+<span class="n">Gitignore</span><span class="o">:</span><span class="w"> </span><span class="n">None</span><span class="o">;</span>
+<span class="n">Licence</span><span class="o">:</span><span class="w"> </span><span class="n">None</span><span class="o">;</span>
+<span class="n">Initialize</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="n">README</span><span class="o">:</span><span class="w"> </span><span class="n">No</span>
+</code></pre></div>
+
+<p>Set git remote</p>
+<div class="codehilite"><pre><span></span><code><span class="n">git</span><span class="w"> </span><span class="n">remote</span><span class="w"> </span><span class="k">add</span><span class="w"> </span><span class="n">origin</span><span class="w"> </span><span class="n">git</span><span class="nv">@github</span><span class="p">.</span><span class="nl">com</span><span class="p">:</span><span class="o">&lt;</span><span class="n">username</span><span class="o">&gt;/</span><span class="n">blog</span><span class="p">.</span><span class="n">git</span>
+</code></pre></div>
+
+<p>Push your gh-pages to GitHub</p>
+<div class="codehilite"><pre><span></span><code>git checkout gh-pages
+git push origin gh-pages
+</code></pre></div>
+
+<p><strong>Note:</strong>
+Normally, gh-pages should be set as your default branches now on GitHub.</p>
+<p>Wait a minute or two and check your blog on:</p>
+<div class="codehilite"><pre><span></span><code>https://username.github.io/blog/
+</code></pre></div>
+
+<p><strong>Warning:</strong> GitHub pages have of course limitations in site size and bandwith but that's good enough for me to write my articles and include some pictures.</p>
+<hr>
+<p><strong>Optional:</strong></p>
+<p>If you want to push your content and not only the generated site on GitHub, run:</p>
+<div class="codehilite"><pre><span></span><code>git add -A
+git commit -m &quot;Initialize blog content&quot;
+git push origin master
+</code></pre></div>
+
+<hr>
+<p>That's all folks!</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        
+        <!-- removed extra sections from default template -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>.
+                </address><!-- /#about -->
+       </footer><!-- /#contentinfo -->
+
+</body>
+</html>

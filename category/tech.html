@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Blog like it's 2002 - Tech</title>
+        <link rel="stylesheet" href="https://frica.github.io/blog/theme/css/main.css" />
+        <link href="https://frica.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Blog like it's 2002 Atom Feed" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://frica.github.io/blog/">Blog like it's 2002 <strong>Tech and stuff</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://frica.github.io/blog/index.html">Home</a></li>
+                    <li><a href="https://frica.github.io/blog/pages/about.html">About</a></li>
+                    <li><a href="https://frica.github.io/blog/category/tech.html">Tech</a></li>
+                    <li><a href="https://frica.github.io/blog/category/books.html">Books</a></li>
+                    <li><a href="https://frica.github.io/blog/category/notes.html">Notes</a></li>
+                    <li><a href="https://frica.github.io/blog/archives">Archives</a></li>
+                    <li><a href="https://frica.github.io/blog/tags">Tags</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="https://frica.github.io/blog/python-modern-ui-toolkit.html">Python modern UI toolkit</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2024-03-01T23:00:00+01:00">
+                Published: 01-03-2024
+        </abbr>
+
+<p>In <a href="https://frica.github.io/blog/category/tech.html">Tech</a>.</p>
+<p>tags: <a href="https://frica.github.io/blog/tag/python.html">python</a> <a href="https://frica.github.io/blog/tag/nicegui.html">nicegui</a> </p>
+</footer><!-- /.post-info --><p>Yesterday I discovered a modern-looking UI toolkit for Python called <a href="https://nicegui.io/">NiceGUI</a> and I played around a bit.</p>
+<p>Installation:</p>
+<div class="codehilite"><pre><span></span><code>pip install nicegui
+</code></pre></div>
+
+<p>Hello world application</p>
+<div class="codehilite"><pre><span></span><code><span class="kn">from</span> <span class="nn">nicegui</span> <span class="kn">import</span> <span class="n">ui</span>
+<span class="n">ui</span><span class="o">.</span><span class="n">label</span><span class="p">(</span><span class="s1">&#39;Hello world!&#39;</span><span class="p">)</span>
+<span class="n">ui</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</code></pre></div>
+
+<p>To go a bit further, I decided to use the <a href="https://data.paris2024.org/">2024 Olympic Games open data</a> to load a list of all Olympic sites. First I downloaded locally the json file containing all sites for the Olympics and Paralympics Games.</p>
+<div class="codehilite"><pre><span></span><code><span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">nicegui</span> <span class="kn">import</span> <span class="n">ui</span>
+
+<span class="n">columns</span> <span class="o">=</span> <span class="p">[</span>
+<span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;site&#39;</span><span class="p">,</span> <span class="s1">&#39;label&#39;</span><span class="p">:</span> <span class="s1">&#39;Site&#39;</span><span class="p">,</span> <span class="s1">&#39;field&#39;</span><span class="p">:</span> <span class="s1">&#39;site&#39;</span><span class="p">,</span> <span class="s1">&#39;required&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">&#39;align&#39;</span><span class="p">:</span> <span class="s1">&#39;left&#39;</span><span class="p">},</span>
+<span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;sports&#39;</span><span class="p">,</span> <span class="s1">&#39;label&#39;</span><span class="p">:</span> <span class="s1">&#39;Sport(s)&#39;</span><span class="p">,</span> <span class="s1">&#39;field&#39;</span><span class="p">:</span> <span class="s1">&#39;sports&#39;</span><span class="p">,</span> <span class="s1">&#39;sortable&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">&#39;align&#39;</span><span class="p">:</span> <span class="s1">&#39;left&#39;</span><span class="p">},</span>
+<span class="p">]</span>
+
+<span class="n">link</span> <span class="o">=</span> <span class="s1">&#39;paris-2024-sites-de-competition.json&#39;</span>
+<span class="c1"># read file</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">link</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">myfile</span><span class="p">:</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">myfile</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+
+<span class="c1"># parse file</span>
+<span class="n">sites</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="n">rows</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">site</span> <span class="ow">in</span> <span class="n">sites</span><span class="p">:</span>
+<span class="k">if</span> <span class="n">site</span><span class="p">[</span><span class="s2">&quot;category_id&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;venue-olympic&quot;</span><span class="p">:</span>
+    <span class="n">rows</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">&#39;site&#39;</span><span class="p">:</span> <span class="n">site</span><span class="p">[</span><span class="s2">&quot;nom_du_site&quot;</span><span class="p">],</span> 
+                  <span class="s1">&#39;sports&#39;</span> <span class="p">:</span> <span class="n">site</span><span class="p">[</span><span class="s2">&quot;sports&quot;</span><span class="p">]})</span>
+
+<span class="n">ui</span><span class="o">.</span><span class="n">table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">&quot;Olympic sites list&quot;</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">columns</span><span class="p">,</span> <span class="n">rows</span><span class="o">=</span><span class="n">rows</span><span class="p">,</span> <span class="n">pagination</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="n">ui</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">&#39;JO Paris 2024&#39;</span><span class="p">)</span>
+</code></pre></div>
+
+<p>And voilà! It will show in your web browser by default.</p>
+<p><img src="https://frica.github.io/blog/images/nicegui_list.png" width="600" title="My Sample NiceGUI application" alt="My Sample NiceGUI application"></p>
+<p><strong>Note:</strong> extra header and footer are not in the sample code.</p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://frica.github.io/blog/playing-locally-with-ai-models.html" rel="bookmark"
+                           title="Permalink to Playing locally with AI models">Playing locally with AI models</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-02-29T22:00:00+01:00">
+                Published: 29-02-2024
+        </abbr>
+
+<p>In <a href="https://frica.github.io/blog/category/tech.html">Tech</a>.</p>
+<p>tags: <a href="https://frica.github.io/blog/tag/ai.html">AI</a> </p>
+</footer><!-- /.post-info -->                <p>Unless you live under a rock, you've heard about the AI buzz the last 2 years. Since <a href="https://chat.openai.com/">ChatGPT</a> has entered the game, it has become more concrete for regular people how powerful the generative AI models are.</p>
+<p>Every week (if not everyday) there are announcements about a new model released …</p>
+                <a class="readmore" href="https://frica.github.io/blog/playing-locally-with-ai-models.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://frica.github.io/blog/switching-remote-git-repo-urls-from-https-to-ssh.html" rel="bookmark"
+                           title="Permalink to Switching remote git repo URLs from HTTPS to SSH">Switching remote git repo URLs from HTTPS to SSH</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-02-29T10:00:00+01:00">
+                Published: 29-02-2024
+        </abbr>
+
+<p>In <a href="https://frica.github.io/blog/category/tech.html">Tech</a>.</p>
+<p>tags: <a href="https://frica.github.io/blog/tag/git.html">git</a> </p>
+</footer><!-- /.post-info -->                <p>Let's say, like me, you always forget to initialize/clone correctly the git repo with SSH and you did by mistake:</p>
+<div class="codehilite"><pre><span></span><code>git clone https://github.com/frica/&lt;repo&gt;.git &lt;my folder&gt;
+</code></pre></div>
+
+<p>Then when you want to push to main you will be blocked by GitHub:</p>
+<div class="codehilite"><pre><span></span><code><span class="n">Username</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="s1">&#39;https://github.com …</span></code></pre></div>
+                <a class="readmore" href="https://frica.github.io/blog/switching-remote-git-repo-urls-from-https-to-ssh.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://frica.github.io/blog/tuning-my-pelican-usage-and-setup.html" rel="bookmark"
+                           title="Permalink to Tuning my Pelican usage and setup">Tuning my Pelican usage and setup</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-02-25T10:19:00+01:00">
+                Published: 25-02-2024
+        </abbr>
+
+<p>In <a href="https://frica.github.io/blog/category/tech.html">Tech</a>.</p>
+<p>tags: <a href="https://frica.github.io/blog/tag/pelican.html">pelican</a> <a href="https://frica.github.io/blog/tag/github.html">github</a> </p>
+</footer><!-- /.post-info -->                <p>Here are some things I learned after a few days working with Pelican.</p>
+<h1>ghp-import</h1>
+<p>The useful <a href="https://pypi.org/project/ghp-import/">ghp-import</a> tool is a non-standard git command mentioned in every article about Pelican setup. A quick look at the <code>--help</code> command reveals interesting options.</p>
+<p>I now use:</p>
+<div class="codehilite"><pre><span></span><code><span class="n">ghp</span><span class="o">-</span><span class="kn">import</span> <span class="o">-</span><span class="n">op</span> <span class="o">./</span><span class="n">output</span> <span class="o">-</span><span class="n">m</span> <span class="s2">&quot;Upload content …</span></code></pre></div>
+                <a class="readmore" href="https://frica.github.io/blog/tuning-my-pelican-usage-and-setup.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://frica.github.io/blog/setting-up-a-blog-with-pelican.html" rel="bookmark"
+                           title="Permalink to Setting up a blog with Pelican">Setting up a blog with Pelican</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-02-23T10:47:00+01:00">
+                Published: 23-02-2024
+        </abbr>
+
+<p>In <a href="https://frica.github.io/blog/category/tech.html">Tech</a>.</p>
+<p>tags: <a href="https://frica.github.io/blog/tag/pelican.html">pelican</a> <a href="https://frica.github.io/blog/tag/github.html">github</a> </p>
+</footer><!-- /.post-info -->                <p>I will explain here the steps to build your static website with <a href="https://getpelican.com/">Pelican</a> and deploy it on GitHub Pages.</p>
+<p>But first, why use Pelican and not Wordpress or Dotclear, like back when I  started my first blog?</p>
+<p>I was looking for:</p>
+<ul>
+<li>simplicity: Pelican uses markdown syntax in plain text files …</li></ul>
+                <a class="readmore" href="https://frica.github.io/blog/setting-up-a-blog-with-pelican.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://frica.github.io/blog/my-learning-path.html" rel="bookmark"
+                           title="Permalink to My learning path">My learning path</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-02-22T15:00:00+01:00">
+                Published: 22-02-2024
+        </abbr>
+
+<p>In <a href="https://frica.github.io/blog/category/tech.html">Tech</a>.</p>
+<p>tags: <a href="https://frica.github.io/blog/tag/learning.html">learning</a> </p>
+</footer><!-- /.post-info -->                <p>I compiled a list of the online trainings, followed or to follow, free or not. Impressive what the Internet has to offer!</p>
+<p>It's available <a href="https://github.com/frica/learning-path/">here</a>.</p>
+                <a class="readmore" href="https://frica.github.io/blog/my-learning-path.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://frica.github.io/blog/the-end-of-ingenuity.html" rel="bookmark"
+                           title="Permalink to The end of Ingenuity">The end of Ingenuity</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-01-24T10:00:00+01:00">
+                Published: 24-01-2024
+        </abbr>
+
+<p>In <a href="https://frica.github.io/blog/category/tech.html">Tech</a>.</p>
+<p>tags: <a href="https://frica.github.io/blog/tag/space.html">space</a> <a href="https://frica.github.io/blog/tag/ingenuity.html">ingenuity</a> </p>
+</footer><!-- /.post-info -->                <p>NASA's Ingenuity Helicopter won't fly on Mars anymore... The helicopter itself captured this color image showing the shadow of a rotor blade damaged during a rough landing.</p>
+<p>So one of the main exploration devices of the mission is broken, <strong>225 million km away from Earth</strong>. There is of course no …</p>
+                <a class="readmore" href="https://frica.github.io/blog/the-end-of-ingenuity.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
+        
+        <!-- removed extra sections from default template -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>.
+                </address><!-- /#about -->
+       </footer><!-- /#contentinfo -->
+
+</body>
+</html>

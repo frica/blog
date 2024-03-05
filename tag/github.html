@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Blog like it's 2002 - github</title>
+        <link rel="stylesheet" href="https://frica.github.io/blog/theme/css/main.css" />
+        <link href="https://frica.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Blog like it's 2002 Atom Feed" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://frica.github.io/blog/">Blog like it's 2002 <strong>Tech and stuff</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://frica.github.io/blog/index.html">Home</a></li>
+                    <li><a href="https://frica.github.io/blog/pages/about.html">About</a></li>
+                    <li><a href="https://frica.github.io/blog/category/tech.html">Tech</a></li>
+                    <li><a href="https://frica.github.io/blog/category/books.html">Books</a></li>
+                    <li><a href="https://frica.github.io/blog/category/notes.html">Notes</a></li>
+                    <li><a href="https://frica.github.io/blog/archives">Archives</a></li>
+                    <li><a href="https://frica.github.io/blog/tags">Tags</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="https://frica.github.io/blog/tuning-my-pelican-usage-and-setup.html">Tuning my Pelican usage and setup</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2024-02-25T10:19:00+01:00">
+                Published: 25-02-2024
+        </abbr>
+
+<p>In <a href="https://frica.github.io/blog/category/tech.html">Tech</a>.</p>
+<p>tags: <a href="https://frica.github.io/blog/tag/pelican.html">pelican</a> <a href="https://frica.github.io/blog/tag/github.html">github</a> </p>
+</footer><!-- /.post-info --><p>Here are some things I learned after a few days working with Pelican.</p>
+<h1>ghp-import</h1>
+<p>The useful <a href="https://pypi.org/project/ghp-import/">ghp-import</a> tool is a non-standard git command mentioned in every article about Pelican setup. A quick look at the <code>--help</code> command reveals interesting options.</p>
+<p>I now use:</p>
+<div class="codehilite"><pre><span></span><code><span class="n">ghp</span><span class="o">-</span><span class="kn">import</span> <span class="o">-</span><span class="n">op</span> <span class="o">./</span><span class="n">output</span> <span class="o">-</span><span class="n">m</span> <span class="s2">&quot;Upload content&quot;</span>
+</code></pre></div>
+
+<p>The <code>-p</code> option pushes to origin/master, which spares you an extra command.</p>
+<p>The <code>-o</code> overwrites the history of the gh-pages.</p>
+<p>From the help:</p>
+<blockquote>
+<p>The -o option will discard any previous history and ensure that only a single commit is always pushed to the gh-pages branch. This is useful to avoid bloating the repository size and is <strong>highly recommended</strong>.</p>
+</blockquote>
+<h1>Pelican plugins</h1>
+<p>I discovered the amazing world of Pelican plugins. While I don't need most of them at the moment, I still configured my blog to use one of them, liquid_tags for a easier media integration.</p>
+<p>You can configure the plugins in your <code>pelicanconf.py</code>:</p>
+<div class="codehilite"><pre><span></span><code>PLUGIN_PATHS = [&#39;pelican-plugins&#39;]
+PLUGINS = [&#39;liquid_tags&#39;]
+LIQUID_TAGS = [&quot;img&quot;, &quot;literal&quot;, &quot;video&quot;, &quot;youtube&quot;,
+           &quot;vimeo&quot;]
+</code></pre></div>
+
+<p>Example:</p>
+<p><span class="videobox">
+                <iframe
+                    src="//player.vimeo.com/video/364868276?title=0&amp;byline=0&amp;portrait=0"
+                    width="640" height="390" frameborder="0"
+                    webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+                </iframe>
+            </span></p>
+<h1>Date format</h1>
+<p>I always disliked the US time format. But as my blog is configured in English, I override it to display it to my taste. In my <code>pelicanconf.py</code> I added:</p>
+<div class="codehilite"><pre><span></span><code><span class="gh">#</span> European date format
+DEFAULT_DATE_FORMAT = &#39;%d-%m-%Y&#39;
+</code></pre></div>
+
+<h1>Syntax highlighting</h1>
+<p>Since I have the ambition to post articles with code, I wanted to have syntax highlighting. Good news, Pelican uses the extension codehilite (that uses <a href="https://pygments.org">Pygments</a>). It works out of the box without configuration.</p>
+<p><a href="https://docs.getpelican.com/en/latest/faq.html#i-m-creating-my-own-theme-how-do-i-use-pygments-for-syntax-highlighting">This link from the Pelican FAQ</a> explains everything you need to know, <strong>if you create your new theme</strong>. </p>
+<p>I wanted to reuse the <code>notmyidea</code> and only extend the css to use my own pygment.css to use the <code>dracula</code> colorset, but I didn't succeed...</p>
+<p>Anyway it looks like this by default with the default theme:</p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># This program adds two numbers</span>
+<span class="n">num1</span> <span class="o">=</span> <span class="mf">1.5</span>
+<span class="n">num2</span> <span class="o">=</span> <span class="mf">6.3</span>
+
+<span class="c1"># Add two numbers</span>
+<span class="nb">sum</span> <span class="o">=</span> <span class="n">num1</span> <span class="o">+</span> <span class="n">num2</span>
+
+<span class="c1"># Display the sum</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The sum of </span><span class="si">{0}</span><span class="s1"> and </span><span class="si">{1}</span><span class="s1"> is </span><span class="si">{2}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">num1</span><span class="p">,</span> <span class="n">num2</span><span class="p">,</span> <span class="nb">sum</span><span class="p">))</span>
+</code></pre></div>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://frica.github.io/blog/setting-up-a-blog-with-pelican.html" rel="bookmark"
+                           title="Permalink to Setting up a blog with Pelican">Setting up a blog with Pelican</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-02-23T10:47:00+01:00">
+                Published: 23-02-2024
+        </abbr>
+
+<p>In <a href="https://frica.github.io/blog/category/tech.html">Tech</a>.</p>
+<p>tags: <a href="https://frica.github.io/blog/tag/pelican.html">pelican</a> <a href="https://frica.github.io/blog/tag/github.html">github</a> </p>
+</footer><!-- /.post-info -->                <p>I will explain here the steps to build your static website with <a href="https://getpelican.com/">Pelican</a> and deploy it on GitHub Pages.</p>
+<p>But first, why use Pelican and not Wordpress or Dotclear, like back when I  started my first blog?</p>
+<p>I was looking for:</p>
+<ul>
+<li>simplicity: Pelican uses markdown syntax in plain text files …</li></ul>
+                <a class="readmore" href="https://frica.github.io/blog/setting-up-a-blog-with-pelican.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
+        
+        <!-- removed extra sections from default template -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>.
+                </address><!-- /#about -->
+       </footer><!-- /#contentinfo -->
+
+</body>
+</html>

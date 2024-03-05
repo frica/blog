@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Python modern UI toolkit</title>
+        <link rel="stylesheet" href="https://frica.github.io/blog/theme/css/main.css" />
+        <link href="https://frica.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Blog like it's 2002 Atom Feed" />
+        <meta name="description" content="Yesterday I discovered a modern-looking UI toolkit for Python called NiceGUI and I played around a bit. Installation: pip install nicegui Hello..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://frica.github.io/blog/">Blog like it's 2002 <strong>Tech and stuff</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://frica.github.io/blog/index.html">Home</a></li>
+                    <li><a href="https://frica.github.io/blog/pages/about.html">About</a></li>
+                    <li><a href="https://frica.github.io/blog/category/tech.html">Tech</a></li>
+                    <li><a href="https://frica.github.io/blog/category/books.html">Books</a></li>
+                    <li><a href="https://frica.github.io/blog/category/notes.html">Notes</a></li>
+                    <li><a href="https://frica.github.io/blog/archives">Archives</a></li>
+                    <li><a href="https://frica.github.io/blog/tags">Tags</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://frica.github.io/blog/python-modern-ui-toolkit.html" rel="bookmark"
+           title="Permalink to Python modern UI toolkit">Python modern UI toolkit</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-03-01T23:00:00+01:00">
+                Published: 01-03-2024
+        </abbr>
+
+<p>In <a href="https://frica.github.io/blog/category/tech.html">Tech</a>.</p>
+<p>tags: <a href="https://frica.github.io/blog/tag/python.html">python</a> <a href="https://frica.github.io/blog/tag/nicegui.html">nicegui</a> </p>
+</footer><!-- /.post-info -->      <p>Yesterday I discovered a modern-looking UI toolkit for Python called <a href="https://nicegui.io/">NiceGUI</a> and I played around a bit.</p>
+<p>Installation:</p>
+<div class="codehilite"><pre><span></span><code>pip install nicegui
+</code></pre></div>
+
+<p>Hello world application</p>
+<div class="codehilite"><pre><span></span><code><span class="kn">from</span> <span class="nn">nicegui</span> <span class="kn">import</span> <span class="n">ui</span>
+<span class="n">ui</span><span class="o">.</span><span class="n">label</span><span class="p">(</span><span class="s1">&#39;Hello world!&#39;</span><span class="p">)</span>
+<span class="n">ui</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</code></pre></div>
+
+<p>To go a bit further, I decided to use the <a href="https://data.paris2024.org/">2024 Olympic Games open data</a> to load a list of all Olympic sites. First I downloaded locally the json file containing all sites for the Olympics and Paralympics Games.</p>
+<div class="codehilite"><pre><span></span><code><span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">nicegui</span> <span class="kn">import</span> <span class="n">ui</span>
+
+<span class="n">columns</span> <span class="o">=</span> <span class="p">[</span>
+<span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;site&#39;</span><span class="p">,</span> <span class="s1">&#39;label&#39;</span><span class="p">:</span> <span class="s1">&#39;Site&#39;</span><span class="p">,</span> <span class="s1">&#39;field&#39;</span><span class="p">:</span> <span class="s1">&#39;site&#39;</span><span class="p">,</span> <span class="s1">&#39;required&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">&#39;align&#39;</span><span class="p">:</span> <span class="s1">&#39;left&#39;</span><span class="p">},</span>
+<span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;sports&#39;</span><span class="p">,</span> <span class="s1">&#39;label&#39;</span><span class="p">:</span> <span class="s1">&#39;Sport(s)&#39;</span><span class="p">,</span> <span class="s1">&#39;field&#39;</span><span class="p">:</span> <span class="s1">&#39;sports&#39;</span><span class="p">,</span> <span class="s1">&#39;sortable&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">&#39;align&#39;</span><span class="p">:</span> <span class="s1">&#39;left&#39;</span><span class="p">},</span>
+<span class="p">]</span>
+
+<span class="n">link</span> <span class="o">=</span> <span class="s1">&#39;paris-2024-sites-de-competition.json&#39;</span>
+<span class="c1"># read file</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">link</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">myfile</span><span class="p">:</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">myfile</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+
+<span class="c1"># parse file</span>
+<span class="n">sites</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="n">rows</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">site</span> <span class="ow">in</span> <span class="n">sites</span><span class="p">:</span>
+<span class="k">if</span> <span class="n">site</span><span class="p">[</span><span class="s2">&quot;category_id&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;venue-olympic&quot;</span><span class="p">:</span>
+    <span class="n">rows</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">&#39;site&#39;</span><span class="p">:</span> <span class="n">site</span><span class="p">[</span><span class="s2">&quot;nom_du_site&quot;</span><span class="p">],</span> 
+                  <span class="s1">&#39;sports&#39;</span> <span class="p">:</span> <span class="n">site</span><span class="p">[</span><span class="s2">&quot;sports&quot;</span><span class="p">]})</span>
+
+<span class="n">ui</span><span class="o">.</span><span class="n">table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">&quot;Olympic sites list&quot;</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">columns</span><span class="p">,</span> <span class="n">rows</span><span class="o">=</span><span class="n">rows</span><span class="p">,</span> <span class="n">pagination</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="n">ui</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">&#39;JO Paris 2024&#39;</span><span class="p">)</span>
+</code></pre></div>
+
+<p>And voilà! It will show in your web browser by default.</p>
+<p><img src="https://frica.github.io/blog/images/nicegui_list.png" width="600" title="My Sample NiceGUI application" alt="My Sample NiceGUI application"></p>
+<p><strong>Note:</strong> extra header and footer are not in the sample code.</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        
+        <!-- removed extra sections from default template -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>.
+                </address><!-- /#about -->
+       </footer><!-- /#contentinfo -->
+
+</body>
+</html>

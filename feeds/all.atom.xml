@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog like it's 2002</title><link href="https://frica.github.io/blog/" rel="alternate"></link><link href="https://frica.github.io/blog/feeds/all.atom.xml" rel="self"></link><id>https://frica.github.io/blog/</id><updated>2024-03-04T22:00:00+01:00</updated><subtitle>Tech and stuff</subtitle><entry><title>How boardgames kept me sane during the pandemic</title><link href="https://frica.github.io/blog/how-boardgames-kept-me-sane-during-the-pandemic.html" rel="alternate"></link><published>2024-03-04T22:00:00+01:00</published><updated>2024-03-04T22:00:00+01:00</updated><author><name></name></author><id>tag:frica.github.io,2024-03-04:/blog/how-boardgames-kept-me-sane-during-the-pandemic.html</id><summary type="html">&lt;p&gt;A fun lightning talk I gave 2 years ago at a company event 😀&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The intriguing title was supposed to attract people after hours of more serious and corporate presentations (it worked)&lt;/li&gt;
+&lt;li&gt;I explained in the talk that I basically played a lot during the COVID era and it helped my …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;A fun lightning talk I gave 2 years ago at a company event 😀&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The intriguing title was supposed to attract people after hours of more serious and corporate presentations (it worked)&lt;/li&gt;
+&lt;li&gt;I explained in the talk that I basically played a lot during the COVID era and it helped my mental health. Remote-playing board games regularly with friends gave me something to look forward to and the connection stayed even after the lockdowns&lt;/li&gt;
+&lt;li&gt;It was a good opportunity to reflect on my play habits. I showed stats on my logged plays I got from my favorite app &lt;a href="https://www.bgstatsapp.com/"&gt;BG stats&lt;/a&gt;, coupled with &lt;a href="http://www.boredgamertools.com/"&gt;BoredGamer tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href="https://frica.github.io/blog/slides/boardgames.pdf"&gt;slide deck&lt;/a&gt; (en) &lt;/p&gt;</content><category term="Misc"></category><category term="board games"></category><category term="presentation"></category></entry><entry><title>Notes #2</title><link href="https://frica.github.io/blog/notes-2-fr.html" rel="alternate"></link><published>2024-03-03T17:00:00+01:00</published><updated>2024-03-03T17:00:00+01:00</updated><author><name></name></author><id>tag:frica.github.io,2024-03-03:/blog/notes-2-fr.html</id><summary type="html">&lt;h2&gt;Semaine du 26 Février au 3 Mars 2024&lt;/h2&gt;
+&lt;p&gt;Semaine très active niveau technique puisque j'ai joué avec pas mal d'outils et appris/réappris beaucoup de choses.&lt;/p&gt;
+&lt;p&gt;Je me suis remis au Python doucement, j'ai découvert la plateforme &lt;a href="https://tryhackme.com/"&gt;TryHackMe&lt;/a&gt; spécialisé dans la sécurité et j'ai aussi pas mal discuté d'AI avec …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Semaine du 26 Février au 3 Mars 2024&lt;/h2&gt;
+&lt;p&gt;Semaine très active niveau technique puisque j'ai joué avec pas mal d'outils et appris/réappris beaucoup de choses.&lt;/p&gt;
+&lt;p&gt;Je me suis remis au Python doucement, j'ai découvert la plateforme &lt;a href="https://tryhackme.com/"&gt;TryHackMe&lt;/a&gt; spécialisé dans la sécurité et j'ai aussi pas mal discuté d'AI avec un ami dans le domaine.&lt;/p&gt;
+&lt;p&gt;Je n'ai pas continué à jouer avec Pelican, le moteur de ce blog. J'ai fait une wishlist mais je préfère me concentrer sur le contenu pour l'instant. J'aurais bien aimé ajouté une petite appli web faite en Python sur les Github Pages mais apparemment le framework que j'ai utilisé &lt;a href="https://github.com/zauberzeug/nicegui/discussions/637"&gt;ne le permet pas&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;J'ai discuté avec plusieurs parents à une fête à l'école et tous m'ont dit que le marché était compliqué pour les chercheurs d'emploi ou les freelancers. Wait and see.&lt;/p&gt;
+&lt;p&gt;Je ne suis pas beaucoup sorti de chez moi sinon cette semaine. Heureusement ce weekend j'ai vu des parents sympas de l'école et des amis que j'avais un peu perdu de vue.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Musique: Warpaint&lt;/p&gt;
+&lt;iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4ywML3rFjamKeKg1GE689X?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"&gt;&lt;/iframe&gt;
+
+&lt;hr&gt;
+&lt;p&gt;Série:&lt;/p&gt;
+&lt;p&gt;Je regarde toujours avec plaisir &lt;a href="https://www.imdb.com/title/tt2640044/"&gt;Masters of the Air&lt;/a&gt;. Une ambiance Seconde Guerre Mondiale bien retranscrite, un scénario entre le moyen et le bien. Un Band of Brothers version pilotes.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Podcast:&lt;/p&gt;
+&lt;p&gt;Écouté avec intérêt &lt;a href="https://www.radiofrance.fr/franceculture/podcasts/la-science-cqfd/histoire-de-la-conquete-spatial-2546944"&gt;Histoire de la conquête spatiale : l’envers du décor&lt;/a&gt;: on y apprend que Werner Von Braun n'était pas juste un nazi mais un commandant SS et a utilisé des déportés pour fabriquer les fameux V2. Bon d'après Wikipedia, il a été arrêté pour défaitisme vers la fin de la guerre.&lt;/p&gt;
+&lt;p&gt;Le podcast ne s'arrête pas à son cas et les intervenants sont assez critiques sur le mythe de la conquête spatiale. Instructif même si aujourd'hui taper sur ce secteur me semble assez contre-productif dans un monde où on a pas beaucoup d'occasions de rêver.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;De la lecture liée à l'espace:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.spaceinfo.club/magazine"&gt;https://www.spaceinfo.club/magazine&lt;/a&gt;: dans le numéro 23, une interview de Dante Galli de l'ESA&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://revesdespace.notion.site/F-vrier-2024-24d0a744fda04e928c66242d5c54f22c"&gt;Rêves d'espace - bilan Février&lt;/a&gt;: il s'est passé beaucoup de choses ce mois-ci&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://qz.com/spacex-starlink-satellites-orbit-1851253932"&gt;Starlink defect cause satellites deorbit&lt;/a&gt;: SpaceX va désorbiter 100 satellites Starlink de première génération à cause d'un problème gardé secret.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://satellitemap.space/?constellation=starlink"&gt;La carte des satellites Starlink&lt;/a&gt; est assez impressionnante d'ailleurs.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.beauxarts.com/grand-format/des-sculptures-de-jeff-koons-envoyees-sur-la-lune-par-elon-musk/"&gt;Jeff Koons statues in Nova-C&lt;/a&gt;: pour le coup j'imagine que le coup de pub a fait plouf, on n'en a plus entendu parler après l'alunissage un peu raté de Odysseus...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;IA:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/gemma-model-available-in-vertex-ai-and-via-gke?hl=en"&gt;Genma&lt;/a&gt;: le nouveau petit modèle IA de Google&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.alphanotes.one/"&gt;AlphaNotes&lt;/a&gt;: une appli qui résume des vidéos (pas testé)&lt;/li&gt;
+&lt;li&gt;Un hôpital américain implémente &lt;a href="https://www.beckershospitalreview.com/innovation/why-providence-created-its-own-chatgpt.html"&gt;son propre ChatGPT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Divers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://framablog.org/2024/02/26/khryspresso-du-lundi-26-fevrier-2024/"&gt;Kryspresso Framablog&lt;/a&gt;: chouette revue du web sur différents sujets&lt;/li&gt;
+&lt;li&gt;Les &lt;a href="https://korii.slate.fr/biz/douves-feu-canons-eau-nouveau-business-forteresses-survivalistes-ultrariches-bunkers-luxe-safe-apocalypse-fin-monde"&gt;forteresses survivalistes&lt;/a&gt; des puissants de ce monde: l'argent ne vous sauvera pas mais si ca vous permet de bien dormir, faites travailler les maçons et les vendeurs de boîtes de conserve.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arstechnica.com/apple/2024/02/report-apple-is-about-to-be-fined-e500-million-by-the-eu-over-music-streaming/?comments=1&amp;amp;comments-page=1"&gt;Apple fine against Spotify&lt;/a&gt;: pas de gentils dans cette histoire, mais si l'UE fait respecter la loi et fait payer Apple pour concurrence déloyale, je ne vais pas pleurer.&lt;/li&gt;
+&lt;li&gt;Un bon article sur la fin du télétravail aux US: &lt;a href="https://arstechnica.com/science/2024/02/rto-doesnt-improve-company-value-but-does-make-employees-miserable-study/"&gt;Return to the Office&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lu dans les commentaires:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&amp;gt; Some bosses claim to be data-driven but when it is about WFH, the real control-thirst makes an appearance.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Extrait marrant de The Office:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/hNuu9CpdjIo?si=btstKgWXybaKIeDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://martinfowler.com/bliki/PeriodicFaceToFace.html"&gt;Un autre article&lt;/a&gt;, cette fois de Martin Fowler, sur le sujet&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arstechnica.com/tech-policy/2024/02/vending-machine-error-reveals-secret-face-image-database-of-college-students/"&gt;Vending machines with facial recognition&lt;/a&gt;: des étudiants se rendent compte avec horreur qu'ils sont épiés par un distributeur automatique&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://techreport.com/news/microsoft-azure-hit-with-the-largest-data-breach-in-its-history-hundreds-of-executive-accounts-compromised/"&gt;Azure data breach&lt;/a&gt;: ah c'est balo&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=MrVxgJ8rlg0"&gt;Testing Is Bad For Developer Productivity&lt;/a&gt;: courte vidéo au titre ironique&lt;/li&gt;
+&lt;li&gt;J'ai redécouvert ce weekend &lt;a href="https://linuxfr.org"&gt;LinuxFr.org&lt;/a&gt;: ça existe toujours 20 après et j'ai bien envie de retrouver mon mot de passe pour participer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Découverte de plein d'outils open-source:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/linux-surface/linux-surface/"&gt;Linux Surface&lt;/a&gt;: apparemment la Surface de Microsoft fait une excellente tablette Linux 😄&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ohmybash/oh-my-bash"&gt;Oh-my-bash&lt;/a&gt;: je l'ai installé, c'est beau et pratique et ca s'installe FACILEMENT&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://lmstudio.ai/"&gt;LM Studio&lt;/a&gt;: voir &lt;a href="playing-locally-with-ai.html"&gt;article&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://marketplace.visualstudio.com/items?itemName=humao.rest-client"&gt;REST Client extension VS code&lt;/a&gt;: encore une extension super pratique qui confirme le côté couteau suisse de VS Code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Une bonne semaine ! ⭐⭐⭐⭐&lt;/p&gt;</content><category term="Notes"></category></entry><entry><title>Projet Dernière Chance</title><link href="https://frica.github.io/blog/projet-derniere-chance-fr.html" rel="alternate"></link><published>2024-03-03T15:00:00+01:00</published><updated>2024-03-03T15:00:00+01:00</updated><author><name></name></author><id>tag:frica.github.io,2024-03-03:/blog/projet-derniere-chance-fr.html</id><summary type="html">&lt;p&gt;&lt;img src="https://m.media-amazon.com/images/I/81iM3aHpnhL._SL1500_.jpg" alt="Book cover of The Kaiju Preservation Society" width="150" height="auto"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Titre original: Project Hail Mary&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(Lu en juillet 2023)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Comme avec "Seul sur Mars", l'auteur Andy Weir sort de son chapeau un scénario réussi... et comme dans son précédent best-seller, il m'a fatigué avec des descriptions de solutions scientifiques ou d'expérience.&lt;/p&gt;
+&lt;p&gt;C'est probablement très renseigné et absolument typique de son …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img src="https://m.media-amazon.com/images/I/81iM3aHpnhL._SL1500_.jpg" alt="Book cover of The Kaiju Preservation Society" width="150" height="auto"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Titre original: Project Hail Mary&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(Lu en juillet 2023)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Comme avec "Seul sur Mars", l'auteur Andy Weir sort de son chapeau un scénario réussi... et comme dans son précédent best-seller, il m'a fatigué avec des descriptions de solutions scientifiques ou d'expérience.&lt;/p&gt;
+&lt;p&gt;C'est probablement très renseigné et absolument typique de son style mais ça alourdit le récit.&lt;/p&gt;
+&lt;p&gt;La construction du récit m'a plu avec les fréquents flashbacks, et les personnages sont plutôt réussis. Le twist du milieu du livre est vraiment une idée géniale.&lt;/p&gt;
+&lt;p&gt;Mais il y a toujours cette petite lourdeur scientifique dans les descriptions, malgré le récit qui est plaisant, malgré les petites touches d'humour...&lt;/p&gt;
+&lt;p&gt;La fin est très inattendue aussi.&lt;/p&gt;
+&lt;p&gt;Bref 3 étoiles ou 4 selon l'humeur du moment.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt;: Ce livre est totalement taillé pour devenir un film !&lt;/p&gt;</content><category term="Books"></category><category term="scifi"></category><category term="reading"></category><category term="lectures"></category></entry><entry><title>Python modern UI toolkit</title><link href="https://frica.github.io/blog/python-modern-ui-toolkit.html" rel="alternate"></link><published>2024-03-01T23:00:00+01:00</published><updated>2024-03-01T23:00:00+01:00</updated><author><name></name></author><id>tag:frica.github.io,2024-03-01:/blog/python-modern-ui-toolkit.html</id><summary type="html">&lt;p&gt;Yesterday I discovered a modern-looking UI toolkit for Python called &lt;a href="https://nicegui.io/"&gt;NiceGUI&lt;/a&gt; and I played around a bit.&lt;/p&gt;
+&lt;p&gt;Installation:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install nicegui
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Hello world application&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;nicegui&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;ui&lt;/span&gt;
+&lt;span class="n"&gt;ui&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;label&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Hello world!&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ui&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;run&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;To go a bit further, I decided to use the &lt;a href="https://data.paris2024.org/"&gt;2024 Olympic Games open data&lt;/a&gt; to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Yesterday I discovered a modern-looking UI toolkit for Python called &lt;a href="https://nicegui.io/"&gt;NiceGUI&lt;/a&gt; and I played around a bit.&lt;/p&gt;
+&lt;p&gt;Installation:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install nicegui
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Hello world application&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;nicegui&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;ui&lt;/span&gt;
+&lt;span class="n"&gt;ui&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;label&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Hello world!&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ui&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;run&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;To go a bit further, I decided to use the &lt;a href="https://data.paris2024.org/"&gt;2024 Olympic Games open data&lt;/a&gt; to load a list of all Olympic sites. First I downloaded locally the json file containing all sites for the Olympics and Paralympics Games.&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;json&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;nicegui&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;ui&lt;/span&gt;
+
+&lt;span class="n"&gt;columns&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;name&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;site&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;label&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Site&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;field&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;site&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;required&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;align&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;left&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;name&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;sports&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;label&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Sport(s)&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;field&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;sports&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;sortable&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;align&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;left&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="n"&gt;link&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;paris-2024-sites-de-competition.json&amp;#39;&lt;/span&gt;
+&lt;span class="c1"&gt;# read file&lt;/span&gt;
+&lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;link&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;r&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;myfile&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;data&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;myfile&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+
+&lt;span class="c1"&gt;# parse file&lt;/span&gt;
+&lt;span class="n"&gt;sites&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;loads&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;rows&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;site&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;sites&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;site&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;category_id&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;venue-olympic&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;rows&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;site&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;site&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;nom_du_site&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; 
+                  &lt;span class="s1"&gt;&amp;#39;sports&amp;#39;&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;site&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;sports&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]})&lt;/span&gt;
+
+&lt;span class="n"&gt;ui&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;table&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Olympic sites list&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;columns&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;columns&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;rows&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;rows&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;pagination&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;ui&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;run&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;JO Paris 2024&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And voilà! It will show in your web browser by default.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://frica.github.io/blog/images/nicegui_list.png" width="600" title="My Sample NiceGUI application" alt="My Sample NiceGUI application"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; extra header and footer are not in the sample code.&lt;/p&gt;</content><category term="Tech"></category><category term="python"></category><category term="nicegui"></category></entry><entry><title>Playing locally with AI models</title><link href="https://frica.github.io/blog/playing-locally-with-ai-models.html" rel="alternate"></link><published>2024-02-29T22:00:00+01:00</published><updated>2024-02-29T22:00:00+01:00</updated><author><name></name></author><id>tag:frica.github.io,2024-02-29:/blog/playing-locally-with-ai-models.html</id><summary type="html">&lt;p&gt;Unless you live under a rock, you've heard about the AI buzz the last 2 years. Since &lt;a href="https://chat.openai.com/"&gt;ChatGPT&lt;/a&gt; has entered the game, it has become more concrete for regular people how powerful the generative AI models are.&lt;/p&gt;
+&lt;p&gt;Every week (if not everyday) there are announcements about a new model released …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Unless you live under a rock, you've heard about the AI buzz the last 2 years. Since &lt;a href="https://chat.openai.com/"&gt;ChatGPT&lt;/a&gt; has entered the game, it has become more concrete for regular people how powerful the generative AI models are.&lt;/p&gt;
+&lt;p&gt;Every week (if not everyday) there are announcements about a new model released by either Google, OpenAI or Mistral...&lt;/p&gt;
+&lt;p&gt;So after reading quite a bit about it, I wanted to go over the hype and try the different models locally. I discovered &lt;a href="https://lmstudio.ai/"&gt;LM Studio&lt;/a&gt; and it blew my mind. I thought you had to do lots of complicated things to try out the models, like set up advanced integration in GCP or Azure... and in fact no.&lt;/p&gt;
+&lt;p&gt;LM Studio has a neat interface where you can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;download different models (Genma, Phi 2, you name it)&lt;/li&gt;
+&lt;li&gt;start a web server using one of them&lt;/li&gt;
+&lt;li&gt;query the model with a prompt UI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;all this &lt;strong&gt;locally&lt;/strong&gt; on your machine!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://frica.github.io/blog/images/lmstudio.png" width="600" title="Screenshot of LM Studio" alt="Screenshot of LM Studio"&gt;&lt;/p&gt;
+&lt;p&gt;When it starts a local server, it load the model selected and then you can query it with curl or any REST client.&lt;/p&gt;
+&lt;p&gt;I used the &lt;a href="https://marketplace.visualstudio.com/items?itemName=humao.rest-client"&gt;REST Client extension for VS code&lt;/a&gt; and it works perfectly.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: if you encounter problems accessing &lt;code&gt;localhost&lt;/code&gt; from the WSL Ubuntu:&lt;/p&gt;
+&lt;p&gt;Check this &lt;a href="https://learn.microsoft.com/en-us/windows/wsl/networking#accessing-windows-networking-apps-from-linux-host-ip"&gt;link&lt;/a&gt;. It comes down to running the following command to know what &lt;code&gt;localhost&lt;/code&gt; really is for the WSL:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;ip&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;route&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;show&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;grep&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;i&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;default&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;awk&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;{ print $3}&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Replace &lt;code&gt;localhost&lt;/code&gt; by the IP the command returned in your REST (or .http) file and you're set.&lt;/p&gt;
+&lt;p&gt;Happy testing!&lt;/p&gt;</content><category term="Tech"></category><category term="AI"></category></entry><entry><title>Switching remote git repo URLs from HTTPS to SSH</title><link href="https://frica.github.io/blog/switching-remote-git-repo-urls-from-https-to-ssh.html" rel="alternate"></link><published>2024-02-29T10:00:00+01:00</published><updated>2024-02-29T10:00:00+01:00</updated><author><name></name></author><id>tag:frica.github.io,2024-02-29:/blog/switching-remote-git-repo-urls-from-https-to-ssh.html</id><summary type="html">&lt;p&gt;Let's say, like me, you always forget to initialize/clone correctly the git repo with SSH and you did by mistake:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git clone https://github.com/frica/&amp;lt;repo&amp;gt;.git &amp;lt;my folder&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Then when you want to push to main you will be blocked by GitHub:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;Username&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;https://github.com …&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Let's say, like me, you always forget to initialize/clone correctly the git repo with SSH and you did by mistake:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git clone https://github.com/frica/&amp;lt;repo&amp;gt;.git &amp;lt;my folder&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Then when you want to push to main you will be blocked by GitHub:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;Username&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;https://github.com&amp;#39;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;***&lt;/span&gt;
+&lt;span class="n"&gt;Password&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;https://&amp;lt;user&amp;gt;@github.com&amp;#39;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;***&lt;/span&gt;
+&lt;span class="nl"&gt;remote&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Support&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;password&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;authentication&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;was&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;removed&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;on&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;August&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;13&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;2021.&lt;/span&gt;
+&lt;span class="nl"&gt;remote&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Please&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;see&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nl"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;docs&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;get&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;started&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;getting&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;started&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="k"&gt;with&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;about&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;remote&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;repositories#cloning&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="k"&gt;with&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;urls&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;information&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;on&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;currently&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recommended&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;modes&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;authentication&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+&lt;span class="nl"&gt;fatal&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Authentication&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;failed&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;https://github.com/&amp;lt;user&amp;gt;/&amp;lt;repo&amp;gt;.git/&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In fact the fix is extremely simple, don't bother with the link they give you.&lt;/p&gt;
+&lt;p&gt;Just type:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;remote&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;set&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;origin&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="nv"&gt;@github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nl"&gt;com&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="k"&gt;user&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;/&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;repo&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And BAM, your local repo is linked to the remote one with SSH as it should be 😊&lt;/p&gt;</content><category term="Tech"></category><category term="git"></category></entry><entry><title>Notes #1</title><link href="https://frica.github.io/blog/notes-1-fr.html" rel="alternate"></link><published>2024-02-25T16:32:00+01:00</published><updated>2024-02-25T16:32:00+01:00</updated><author><name></name></author><id>tag:frica.github.io,2024-02-25:/blog/notes-1-fr.html</id><summary type="html">&lt;h2&gt;Semaine du 19-25 Février 2024&lt;/h2&gt;
+&lt;p&gt;Inspiré par diverses lectures comme &lt;a href="https://blog.notmyidea.org/journal/index.html"&gt;le blog du créateur de Pelican&lt;/a&gt;, j'ai décidé de lister toutes les choses intéressantes faites pendant la semaine. Une sorte de bilan hebdomadaire écrite pour moi principalement 😊&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Pas mal travaillé sur des cours en ligne et sur ce nouveau blog …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Semaine du 19-25 Février 2024&lt;/h2&gt;
+&lt;p&gt;Inspiré par diverses lectures comme &lt;a href="https://blog.notmyidea.org/journal/index.html"&gt;le blog du créateur de Pelican&lt;/a&gt;, j'ai décidé de lister toutes les choses intéressantes faites pendant la semaine. Une sorte de bilan hebdomadaire écrite pour moi principalement 😊&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Pas mal travaillé sur des cours en ligne et sur ce nouveau blog.&lt;/p&gt;
+&lt;p&gt;Obtenu la certification PSMII, ce dont je suis fier !&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Une bonne émission sur Octavia Butler, autrice afro-américaine de SF:&lt;/p&gt;
+&lt;p&gt;https://www.radiofrance.fr/franceculture/podcasts/la-science-cqfd/octavia-butler-4726216&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;«Je suis écrivaine au moins en partie parce que j'ai pu fréquenter les bibliothèques municipales», disait Octavia Butler. «Je suis femme, je suis noire. Et je suis la fille d'un cireur de chaussures mort jeune et d'une serveuse qui n'avait pas reçu d'éducation mais connaissait le chemin de la bibliothèque.»&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Articles liés:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.numerama.com/sciences/693671-perseverance-la-nasa-rend-hommage-a-lecrivaine-de-sf-octavia-butler.html"&gt;L'hommage de la NASA à l'écrivaine&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.liberation.fr/debats/2019/11/21/octavia-butler-le-roman-noir-de-la-science-fiction_1764773/"&gt;Article de Libération sur Octavia Butler&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;J'ai découvert grâce à &lt;a href="https://ploum.net/2024-02-22-metablogging-lectures-gemini-spatial.html"&gt;cet article de Ploum&lt;/a&gt; la méthode de Cory Doctorow pour ne jamais arrêter d'écrire: &lt;a href="https://pluralistic.net/2021/05/09/the-memex-method/"&gt;la méthode Memex&lt;/a&gt;. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Every day, I load my giant folder of tabs; zip through my giant collection of RSS feeds; and answer my social telephones — primarily emails and Twitter mentions — and I open each promising fragment in its own tab to read and think about.&lt;br&gt;
+If the fragment seems significant, I’ll blog it: I’ll set out the context for why I think this seems important and then describe what it adds to the picture.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Assez impressionnant effectivement quand on voit sa production écrite sur son blog.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Musique:&lt;/p&gt;
+&lt;p&gt;Découverte: Girl In Red&lt;/p&gt;
+&lt;iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6IPwKM3fUUzlElbvKw2sKl?utm_source=generator" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"&gt;&lt;/iframe&gt;
+
+&lt;hr&gt;
+&lt;p&gt;J'ai regardé en direct l'atterrissage/alunissage de la sonde Odysseus de &lt;a href="https://www.intuitivemachines.com/im-1"&gt;Intuitive Machines&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Rien de spectaculaire (SpaceX nous a trop gâté ces dernières années) mais j'étais content de suivre ça.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;J'ai regardé la fin du live Twitch du CNES avec FibreTigre et c'était génial de voir les gens du CNES passionnés par leur métier en parler en public comme ça.&lt;/p&gt;
+&lt;p&gt;J'ai appris qu'il y a carrément un réseau de makers pour les gens passionnés par le spatial, la &lt;a href="https://www.federation-openspacemakers.com/fr/#home-intro"&gt;Federation - Open Space Makers&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ah si j'avais du temps (et du talent)...&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Séries:&lt;/p&gt;
+&lt;p&gt;True Detective saison 4: c'était très bien.&lt;/p&gt;
+&lt;p&gt;Le duo d'actrices est très bon. L'ambiance donne envie de remettre trois pulls à chaque épisode. Le côté fantastique est bien utilisé. Et le dernier épisode m'a beaucoup plu.&lt;/p&gt;
+&lt;p&gt;J'ai lu avec intérêt &lt;a href="https://www.lemonde.fr/culture/article/2024/02/15/jodie-foster-actrice-dans-true-detective-je-suis-un-temoin-du-cinema-americain_6216569_3246.html"&gt;l'interview de Jodie Foster dans Le Monde&lt;/a&gt; qui parle entre autres de la série.&lt;/p&gt;
+&lt;p&gt;Extrait:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dans quelle mesure les conditions du tournage ont-elles influé sur ce qu’on voit à l’écran ? &lt;br/&gt;&lt;br/&gt; 
+Il faisait vraiment froid, il faisait noir, il n’y a pas d’arbres. Quand il fait si froid, on peut à peine parler, il y a une sorte d’impatience, de panique.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;</content><category term="Notes"></category></entry><entry><title>Tuning my Pelican usage and setup</title><link href="https://frica.github.io/blog/tuning-my-pelican-usage-and-setup.html" rel="alternate"></link><published>2024-02-25T10:19:00+01:00</published><updated>2024-02-25T10:19:00+01:00</updated><author><name></name></author><id>tag:frica.github.io,2024-02-25:/blog/tuning-my-pelican-usage-and-setup.html</id><summary type="html">&lt;p&gt;Here are some things I learned after a few days working with Pelican.&lt;/p&gt;
+&lt;h1&gt;ghp-import&lt;/h1&gt;
+&lt;p&gt;The useful &lt;a href="https://pypi.org/project/ghp-import/"&gt;ghp-import&lt;/a&gt; tool is a non-standard git command mentioned in every article about Pelican setup. A quick look at the &lt;code&gt;--help&lt;/code&gt; command reveals interesting options.&lt;/p&gt;
+&lt;p&gt;I now use:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;ghp&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;op&lt;/span&gt; &lt;span class="o"&gt;./&lt;/span&gt;&lt;span class="n"&gt;output&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Upload content …&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Here are some things I learned after a few days working with Pelican.&lt;/p&gt;
+&lt;h1&gt;ghp-import&lt;/h1&gt;
+&lt;p&gt;The useful &lt;a href="https://pypi.org/project/ghp-import/"&gt;ghp-import&lt;/a&gt; tool is a non-standard git command mentioned in every article about Pelican setup. A quick look at the &lt;code&gt;--help&lt;/code&gt; command reveals interesting options.&lt;/p&gt;
+&lt;p&gt;I now use:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;ghp&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;op&lt;/span&gt; &lt;span class="o"&gt;./&lt;/span&gt;&lt;span class="n"&gt;output&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Upload content&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;code&gt;-p&lt;/code&gt; option pushes to origin/master, which spares you an extra command.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;-o&lt;/code&gt; overwrites the history of the gh-pages.&lt;/p&gt;
+&lt;p&gt;From the help:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The -o option will discard any previous history and ensure that only a single commit is always pushed to the gh-pages branch. This is useful to avoid bloating the repository size and is &lt;strong&gt;highly recommended&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;Pelican plugins&lt;/h1&gt;
+&lt;p&gt;I discovered the amazing world of Pelican plugins. While I don't need most of them at the moment, I still configured my blog to use one of them, liquid_tags for a easier media integration.&lt;/p&gt;
+&lt;p&gt;You can configure the plugins in your &lt;code&gt;pelicanconf.py&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;PLUGIN_PATHS = [&amp;#39;pelican-plugins&amp;#39;]
+PLUGINS = [&amp;#39;liquid_tags&amp;#39;]
+LIQUID_TAGS = [&amp;quot;img&amp;quot;, &amp;quot;literal&amp;quot;, &amp;quot;video&amp;quot;, &amp;quot;youtube&amp;quot;,
+           &amp;quot;vimeo&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;p&gt;&lt;span class="videobox"&gt;
+                &lt;iframe
+                    src="//player.vimeo.com/video/364868276?title=0&amp;amp;byline=0&amp;amp;portrait=0"
+                    width="640" height="390" frameborder="0"
+                    webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;
+                &lt;/iframe&gt;
+            &lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;Date format&lt;/h1&gt;
+&lt;p&gt;I always disliked the US time format. But as my blog is configured in English, I override it to display it to my taste. In my &lt;code&gt;pelicanconf.py&lt;/code&gt; I added:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="gh"&gt;#&lt;/span&gt; European date format
+DEFAULT_DATE_FORMAT = &amp;#39;%d-%m-%Y&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1&gt;Syntax highlighting&lt;/h1&gt;
+&lt;p&gt;Since I have the ambition to post articles with code, I wanted to have syntax highlighting. Good news, Pelican uses the extension codehilite (that uses &lt;a href="https://pygments.org"&gt;Pygments&lt;/a&gt;). It works out of the box without configuration.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.getpelican.com/en/latest/faq.html#i-m-creating-my-own-theme-how-do-i-use-pygments-for-syntax-highlighting"&gt;This link from the Pelican FAQ&lt;/a&gt; explains everything you need to know, &lt;strong&gt;if you create your new theme&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;I wanted to reuse the &lt;code&gt;notmyidea&lt;/code&gt; and only extend the css to use my own pygment.css to use the &lt;code&gt;dracula&lt;/code&gt; colorset, but I didn't succeed...&lt;/p&gt;
+&lt;p&gt;Anyway it looks like this by default with the default theme:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# This program adds two numbers&lt;/span&gt;
+&lt;span class="n"&gt;num1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;1.5&lt;/span&gt;
+&lt;span class="n"&gt;num2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;6.3&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Add two numbers&lt;/span&gt;
+&lt;span class="nb"&gt;sum&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;num1&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;num2&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Display the sum&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;The sum of &lt;/span&gt;&lt;span class="si"&gt;{0}&lt;/span&gt;&lt;span class="s1"&gt; and &lt;/span&gt;&lt;span class="si"&gt;{1}&lt;/span&gt;&lt;span class="s1"&gt; is &lt;/span&gt;&lt;span class="si"&gt;{2}&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;num1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;num2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Tech"></category><category term="pelican"></category><category term="github"></category></entry><entry><title>Aftershocks (The Palladium Wars #1)</title><link href="https://frica.github.io/blog/aftershocks-the-palladium-wars-1-fr.html" rel="alternate"></link><published>2024-02-24T15:00:00+01:00</published><updated>2024-02-24T15:00:00+01:00</updated><author><name></name></author><id>tag:frica.github.io,2024-02-24:/blog/aftershocks-the-palladium-wars-1-fr.html</id><summary type="html">&lt;p&gt;&lt;img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1548541838i/41211815.jpg" alt="Book cover of Aftershocks" width="150" height="auto"&gt;&lt;/p&gt;
+&lt;p&gt;J'avais lu il y a quelques années "Terms of Enlistment" de Marko Kloos et je n'en gardais qu'un vague souvenir de livre bourrin et efficace. Je m'en suis rappelé en tombant par hasard sur ce &lt;a href="https://www.reddit.com/r/scifi/comments/1am4uo9/looking_for_military_scifi_recs/"&gt;thread reddit sur la military scifi&lt;/a&gt; qui mentionnait l'auteur en termes élogieux pour sa série …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1548541838i/41211815.jpg" alt="Book cover of Aftershocks" width="150" height="auto"&gt;&lt;/p&gt;
+&lt;p&gt;J'avais lu il y a quelques années "Terms of Enlistment" de Marko Kloos et je n'en gardais qu'un vague souvenir de livre bourrin et efficace. Je m'en suis rappelé en tombant par hasard sur ce &lt;a href="https://www.reddit.com/r/scifi/comments/1am4uo9/looking_for_military_scifi_recs/"&gt;thread reddit sur la military scifi&lt;/a&gt; qui mentionnait l'auteur en termes élogieux pour sa série &lt;strong&gt;The Palladium Wars&lt;/strong&gt;. Un petit achat sur le Kindle plus tard, j'ai commencé le premier tome.&lt;/p&gt;
+&lt;p&gt;Aftershocks se passe dans un futur lointain mais tellement familier avec: de multiples planètes colonisées par des humains dans le système de Gaïa, des vaisseaux spatiaux, des guerres entre planètes... Du bon space opéra, classifié "militaire" ?&lt;/p&gt;
+&lt;p&gt;En réalité, le livre est un peu plus fin que cela puisqu'il commence &lt;strong&gt;après&lt;/strong&gt; une guerre qui a opposé la planète Gretia et une coalition de planètes menée par Rhodia. On commence par suivre les derniers jours de prison d'Aden,   prisonnier de guerre gretien bientôt libéré, qui se demande bien ce qu'il va faire de sa liberté. &lt;/p&gt;
+&lt;p&gt;Et rapidement arrive la deuxième bonne surprise. Chaque chapitre suit un protagoniste différent de l'univers de l'histoire: Aden mais aussi Idina, une militaire bourrue de la planète Palladium, Solveig, la fille d'un industriel gretien déchu après la défaite et Duncan, un commandant de vaisseau spatial rhodien.&lt;/p&gt;
+&lt;p&gt;On se doute bien qu'il y a une raison mais quels sont les liens entre eux ?&lt;/p&gt;
+&lt;p&gt;Le livre se lit facilement. J'ai trouvé l'univers sympathique (même si peu original), les personnages bien écrits et l'histoire est passionnante, avec la l'apparition d'une menace diffuse qui progresse de manière angoissante dans l'univers de Gaïa. Après coup, j'ai beaucoup pensé à The Expanse, mais pour l'instant The Palladium Wars manque un peu du souffle épique de la série de James S.A. Corey.&lt;/p&gt;
+&lt;p&gt;La fin est frustrante puisque le livre est pensé comme une sorte d'introduction à l'univers. Il n'y a pas vraiment de fin. Mais cette bonne vieille technique de découpage marche: je pense que je vais craquer pour le volume 2 😅...&lt;/p&gt;</content><category term="Books"></category><category term="scifi"></category><category term="reading"></category><category term="lectures"></category></entry><entry><title>Setting up a blog with Pelican</title><link href="https://frica.github.io/blog/setting-up-a-blog-with-pelican.html" rel="alternate"></link><published>2024-02-23T10:47:00+01:00</published><updated>2024-02-23T10:47:00+01:00</updated><author><name></name></author><id>tag:frica.github.io,2024-02-23:/blog/setting-up-a-blog-with-pelican.html</id><summary type="html">&lt;p&gt;I will explain here the steps to build your static website with &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; and deploy it on GitHub Pages.&lt;/p&gt;
+&lt;p&gt;But first, why use Pelican and not Wordpress or Dotclear, like back when I  started my first blog?&lt;/p&gt;
+&lt;p&gt;I was looking for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;simplicity: Pelican uses markdown syntax in plain text files …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;I will explain here the steps to build your static website with &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; and deploy it on GitHub Pages.&lt;/p&gt;
+&lt;p&gt;But first, why use Pelican and not Wordpress or Dotclear, like back when I  started my first blog?&lt;/p&gt;
+&lt;p&gt;I was looking for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;simplicity: Pelican uses markdown syntax in plain text files, site structure generated is simple and stylish enough&lt;/li&gt;
+&lt;li&gt;ease of deployment: generating html from the markdown files is done by Pelican&lt;/li&gt;
+&lt;li&gt;free solution: it can be hosted on GitHub pages, so it's perfect&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;I used Ubuntu WSL on Windows because I had it setup from a Docker course that I followed recently and I quite liked it.&lt;/p&gt;
+&lt;p&gt;So in the Terminal, type&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo apt install python3
+sudo apt install pelican 
+sudo apt install pip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Create a project&lt;/h2&gt;
+&lt;p&gt;Go where you want to create your blog:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;mkdir blog
+cd blog
+pelican-quickstart
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Leave the default values in the quickstart.&lt;/p&gt;
+&lt;p&gt;Create a file and write a dummy post:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Title: My First Review
+Date: 2024-02-23 10:20
+Category: Test
+
+This is a test.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Save it under &lt;code&gt;blog/content&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Then run:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pelican content
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Your site has now been generated inside the &lt;code&gt;output/&lt;/code&gt; directory.&lt;/p&gt;
+&lt;p&gt;If you want to look at your generated site, run:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pelican -l
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Hosting&lt;/h2&gt;
+&lt;p&gt;In case you have a GitHub account, you can use the GitHub pages to host the generated website.&lt;/p&gt;
+&lt;p&gt;Make sure you are in your blog directory and initialize the git repo:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Commit all your files locally (except the files not needed for the git repo):&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;echo &amp;quot;output/&amp;quot; &amp;gt;&amp;gt; .gitignore
+echo &amp;quot;__pycache__/&amp;quot; &amp;gt;&amp;gt; .gitignore
+git add -all
+git commit -m &amp;quot;Initialize blog&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;: the -A adds all unstaged files to the repo.&lt;/p&gt;
+&lt;p&gt;Setup your GitHub pages locally:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;ghp&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt;
+&lt;span class="nn"&gt;ghp&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;.&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;output&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Initial upload&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; ghp-import will itself create your gh-pages branch and a new commit in it.&lt;/p&gt;
+&lt;p&gt;Go to you GitHub account and create an empty git repository with these properties:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;Name&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Same&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;as&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;your&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;local&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;blog&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;directory&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;my&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;case&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;blog&lt;/span&gt;
+&lt;span class="n"&gt;Description&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;My&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;blog&lt;/span&gt;
+&lt;span class="n"&gt;Gitignore&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;None&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+&lt;span class="n"&gt;Licence&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;None&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+&lt;span class="n"&gt;Initialize&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;with&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;README&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;No&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Set git remote&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;remote&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;add&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;origin&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="nv"&gt;@github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nl"&gt;com&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;username&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;/&lt;/span&gt;&lt;span class="n"&gt;blog&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Push your gh-pages to GitHub&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git checkout gh-pages
+git push origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;
+Normally, gh-pages should be set as your default branches now on GitHub.&lt;/p&gt;
+&lt;p&gt;Wait a minute or two and check your blog on:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;https://username.github.io/blog/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; GitHub pages have of course limitations in site size and bandwith but that's good enough for me to write my articles and include some pictures.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Optional:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you want to push your content and not only the generated site on GitHub, run:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git add -A
+git commit -m &amp;quot;Initialize blog content&amp;quot;
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;p&gt;That's all folks!&lt;/p&gt;</content><category term="Tech"></category><category term="pelican"></category><category term="github"></category></entry><entry><title>My learning path</title><link href="https://frica.github.io/blog/my-learning-path.html" rel="alternate"></link><published>2024-02-22T15:00:00+01:00</published><updated>2024-02-22T15:00:00+01:00</updated><author><name></name></author><id>tag:frica.github.io,2024-02-22:/blog/my-learning-path.html</id><content type="html">&lt;p&gt;I compiled a list of the online trainings, followed or to follow, free or not. Impressive what the Internet has to offer!&lt;/p&gt;
+&lt;p&gt;It's available &lt;a href="https://github.com/frica/learning-path/"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="Tech"></category><category term="learning"></category></entry><entry><title>The Kaiju Preservation Society</title><link href="https://frica.github.io/blog/the-kaiju-preservation-society-fr.html" rel="alternate"></link><published>2024-01-27T15:00:00+01:00</published><updated>2024-01-27T15:00:00+01:00</updated><author><name></name></author><id>tag:frica.github.io,2024-01-27:/blog/the-kaiju-preservation-society-fr.html</id><summary type="html">&lt;p&gt;&lt;img src="https://m.media-amazon.com/images/I/813LiRGkMOL._SL1500_.jpg" alt="Book cover of The Kaiju Preservation Society" width="150" height="auto"&gt;&lt;/p&gt;
+&lt;p&gt;Ce livre de &lt;a href="https://whatever.scalzi.com/"&gt;John Scalzi&lt;/a&gt; est une farce, une comédie humoristique avec un scénario délirant et des personnages caricaturaux. Un ramassis de dialogues punchlines, de références à la geek culture et un scénario qui tient sur une page.&lt;/p&gt;
+&lt;p&gt;Mais comme c'est du Scalzi, ça se lit parfaitement, même en anglais …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img src="https://m.media-amazon.com/images/I/813LiRGkMOL._SL1500_.jpg" alt="Book cover of The Kaiju Preservation Society" width="150" height="auto"&gt;&lt;/p&gt;
+&lt;p&gt;Ce livre de &lt;a href="https://whatever.scalzi.com/"&gt;John Scalzi&lt;/a&gt; est une farce, une comédie humoristique avec un scénario délirant et des personnages caricaturaux. Un ramassis de dialogues punchlines, de références à la geek culture et un scénario qui tient sur une page.&lt;/p&gt;
+&lt;p&gt;Mais comme c'est du Scalzi, ça se lit parfaitement, même en anglais. C'est léger, c'est bienveillant, on ne s'ennuie pas. Oui l'overdose d'humour m'a parfois irrité. Tout du long j'ai regretté l'alchimie plus réussie entre space opera et humour de Old Man's War ou The Interdependency. Mais ça reste franchement rigolo par moments.&lt;/p&gt;
+&lt;p&gt;Et puis j'ai lu la postface et j'ai compris. Le livre a été écrit après le plus dur du COVID, après les évenements du Capitole aux Etats Unis, après des difficultés d'écriture sur un autre projet de l'auteur...&lt;/p&gt;
+&lt;p&gt;Alors je lui pardonne. Un auteur qui donne le sourire et explique ses déboires mérite bien ça.&lt;/p&gt;</content><category term="Books"></category><category term="scifi"></category><category term="reading"></category><category term="lectures"></category></entry><entry><title>The end of Ingenuity</title><link href="https://frica.github.io/blog/the-end-of-ingenuity.html" rel="alternate"></link><published>2024-01-24T10:00:00+01:00</published><updated>2024-01-24T10:00:00+01:00</updated><author><name></name></author><id>tag:frica.github.io,2024-01-24:/blog/the-end-of-ingenuity.html</id><summary type="html">&lt;p&gt;NASA's Ingenuity Helicopter won't fly on Mars anymore... The helicopter itself captured this color image showing the shadow of a rotor blade damaged during a rough landing.&lt;/p&gt;
+&lt;p&gt;So one of the main exploration devices of the mission is broken, &lt;strong&gt;225 million km away from Earth&lt;/strong&gt;. There is of course no …&lt;/p&gt;</summary><content type="html">&lt;p&gt;NASA's Ingenuity Helicopter won't fly on Mars anymore... The helicopter itself captured this color image showing the shadow of a rotor blade damaged during a rough landing.&lt;/p&gt;
+&lt;p&gt;So one of the main exploration devices of the mission is broken, &lt;strong&gt;225 million km away from Earth&lt;/strong&gt;. There is of course no way to repair it. Is that an engineering failure, in multi-billion dollar scientific expedition?&lt;/p&gt;
+&lt;p&gt;Not at all.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The device was expected to be a technical demonstration and do 5 flights. It did &lt;strong&gt;72&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;➡️ NASA over-engineered the helicopter so it ended up lasting way longer than the mission specs. Carrying on the tradition from Voyager and other probes, NASA JPL engineers did not go for the bare minimum.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The incident was disclosed openly on Jan 25th, after the damage was confirmed on Jan 19 after a test flight on the 18th.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;➡️ NASA is not hiding the issue. NASA is proud of the work achieved and is busy working on the root cause analysis, sharing as much as they know. Even the failure itself is actually a great science result.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This actually proved the helicopter to be a standard method for exploring Mars.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;➡️ May be the case only on Mars (and Titan) but that's already a great confirmation of a badass concept. The science return we're going to get from it will be truly amazing.&lt;/p&gt;
+&lt;p&gt;NASA's engineering teams truly represent what we should love about technology ❤️&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Sources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/"&gt;NASA announcement&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=hW5akI5Rnyg"&gt;Administrator Bill Nelson announces the end of Ingenuity Mars Helicopter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Tech"></category><category term="space"></category><category term="ingenuity"></category></entry></feed>

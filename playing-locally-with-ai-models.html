@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Playing locally with AI models</title>
+        <link rel="stylesheet" href="https://frica.github.io/blog/theme/css/main.css" />
+        <link href="https://frica.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Blog like it's 2002 Atom Feed" />
+        <meta name="description" content="Unless you live under a rock, you've heard about the AI buzz the last 2 years. Since ChatGPT has entered the game, it has become more concrete for..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://frica.github.io/blog/">Blog like it's 2002 <strong>Tech and stuff</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://frica.github.io/blog/index.html">Home</a></li>
+                    <li><a href="https://frica.github.io/blog/pages/about.html">About</a></li>
+                    <li><a href="https://frica.github.io/blog/category/tech.html">Tech</a></li>
+                    <li><a href="https://frica.github.io/blog/category/books.html">Books</a></li>
+                    <li><a href="https://frica.github.io/blog/category/notes.html">Notes</a></li>
+                    <li><a href="https://frica.github.io/blog/archives">Archives</a></li>
+                    <li><a href="https://frica.github.io/blog/tags">Tags</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://frica.github.io/blog/playing-locally-with-ai-models.html" rel="bookmark"
+           title="Permalink to Playing locally with AI models">Playing locally with AI models</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-02-29T22:00:00+01:00">
+                Published: 29-02-2024
+        </abbr>
+
+<p>In <a href="https://frica.github.io/blog/category/tech.html">Tech</a>.</p>
+<p>tags: <a href="https://frica.github.io/blog/tag/ai.html">AI</a> </p>
+</footer><!-- /.post-info -->      <p>Unless you live under a rock, you've heard about the AI buzz the last 2 years. Since <a href="https://chat.openai.com/">ChatGPT</a> has entered the game, it has become more concrete for regular people how powerful the generative AI models are.</p>
+<p>Every week (if not everyday) there are announcements about a new model released by either Google, OpenAI or Mistral...</p>
+<p>So after reading quite a bit about it, I wanted to go over the hype and try the different models locally. I discovered <a href="https://lmstudio.ai/">LM Studio</a> and it blew my mind. I thought you had to do lots of complicated things to try out the models, like set up advanced integration in GCP or Azure... and in fact no.</p>
+<p>LM Studio has a neat interface where you can:</p>
+<ul>
+<li>download different models (Genma, Phi 2, you name it)</li>
+<li>start a web server using one of them</li>
+<li>query the model with a prompt UI</li>
+</ul>
+<p>all this <strong>locally</strong> on your machine!</p>
+<p><img src="https://frica.github.io/blog/images/lmstudio.png" width="600" title="Screenshot of LM Studio" alt="Screenshot of LM Studio"></p>
+<p>When it starts a local server, it load the model selected and then you can query it with curl or any REST client.</p>
+<p>I used the <a href="https://marketplace.visualstudio.com/items?itemName=humao.rest-client">REST Client extension for VS code</a> and it works perfectly.</p>
+<p><strong>Note</strong>: if you encounter problems accessing <code>localhost</code> from the WSL Ubuntu:</p>
+<p>Check this <a href="https://learn.microsoft.com/en-us/windows/wsl/networking#accessing-windows-networking-apps-from-linux-host-ip">link</a>. It comes down to running the following command to know what <code>localhost</code> really is for the WSL:</p>
+<div class="codehilite"><pre><span></span><code><span class="nv">ip</span><span class="w"> </span><span class="nv">route</span><span class="w"> </span><span class="k">show</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nv">grep</span><span class="w"> </span><span class="o">-</span><span class="nv">i</span><span class="w"> </span><span class="nv">default</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nv">awk</span><span class="w"> </span><span class="s1">&#39;{ print $3}&#39;</span>
+</code></pre></div>
+
+<p>Replace <code>localhost</code> by the IP the command returned in your REST (or .http) file and you're set.</p>
+<p>Happy testing!</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        
+        <!-- removed extra sections from default template -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>.
+                </address><!-- /#about -->
+       </footer><!-- /#contentinfo -->
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Switching remote git repo URLs from HTTPS to SSH</title>
+        <link rel="stylesheet" href="https://frica.github.io/blog/theme/css/main.css" />
+        <link href="https://frica.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Blog like it's 2002 Atom Feed" />
+        <meta name="description" content="Let's say, like me, you always forget to initialize/clone correctly the git repo with SSH and you did by mistake: git clone..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://frica.github.io/blog/">Blog like it's 2002 <strong>Tech and stuff</strong></a></h1>
+                <nav><ul>
+                    <li><a href="https://frica.github.io/blog/index.html">Home</a></li>
+                    <li><a href="https://frica.github.io/blog/pages/about.html">About</a></li>
+                    <li><a href="https://frica.github.io/blog/category/tech.html">Tech</a></li>
+                    <li><a href="https://frica.github.io/blog/category/books.html">Books</a></li>
+                    <li><a href="https://frica.github.io/blog/category/notes.html">Notes</a></li>
+                    <li><a href="https://frica.github.io/blog/archives">Archives</a></li>
+                    <li><a href="https://frica.github.io/blog/tags">Tags</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://frica.github.io/blog/switching-remote-git-repo-urls-from-https-to-ssh.html" rel="bookmark"
+           title="Permalink to Switching remote git repo URLs from HTTPS to SSH">Switching remote git repo URLs from HTTPS to SSH</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-02-29T10:00:00+01:00">
+                Published: 29-02-2024
+        </abbr>
+
+<p>In <a href="https://frica.github.io/blog/category/tech.html">Tech</a>.</p>
+<p>tags: <a href="https://frica.github.io/blog/tag/git.html">git</a> </p>
+</footer><!-- /.post-info -->      <p>Let's say, like me, you always forget to initialize/clone correctly the git repo with SSH and you did by mistake:</p>
+<div class="codehilite"><pre><span></span><code>git clone https://github.com/frica/&lt;repo&gt;.git &lt;my folder&gt;
+</code></pre></div>
+
+<p>Then when you want to push to main you will be blocked by GitHub:</p>
+<div class="codehilite"><pre><span></span><code><span class="n">Username</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="s1">&#39;https://github.com&#39;</span><span class="err">:</span><span class="w"> </span><span class="o">***</span>
+<span class="n">Password</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="s1">&#39;https://&lt;user&gt;@github.com&#39;</span><span class="err">:</span><span class="w"> </span><span class="o">***</span>
+<span class="nl">remote</span><span class="p">:</span><span class="w"> </span><span class="n">Support</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">password</span><span class="w"> </span><span class="n">authentication</span><span class="w"> </span><span class="n">was</span><span class="w"> </span><span class="n">removed</span><span class="w"> </span><span class="k">on</span><span class="w"> </span><span class="n">August</span><span class="w"> </span><span class="mi">13</span><span class="p">,</span><span class="w"> </span><span class="mf">2021.</span>
+<span class="nl">remote</span><span class="p">:</span><span class="w"> </span><span class="n">Please</span><span class="w"> </span><span class="n">see</span><span class="w"> </span><span class="nl">https</span><span class="p">:</span><span class="o">//</span><span class="n">docs</span><span class="p">.</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="k">get</span><span class="o">-</span><span class="n">started</span><span class="o">/</span><span class="n">getting</span><span class="o">-</span><span class="n">started</span><span class="o">-</span><span class="k">with</span><span class="o">-</span><span class="n">git</span><span class="o">/</span><span class="n">about</span><span class="o">-</span><span class="n">remote</span><span class="o">-</span><span class="n">repositories#cloning</span><span class="o">-</span><span class="k">with</span><span class="o">-</span><span class="n">https</span><span class="o">-</span><span class="n">urls</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">information</span><span class="w"> </span><span class="k">on</span><span class="w"> </span><span class="n">currently</span><span class="w"> </span><span class="n">recommended</span><span class="w"> </span><span class="n">modes</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="n">authentication</span><span class="p">.</span>
+<span class="nl">fatal</span><span class="p">:</span><span class="w"> </span><span class="n">Authentication</span><span class="w"> </span><span class="n">failed</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="s1">&#39;https://github.com/&lt;user&gt;/&lt;repo&gt;.git/&#39;</span>
+</code></pre></div>
+
+<p>In fact the fix is extremely simple, don't bother with the link they give you.</p>
+<p>Just type:</p>
+<div class="codehilite"><pre><span></span><code><span class="n">git</span><span class="w"> </span><span class="n">remote</span><span class="w"> </span><span class="k">set</span><span class="o">-</span><span class="n">url</span><span class="w"> </span><span class="n">origin</span><span class="w"> </span><span class="n">git</span><span class="nv">@github</span><span class="p">.</span><span class="nl">com</span><span class="p">:</span><span class="o">&lt;</span><span class="k">user</span><span class="o">&gt;/&lt;</span><span class="n">repo</span><span class="o">&gt;</span><span class="p">.</span><span class="n">git</span>
+</code></pre></div>
+
+<p>And BAM, your local repo is linked to the remote one with SSH as it should be 😊</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        
+        <!-- removed extra sections from default template -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>.
+                </address><!-- /#about -->
+       </footer><!-- /#contentinfo -->
+
+</body>
+</html>
