@@ -36,7 +36,18 @@ CSS_STYLE = "./themes/css/custom.css"
 
 # post_stats only works if you update the template
 PLUGINS = ['post_stats', 
-           'liquid_tags']
+           'liquid_tags',
+           'sitemap']
+
+SITEMAP = {
+    'format': 'xml',
+    'exclude': ['tag/', 'category/'],
+    'changefreqs': {
+        'articles': 'daily',
+        'pages': 'monthly',
+        'indexes': 'daily'
+    }
+}
 
 LIQUID_TAGS = ["img", "literal", "video", "youtube",
                "vimeo"]
