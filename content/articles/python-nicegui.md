@@ -12,12 +12,14 @@ Installation:
 
 Hello world application
 
+    :::python
     from nicegui import ui
     ui.label('Hello world!')
     ui.run()
 
 To go a bit further, I decided to use the [2024 Olympic Games open data](https://data.paris2024.org/) to load a list of all Olympic sites. First I downloaded locally the json file containing all sites for the Olympics and Paralympics Games.
 
+    #!python
     import json
     from nicegui import ui
 
