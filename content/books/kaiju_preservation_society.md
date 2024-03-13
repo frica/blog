@@ -10,6 +10,6 @@ Ce livre de [John Scalzi](https://whatever.scalzi.com/) est une farce, une comé
 
 Mais comme c'est du Scalzi, ça se lit parfaitement, même en anglais. C'est léger, c'est bienveillant, on ne s'ennuie pas. Oui l'overdose d'humour m'a parfois irrité. Tout du long j'ai regretté l'alchimie plus réussie entre space opera et humour de Old Man's War ou The Interdependency. Mais ça reste franchement rigolo par moments.
 
-Et puis j'ai lu la postface et j'ai compris. Le livre a été écrit après le plus dur du COVID, après les évenements du Capitole aux Etats Unis, après des difficultés d'écriture sur un autre projet de l'auteur...
+Et puis j'ai lu la postface et j'ai compris. Le livre a été écrit après le plus dur du COVID, après les événements du Capitole aux États-Unis, après des difficultés d'écriture sur un autre projet de l'auteur...
 
 Alors je lui pardonne. Un auteur qui donne le sourire et explique ses déboires mérite bien ça.

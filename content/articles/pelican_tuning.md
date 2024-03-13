@@ -4,7 +4,7 @@ Category: Tech
 Tags: pelican, github
 Lang: en
 
-Here are some things I learned after a few days working with Pelican.
+Here are some things I learned after a few days working with Pelican (read [here]({filename}/articles/setup_pelican.md) an explanation about the initial setup).
 
 # ghp-import
 
@@ -49,7 +49,7 @@ I always disliked the US time format. But as my blog is configured in English, I
 
 Since I have the ambition to post articles with code, I wanted to have syntax highlighting. Good news, Pelican uses the extension codehilite (that uses [Pygments](https://pygments.org)). It works out of the box without configuration.
 
-[This link from the Pelican FAQ](https://docs.getpelican.com/en/latest/faq.html#i-m-creating-my-own-theme-how-do-i-use-pygments-for-syntax-highlighting) explains everything you need to know, **if you create your new theme**. 
+[This link from the Pelican FAQ](https://docs.getpelican.com/en/latest/faq.html#i-m-creating-my-own-theme-how-do-i-use-pygments-for-syntax-highlighting) explains everything you need to know, **if you create your new theme**.
 
 I wanted to reuse the `notmyidea` and only extend the css to use my own pygment.css to use the `dracula` colorset, but I didn't succeed...
 
