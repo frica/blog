@@ -96,7 +96,11 @@ As you can see, this Actions file calls other Actions:
 
 mixed with various scripts to build the static site and change the permissions on the output files.
 
-You can call this workflow in your yaml, see below the line:
+This [online training](https://learn.microsoft.com/en-us/training/modules/github-actions-automate-tasks/) gives some info about the action syntax and contains this great drawing explaining the file structure:
+
+{% img {static}/images/github_actions_struct.png 600 "The different layers (GitHub documentation)" "" %}
+
+You can call the Pelican workflow in your yaml file, see below the line:
 
 `uses: "getpelican/pelican/.github/workflows/github_pages.yml@master"`
 
@@ -123,4 +127,4 @@ I pushed my yaml file to my `master` repository. Now every time I push new files
 
 If I ever want to see live the action being triggered, I need to go to the Actions tab in my repo (https://github.com/<username>/<repository>/actions) and there I can see a Deploy to GitHub Pages action running, with the commit message I entered when I committed the .md files changes.
 
-Pretty cool & simple!
+Pretty cool enhancement!
