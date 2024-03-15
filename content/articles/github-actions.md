@@ -76,7 +76,7 @@ Pelican's `github_pages.yml` :
             uses: actions/upload-pages-artifact@v2
             with:
             path: ${{ inputs.output-path }}
-    deploy:
+      deploy:
         environment:
             name: github-pages
             url: ${{ steps.deployment.outputs.page_url }}
@@ -125,6 +125,6 @@ So thanks to that mechanism, my GitHub Action file ends up being very simple.
 
 I pushed my yaml file to my `master` repository. Now every time I push new files in my master branch (the one containing the .md files and the pelican settings), the workflow is triggered and after a couple of minutes, I see the new version of my blog online!
 
-If I ever want to see live the action being triggered, I need to go to the Actions tab in my repo (https://github.com/<username>/<repository>/actions) and there I can see a Deploy to GitHub Pages action running, with the commit message I entered when I committed the .md files changes.
+If I ever want to see live the action being triggered, I need to go to the Actions tab in my repo (https://github.com/username/repository/actions) and there I can see a Deploy to GitHub Pages action running, with the commit message I entered when I committed the .md files changes.
 
 Pretty cool enhancement!
