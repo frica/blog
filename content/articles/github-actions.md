@@ -119,7 +119,7 @@ You can call the Pelican workflow in your yaml file, see below the line:
                 id-token: "write"
             with:
                 settings: "publishconf.py"
-                requirements: "pelican[markdown] pelican-liquid-tags"
+                requirements: "pelican[markdown] pelican-liquid-tags pelican-sitemap"
 
 So thanks to that mechanism, my GitHub Action file ends up being very simple.
 
