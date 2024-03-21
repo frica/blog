@@ -34,6 +34,8 @@ But I needed a starting point. So I went looking for sample application in Flask
 
 After a few adaptations I could merge my cli application into this Flask skeleton, not worrying about the outlook. Like for my [previous project]({filename}/articles/fake-app-real-learning.md) I wanted to do things correctly so I set up a [GitHub repo](https://github.com/frica/photolocator/) and looked for a way my friends could use it.
 
+# The Deploy headache
+
 This time the challenge was to make it available online for a cost of **0€**.
 
 I finally chose Google Cloud Run:
