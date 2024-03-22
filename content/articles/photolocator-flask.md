@@ -4,6 +4,8 @@ Category: Tech
 Tags: github, flask, python, jinja, gcp
 Lang: en
 
+_[Part 1]({filename}/articles/fake-app-real-learning.md)_
+
 # How my journey started
 
 With my friends we play a game on WhatsApp called "Where am I?".

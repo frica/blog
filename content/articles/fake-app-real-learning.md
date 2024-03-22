@@ -112,7 +112,7 @@ I also had to adapt the path to the images in my code, depending if it was dynam
 
 Last point: when creating your package you typically want to hide the cmd window BUT to debug it can be useful to show it and you can do it by setting `noconsole=False` in the Spec file.
 
-Spec files are pretty cool when you understand them BTW. Once I made a working one, all I needed to build my app is to run:
+Spec files are pretty cool when you understand them BTW. Once I made a working one, all I needed to build my app was to run:
 
     :::python
     pyinstaller Bromance.spec
