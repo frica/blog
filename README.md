@@ -1,7 +1,7 @@
 
 # My blog
 
-![deploy](https://github.com/github/docs/actions/workflows/pelican.yml/badge.svg)
+[![Deploy to GitHub Pages](https://github.com/frica/blog/actions/workflows/pelican.yml/badge.svg)](https://github.com/frica/blog/actions/workflows/pelican.yml)
 
 Welcomes this is my blog. It's powered by [Pelican](https://getpelican.com/), using a slightly modified version of the default theme "notmyidea".
 
