@@ -5,6 +5,8 @@
 
 Welcomes this is my blog. It's powered by [Pelican](https://getpelican.com/), using a slightly modified version of the default theme "notmyidea".
 
+Feel free to use anything you find here, just send me a message if it was useful to you :pray:
+
 ## See the blog
 
 [frica.github.io/blog](https://frica.github.io/blog/)
