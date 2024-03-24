@@ -3,6 +3,7 @@ Date: 2024-03-25 00:02
 Category: Tech
 Tags: pelican
 Lang: en
+Status: draft
 
 After working this weekend on my new blog theme and getting very satisfying results, I wanted to polish a bit more and add a favicon (and get rid of the error at startup saying that no favicon was found).
 
