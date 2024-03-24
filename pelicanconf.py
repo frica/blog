@@ -7,9 +7,17 @@ DEFAULT_LANG = 'en'
 # Path to content directory to be processed by Pelican
 PATH = "content"
 # Path to static resources
-STATIC_PATHS = ['images', 'pages/assets']
+STATIC_PATHS = ['images', 'extra', 'pages/assets']
 PLUGIN_PATHS = ['pelican-plugins']
 PAGE_PATHS = ['pages']
+
+# overly complex config for a simple favicon but ok
+EXTRA_PATH_METADATA = {
+    "extra/favicon.ico": {"path": "favicon.ico"},
+}
+
+#FAVICON = '/favicon.ico'
+
 
 # Main Menu
 MAIN_MENU = True
@@ -102,7 +110,6 @@ HIDE_AUTHORS = True
 
 # for Flex
 #SITELOGO = 'images/profile.png'
-#FAVICON = 'images/favicon.ico'
 
 # Alchemy
 # SITEIMAGE = 'images/test.jpg width=200 height=200'
