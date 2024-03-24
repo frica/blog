@@ -1,5 +1,5 @@
 Title: Friends challenge 2: Picture Geolocalizer
-Date: 2024-03-24 21:07
+Date: 2024-03-22 21:07
 Category: Tech
 Tags: github, flask, python, jinja, gcp
 Lang: en
