@@ -1,12 +1,12 @@
 SITENAME = "Blog like it's 2002"
-SITESUBTITLE = 'Tech and stuff'
+SITESUBTITLE = 'tech and stuff'
 SITEURL = ""
 TIMEZONE = 'Europe/Brussels'
 DEFAULT_LANG = 'en'
 
 # Path to content directory to be processed by Pelican
 PATH = "content"
-
+# Path to static resources
 STATIC_PATHS = ['images', 'pages/assets']
 PLUGIN_PATHS = ['pelican-plugins']
 PAGE_PATHS = ['pages']
@@ -17,26 +17,24 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
     ('Home', 'index.html'),
-    ('About', 'pages/about.html'),
     ('Tech', 'category/tech.html'),
     ('Books', 'category/books.html'),
     ('Notes', 'category/notes.html'),
-    ('Archives', 'archives'),
-    ('Tags', 'tags')
+    ('About', 'pages/about.html')
 )
 
 # European date format
 DEFAULT_DATE_FORMAT = '%d-%m-%Y'
 
 # provide a list of paths to overrides files in original template
-THEME_TEMPLATES_OVERRIDES = ['./themes/templates/overrides']
+# THEME_TEMPLATES_OVERRIDES = ['./themes/templates/overrides']
+THEME = 'themes/mytheme'
 
 # doesn't work :(
-CSS_STYLE = "./themes/css/custom.css"
+#CSS_STYLE = "./themes/css/custom.css"
 
 # post_stats only works if you update the template
-PLUGINS = ['post_stats', 
-           'liquid_tags',
+PLUGINS = ['liquid_tags',
            'sitemap']
 
 SITEMAP = {
