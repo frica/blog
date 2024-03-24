@@ -3,7 +3,7 @@
 
 [![Deploy to GitHub Pages](https://github.com/frica/blog/actions/workflows/pelican.yml/badge.svg)](https://github.com/frica/blog/actions/workflows/pelican.yml)
 
-Welcomes this is my blog. It's powered by [Pelican](https://getpelican.com/), using a slightly modified version of the default theme "notmyidea".
+Welcomes this is my blog. It's powered by [Pelican](https://getpelican.com/), using ~~a slightly modified version of the default theme "notmyidea"~~ a theme inspired by [Cassidy Williams blog](https://blog.cassidoo.co/).
 
 Feel free to use anything you find here, just send me a message if it was useful to you :pray:
 
