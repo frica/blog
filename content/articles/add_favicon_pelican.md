@@ -21,16 +21,16 @@ To make the site html code points to the correct location you have to:
 * put the favicon there
 * add some code to `pelicanconf.py`
 
-    :::python
-    STATIC_PATHS = ['images', 'extra', 'pages/assets']
-    EXTRA_PATH_METADATA = {
-        "extra/favicon.ico": {"path": "favicon.ico"},
-    }
+        :::python
+        STATIC_PATHS = ['images', 'extra', 'pages/assets']
+        EXTRA_PATH_METADATA = {
+            "extra/favicon.ico": {"path": "favicon.ico"},
+        }
 
 * in your `base.html`, below the title tag, add this line:
 
-    :::html
-    <link rel="icon" type="image/x-icon" href="{{ SITEURL }}/favicon.ico">
+        :::html
+        <link rel="icon" type="image/x-icon" href="{{ SITEURL }}/favicon.ico">
 
 Seems overly complex for a simple favicon but it does the trick!
 
