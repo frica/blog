@@ -1,87 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Display unicode chars for French -->
-        <meta charset="utf-8">
-        <!-- Respect the great work of these guys -->
-        <meta name="generator" content="Pelican" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Link to the css from https://blog.cassidoo.co/ -->      
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css">
-        <title>{{ SITENAME }}</title>
-        <link rel="icon" type="image/x-icon" href="/favicon.ico">
-        {% if FEED_ALL_ATOM %}
-        <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME|striptags }} Atom Feed" />
-        {% endif %}
-        {% if FEED_ALL_RSS %}
-        <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME|striptags }} RSS Feed" />
-        {% endif %}
-    </head>
-    <body>
-        <header>
-            <div class="header-section">
-                <div class="header-frame">
-                    <!-- to have it centered -->
+
+<head>
+    <!-- Display unicode chars for French -->
+    <meta charset="utf-8">
+    <!-- Respect the great work of these guys -->
+    <meta name="generator" content="Pelican" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Link to the css from https://blog.cassidoo.co/ -->
+    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css">
+    <title>{{ SITENAME }}</title>
+    <link rel="icon" type="image/x-icon" href="{{ SITEURL }}/favicon.ico">
+    {% if FEED_ALL_ATOM %}
+    <link
+        href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}"
+        type="application/atom+xml" rel="alternate" title="{{ SITENAME|striptags }} Atom Feed" />
+    {% endif %}
+    {% if FEED_ALL_RSS %}
+    <link
+        href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}"
+        type="application/rss+xml" rel="alternate" title="{{ SITENAME|striptags }} RSS Feed" />
+    {% endif %}
+</head>
+
+<body>
+    <header>
+        <div class="header-section">
+            <div class="header-frame">
+                <!-- to have it centered -->
                 <!-- I prefer that the title is not a link -->
-                    <!-- <h1><a href="{{ SITEURL }}/index.html">{{ SITENAME }}</a></h1> -->
-                    <h1>{{ SITENAME }}</h1>
-                    <div class="center">
-                        <h2>{{ SITESUBTITLE }}</h2>
-                    </div>
-                    <nav>
-                        <ul>
-                            {% for title, link in MENUITEMS %}
-                              <li><a class="active"
-                                data-astro-cid-3ef6ksr2="" data-astro-cid-eimmu3lg="" style="text-decoration-color: rgb(36, 208, 90)" 
-                                href="{{ SITEURL }}/{{ link }}">{{ title }}</a></li>
-                            {% endfor %}
-                            {% if DISPLAY_PAGES_ON_MENU -%}
-                            {% for pg in pages %}
-                                <li{% if pg == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a></li>
+                <!-- <h1><a href="{{ SITEURL }}/index.html">{{ SITENAME }}</a></h1> -->
+                <h1>{{ SITENAME }}</h1>
+                <div class="center">
+                    <h2>{{ SITESUBTITLE }}</h2>
+                </div>
+                <nav>
+                    <ul>
+                        {% for title, link in MENUITEMS %}
+                        <li><a class="active" data-astro-cid-3ef6ksr2="" data-astro-cid-eimmu3lg=""
+                                style="text-decoration-color: rgb(36, 208, 90)" href="{{ SITEURL }}/{{ link }}">{{ title
+                                }}</a></li>
+                        {% endfor %}
+                        {% if DISPLAY_PAGES_ON_MENU -%}
+                        {% for pg in pages %}
+                        <li{% if pg==page %} class="active" {% endif %}><a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title
+                                }}</a></li>
                             {% endfor %}
                             {% endif %}
                             {% if DISPLAY_CATEGORIES_ON_MENU -%}
                             {% for cat, null in categories %}
-                                <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-                            {% endfor %}
-                            {% endif %}                    
-                        </ul>
-                    </nav>
-                </div>
+                            <li{% if cat==category %} class="active" {% endif %}><a
+                                    href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                                {% endfor %}
+                                {% endif %}
+                    </ul>
+                </nav>
             </div>
-            <!-- <p>Hi, welcome to my blog! I'm Fabien and I decided to share some stuff with the world.</p> -->
-        </header>
-        <main>
+        </div>
+        <!-- <p>Hi, welcome to my blog! I'm Fabien and I decided to share some stuff with the world.</p> -->
+    </header>
+    <main>
         {% block content %}{% endblock %}
-        </main>
-        <footer data-astro-cid-sz7xmlte="">
-            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>.
-            <br>
-            Theme inspired by <a rel="nofollow" href="https://blog.cassidoo.co/">Cassidy Williams blog</a>
-        </footer>
-        <script>
-            let colors = ["#24d05a", "#eb4888", "#10a2f5", "#e9bc3f"];
-        
-            function getRandomColor() {
-                return colors[Math.floor(Math.random() * colors.length)];
-            }
-        
-            function setRandomLinkColor() {
-                Array.from(document.getElementsByTagName("a")).forEach((e) => {
-                    e.style.textDecorationColor = getRandomColor();
-                });
-            }
-        
-            function setColorHoverListener() {
-                Array.from(document.querySelectorAll("a, button")).forEach((e) => {
-                    e.addEventListener("mouseover", setRandomLinkColor);
-                });
-            }
-        
-            (function () {
-                setRandomLinkColor();
-                setColorHoverListener();
-            })();
-        </script>
-    </body>
+    </main>
+    <footer data-astro-cid-sz7xmlte="">
+        Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>.
+        <br>
+        Theme inspired by <a rel="nofollow" href="https://blog.cassidoo.co/">Cassidy Williams blog</a>
+    </footer>
+    <script>
+        let colors = ["#24d05a", "#eb4888", "#10a2f5", "#e9bc3f"];
+
+        function getRandomColor() {
+            return colors[Math.floor(Math.random() * colors.length)];
+        }
+
+        function setRandomLinkColor() {
+            Array.from(document.getElementsByTagName("a")).forEach((e) => {
+                e.style.textDecorationColor = getRandomColor();
+            });
+        }
+
+        function setColorHoverListener() {
+            Array.from(document.querySelectorAll("a, button")).forEach((e) => {
+                e.addEventListener("mouseover", setRandomLinkColor);
+            });
+        }
+
+        (function () {
+            setRandomLinkColor();
+            setColorHoverListener();
+        })();
+    </script>
+</body>
+
 </html>

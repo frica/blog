@@ -16,9 +16,6 @@ EXTRA_PATH_METADATA = {
     "extra/favicon.ico": {"path": "favicon.ico"},
 }
 
-#FAVICON = '/favicon.ico'
-
-
 # Main Menu
 MAIN_MENU = True
 DISPLAY_PAGES_ON_MENU = False
@@ -37,9 +34,6 @@ DEFAULT_DATE_FORMAT = '%d-%m-%Y'
 # provide a list of paths to overrides files in original template
 # THEME_TEMPLATES_OVERRIDES = ['./themes/templates/overrides']
 THEME = 'themes/mytheme'
-
-# doesn't work :(
-#CSS_STYLE = "./themes/css/custom.css"
 
 # post_stats only works if you update the template
 PLUGINS = ['liquid_tags',
@@ -86,17 +80,6 @@ MARKDOWN = {
 
 HIDE_AUTHORS = True
 
-# Blogroll
-# LINKS = (
-#    ("Pelican", "https://getpelican.com/"),
-# )
-
-# Social widget
-#SOCIAL = (
-#    ("linkedin", "https://www.linkedin.com/in/fabien-rica/"),
-#    ("github", "https://github.com/frica"),
-#)
-
 # customized to make admonition work but it doesn't
 #MARKDOWN = {
 #    'extension_configs': {
@@ -108,16 +91,4 @@ HIDE_AUTHORS = True
 #    'output_format': 'html5',
 #}
 
-# for Flex
-#SITELOGO = 'images/profile.png'
-
-# Alchemy
-# SITEIMAGE = 'images/test.jpg width=200 height=200'
-
-# ICONS = (
-#     ("linkedin", "https://www.linkedin.com/in/fabien-rica/"),
-#    ("github", "https://github.com/frica"),
-#)
-
-#THEME = 'themes/pelican-alchemy/alchemy'
 # BOOTSTRAP_CSS = 'http://bootswatch.com/3/united/bootstrap.min.css'
