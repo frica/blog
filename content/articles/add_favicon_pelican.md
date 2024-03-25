@@ -1,9 +1,8 @@
-Title: Adding a favicon to a pelican site
-Date: 2024-03-25 00:02
+Title: Adding a favicon to your pelican site
+Date: 2024-03-25 08:52
 Category: Tech
 Tags: pelican
 Lang: en
-Status: draft
 
 After working this weekend on my new blog theme and getting very satisfying results, I wanted to polish a bit more and add a favicon (and get rid of the error at startup saying that no favicon was found).
 
