@@ -6,12 +6,12 @@ Lang: en
 
 After working this weekend on my new blog theme and getting very satisfying results, I wanted to polish a bit more and add a favicon (and get rid of the error at startup saying that no favicon was found).
 
-I naively assumed that adding in the configuration file: 
+I naively assumed that adding in the configuration file:
 
     :::python
     FAVICON = "favicon.ico"
 
-and putting my favicon in my (already defined as static) images directory would be enough. 
+and putting my favicon in my (already defined as static) images directory would be enough.
 
 _But no._
 

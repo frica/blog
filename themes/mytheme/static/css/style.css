@@ -1,3 +1,6 @@
+/* Imports */
+@import url("pygment.css");
+
 /* Base styles */
 @font-face {
   font-family: iA Writer Mono;

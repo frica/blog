@@ -64,19 +64,15 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-# Code highlighting the theme
-MARKDOWN = {
-    'extension_configs': {
-        'markdown.extensions.meta': {},
-        'markdown.extensions.extra': {},
-        'markdown.extensions.codehilite': {'css_class': 'codehilite'},
-    },
-    'output_format': 'html5',
-}
-
-# deprecated
-#MD_EXTENSIONS = ['codehilite(noclasses=True, pygments_style=native)', 'extra']  # enable MD options
-#PYGMENTS_STYLE = 'monokai'
+# Default code highlighting in the theme - replaced by Pygments
+# MARKDOWN = {
+#     'extension_configs': {
+#         'markdown.extensions.meta': {},
+#         'markdown.extensions.extra': {},
+#         'markdown.extensions.codehilite': {'css_class': 'codehilite'},
+#     },
+#     'output_format': 'html5',
+# }
 
 HIDE_AUTHORS = True
 
