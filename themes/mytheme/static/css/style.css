@@ -238,8 +238,12 @@ table {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  /* center image */
+  display: flex;
+  margin: auto;
+  max-width: 80%;
+  /* scale to fit */
+  object-fit: contain;
 }
 
 code {
