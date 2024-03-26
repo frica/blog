@@ -1,4 +1,4 @@
-Title: Python modern UI toolkit
+Title: Python modern UI toolkit: NiceGUI
 Date: 2024-03-01 23:00
 Category: Tech
 Tags: python, nicegui
