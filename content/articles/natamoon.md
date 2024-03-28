@@ -8,7 +8,7 @@ This is the third part of what I call the friends challenge: implement ideas my 
 
 # How it started
 
-This time my friend Natacha wanted something to quickly tell her the date of the next full moon. Why? Some obscure reasons :smile:. Nevermind it looked like something doable so why not?
+This time my friend Natacha wanted something to quickly tell her the date of the next full moon. Why? Some obscure reasons 😁. Nevermind, it looked like something doable so why not?
 
 # Backend
 
@@ -21,6 +21,9 @@ _Please note that [Skyfield](https://rhodesmill.org/skyfield/) from the same aut
 Eventually the only thing I used from that library is:
 
     :::python
+    import datetime
+    import ephem
+
     date_today = datetime.date.today()
     date_time_full_moon = ephem.next_full_moon(date_today)
 
@@ -34,7 +37,9 @@ But having a stable consistent behavior in the tray was a challenge for me and I
 
 ## PWA
 
-Progressive Web Applications (PWA) are web applications that are delivered through the web, built using common web technologies including HTML, CSS, JavaScript, and WebAssembly. It is intended to work on any platform with a standards-compliant browser, including desktop and mobile devices. **So it does not require separate bundling or distribution**. Looked easier if I wanted my friends to test it.
+Progressive Web Applications (PWA) are web applications that are delivered through the web, built using common web technologies including HTML, CSS, JavaScript, and WebAssembly. It is intended to work on any platform with a standards-compliant browser, including desktop and mobile devices. 
+
+**So it does not require separate bundling or distribution**. Looked easier if I wanted my friends to test it.
 
 I stumbled upon that [article](https://medium.com/@tristan_4694/how-to-create-a-progressive-web-app-pwa-using-flask-f227d5854c49) ([linked repo](https://github.com/Trigo93/flask_pwa_example)) explaining the requirements to make a Flask page PWA compatible and liked the idea! Indeed it's pretty simple.
 
@@ -62,14 +67,14 @@ And then install `flyctl`.
 
 To do so, a few simple steps (Windows 11):
 
-    :::bash
+    :::powershell
     winget search Microsoft.PowerShell
     powershell -Command "iwr https://fly.io/install.ps1 -useb | iex"
     fly auth signup
 
 In the folder where the app is:
 
-    :::bash
+    :::powershell
     C:\Users\my_user\.fly\bin\flyctl.exe launch 
 
 That reads the Dockerfile and deploy "magically" on fly.io. Even the resulting URL looks good!
@@ -78,7 +83,7 @@ That reads the Dockerfile and deploy "magically" on fly.io. Even the resulting U
 
 * "There is a package for everything in Python". Just... sometimes it's hard to find, old, not maintained anymore, not doing exactly what you want... Don't give up and look for alternatives. For instance I wanted to get a moon picture corresponding to the moon phase. Couldn't find it from the REST API, couldn't find it from a Python package. Who cares in my case? I just changed strategy.
 
-* You can re-use a lot of your previously acquired knowledge when you use always the same technologies. In this case, the CSS and the DockerFile knowledge I gained from my previous app `photolocator`helped me to finish the app in a couple of hours, between my parent's obligations.
+* You can re-use a lot of your previously acquired knowledge when you use always the same technologies. In this case, the CSS and the DockerFile knowledge I gained from my previous app `photolocator` helped me to finish the app in a couple of hours, between my parent's obligations.
 
 * Modern deployment software like fly.io are amazing. I assume this is way more complex in a realistic scenario but this was such a relief to use fly.io instead of the cluttered and complex Google Cloud Run interface.
 
