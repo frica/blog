@@ -1,4 +1,4 @@
-{% extends "index.html" %}
+{% extends "base.html" %}
 
 {% block title %}
   {{ category }} Articles | {{ SITENAME }}
@@ -7,3 +7,28 @@
 {% block page_header %}
   {{ category }} Articles
 {% endblock %}
+
+{% block content %}
+  <p>{{ articles|count }} articles in {{ category }}</p>
+  {% for article in articles_page.object_list %}
+    <!-- Filter out all notes -->
+    <article class="row teaser">
+      <div class="col-sm-8">
+        <h4 class="title">
+          <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}{% if article.link %} <i class="fas fa-link"></i>{%
+            endif %}</a>
+        </h4>
+        <time>{{ article.locale_date }}</time> in #<a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category
+          }}</a>
+
+        <div class="content">
+          {{ article.summary|striptags }}
+        </div>
+      </div>
+      <header class="col-sm-4 text-muted"></header>
+    </article>
+    {% if not loop.last %}
+    <hr>
+    {% endif %}
+  {% endfor %}
+{% endblock %} 
