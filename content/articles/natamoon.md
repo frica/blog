@@ -85,7 +85,7 @@ That reads the Dockerfile and deploy "magically" on fly.io. Even the resulting U
 
 * You can re-use a lot of your previously acquired knowledge when you use always the same technologies. In this case, the CSS and the DockerFile knowledge I gained from my previous app `photolocator` helped me to finish the app in a couple of hours, between my parent's obligations.
 
-* Modern deployment software like fly.io are amazing. I assume this is way more complex in a realistic scenario but this was such a relief to use fly.io instead of the cluttered and complex Google Cloud Run interface.
+* Modern deployment softwares like fly.io are amazing. I assume this is way more complex in a realistic scenario but this was such a relief to use fly.io instead of the cluttered and complex Google Cloud Run interface.
 
 * NASA has lot of incredible material, [pictures](https://svs.gsfc.nasa.gov/gallery/moonphase/) and [tools](https://moon.nasa.gov/moon-observation/daily-moon-guide/?intent=021) available for free. They're really good. I love them.
 
