@@ -273,7 +273,8 @@ h2 {
   font-weight: 400;
 }
 
-h3,
+/* Only center h3 in header for blog subtitle */
+header.h3,
 .center {
   text-align: center;
 }
