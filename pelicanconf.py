@@ -24,6 +24,7 @@ MENUITEMS = (
     ('Home', 'index.html'),
     ('Tech', 'category/tech.html'),
     ('Books', 'category/books.html'),
+    ('Misc', 'category/misc.html'),
     ('Notes', 'category/notes.html'),
     ('About', 'pages/about.html')
 )
