@@ -44,4 +44,6 @@ Final result:
 
 {% img {static}/images/setup_phone.png 400 "Screenshot my phone home screen" "" %}
 
-My kids have asked questions about my "new phone" a few times already 😁. Now let's stick to it forever.
+My kids have asked questions about my "new phone" a few times already 😁.
+
+It's not perfectly consistent, but the setup feels good. Now let's stick to it.
