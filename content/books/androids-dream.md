@@ -17,3 +17,5 @@ Heureusement, la suite est quand même de plus haut niveau. On y suit des diplom
 L'histoire est mouvementée et pleine de moments hilarants quand on découvre par exemple l'histoire d'une Église secrète vénérant les moutons, ou la scène épique de baston dans le centre commercial. Comme souvent chez Scalzi, les dialogues sont croustillants et les personnages très cinématographiques. Les retournements de situation sont nombreux et on ne s'ennuie pas. Et ça se termine en space opéra loufoque et bien vu.
 
 Bref, c'était un plaisir de (re)lire ce livre pas vraiment sérieux !
+
+> “In politics as in high school, who you are is to a large extent defined by who you sit with at lunch, and there was no doubt about it, the Earth was sitting at the loser table. It was not, Bob Pope thought, the true destiny of the Earth in our universe to be counted among the diplomatic equivalent of the acne-ridden and the furtively masturbating.”
