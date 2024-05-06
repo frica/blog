@@ -1,7 +1,7 @@
 Title: The end of Ingenuity
 Date: 2024-01-24 10:00
 Category: Tech
-Tags: space, ingenuity
+Tags: space, ingenuity, science
 Lang: en
 
 NASA's Ingenuity Helicopter won't fly on Mars anymore... The helicopter itself captured this color image showing the shadow of a rotor blade damaged during a rough landing.
