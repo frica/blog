@@ -16,6 +16,7 @@ PAGE_PATHS = ['pages']
 # overly complex config for a simple favicon but ok
 EXTRA_PATH_METADATA = {
     "extra/favicon.ico": {"path": "favicon.ico"},
+    "extra/robots.txt": {"path": "robots.txt"}
 }
 
 # Main Menu
