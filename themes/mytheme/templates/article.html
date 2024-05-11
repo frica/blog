@@ -3,12 +3,14 @@
 {% block content %}
 <article>
     <h1 class="post-title">{{ article.title }}</h1>
-    <p class="post-date">{{ article.date.strftime('%B %d, %Y') }}</p>
+    <!-- <p class="post-date">{{ article.date.strftime('%B %d, %Y') }}</p> -->
+    <time>{{ article.locale_date }}</time>
     <div class="post-tags">
         {% for tag in article.tags %}
             <a href="{{ SITEURL }}/tag/{{ tag }}">{{ tag }}</a>
         {% endfor %}
     </div>
+    <hr>
     <div class="post-content">
         {{ article.content }}
     </div>
