@@ -3,6 +3,8 @@ SITESUBTITLE = 'tech and stuff'
 SITEURL = ""
 TIMEZONE = 'Europe/Brussels'
 DEFAULT_LANG = 'en'
+AUTHOR = "Fabien Rica"
+SITEDESCRIPTION = "I'm Fabien Rica, a technology enthusiast, dad, and a French person living in Belgium. I write about programming, books, and whatever I think is important for me."
 
 # Path to content directory to be processed by Pelican
 PATH = "content"
