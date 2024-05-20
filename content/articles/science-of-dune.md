@@ -31,3 +31,7 @@ If you are interested, I listed my sources for the presentation below:
     * [Dune: Exploration scientifique et culturelle d'une planète-univers, 2020 (FR)](https://www.belial.fr/collectif/dune-exploration-scientifique-et-culturelle-d-une-planete-univers)
 * Articles:
     * [Dissecting the “spice” of Dune (CNRS) (EN)](https://news.cnrs.fr/articles/dissecting-the-spice-of-dune)
+
+### License
+
+[CC BY-NC 4.0 Deed](https://creativecommons.org/licenses/by-nc/4.0/)
