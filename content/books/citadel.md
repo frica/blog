@@ -18,7 +18,7 @@ C'est le début d'un tome enfin riche en action et morceaux de bravoure divers, 
 
 Et ca valait la peine d'attendre puisque c'est l'escalade. Ca explose et ça surine dans tous les sens, on passe du tueur sadique à une embuscade terrestre, on y découvre un vaisseau high-tech et des personnages qui s'affirment de plus en plus dans l'adversité.
 
-> “There’s no fate. There’s no ‘deserve.’ There’s just random chance. And a universe that doesn’t give a fuck about any of us. You start taking chance personal, you’re on a fast track to losing your mind.”
+> There’s no fate. There’s no ‘deserve.’ There’s just random chance. And a universe that doesn’t give a fuck about any of us. You start taking chance personal, you’re on a fast track to losing your mind.
 
 Le découpage entre les 4 points de vue est toujours habile. Chaque chapitre est parsemé de punchlines musclées. Les personnages se croisent de plus en plus. On le sentait venir et dans des circonstances toutes plus incroyables les unes que les autres, cela arrive enfin !
 

@@ -1,5 +1,6 @@
 /* Imports */
 @import url("pygment.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans');
 
 /* Base styles */
 @font-face {
@@ -261,12 +262,52 @@ pre>code {
   all: unset;
 }
 
-blockquote {
+/*blockquote {
   border: 1px solid var(--gray);
   color: var(--black);
   padding: 2px 0 2px 20px;
   margin: 0;
-  font-style: italic;
+  font-style: italic ;
+} */
+
+blockquote {
+  font-style: italic ;
+  line-height: 1.4;
+  border: 1px solid var(--gray);
+  color: var(--black);
+  position: relative;
+  background-color: var(--quote-bg-color);
+  margin: 1em 2ch 1em 2ch;
+  padding-left: 2em;
+  padding-right: 1em;
+  padding-top: 0.3em;
+  padding-bottom: 0em;*/
+}
+
+blockquote::before,
+blockquote::after {
+  font-style: normal;
+  font-family: 'Nunito Sans';
+  font-size: 5em;
+  position: absolute;
+  color: #a3a2a2;
+  overflow: hidden;
+  white-space: pre;
+  line-height: 70px;
+  cursor: default;
+}
+
+blockquote::before {
+  top: 0rem;
+  left: 0rem;
+  bottom: 0;
+  content: "“";
+}
+
+blockquote::after {
+  bottom: -2.5rem;
+  right: 0rem;
+  content: "”";
 }
 
 h1,
