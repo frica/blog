@@ -72,7 +72,7 @@ Un des rares groupes métal vu sur cette édition. Et quel concert... De la viol
 
 ## Bodycount (Warzone)
 
-Déja vu mais y'avait Ice-T alors certains des amis voulaient voir: alors oui j'écoutais il y a 20 ans mais en vrai c'est nul. En plus c'est pas parce que tu ramènes ton fils et que tu mets des solos interminables dans tes chansons que ça fait un show correct, hein.
+Déjà vu mais y'avait Ice-T alors certains des amis voulaient voir: alors oui j'écoutais il y a 20 ans mais en vrai c'est nul. En plus c'est pas parce que tu ramènes ton fils et que tu mets des solos interminables dans tes chansons que ça fait un show correct, hein.
 
 # Jour 3
 
@@ -154,6 +154,8 @@ Encore un groupe dont je suis un gros fan. On était devant, sur le passage de l
 ## Foo Fighters (Main Stage)
 
 Excité comme une midinette de voir les Foo Fighters, car jamais vu, car Nirvana, car Dave Grohl, car Foo Fighters. Et bien ils ont tous assuré. Tout était parfait (sauf mes pieds en compote après 4 jours de festival). Une grosse grosse claque. Je ne suis même pas un super fan, mais ils ont délivré un set parfait. Leur batteur Josh Freese est incroyable. Parfaite conclusion de cette édition 2024.
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4dVbhS6OiYvFikshyaQaCN?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 # Top découvertes
 
