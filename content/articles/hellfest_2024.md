@@ -22,7 +22,7 @@ Jamais entendu parler et pourtant c'est de l'excellent hardcore français "moder
 
 ## Enter Shikari (Warzone)
 
-Meilleure découverte de la journée. Du hardcore mélangé à des musiques électroniques comme le dub ou ll'éléctro. Un show incroyable avec un chanteur survolté, des effets vidéos intégrés à la prestation scénique et un public ultra-conquis. En prime ma super blague sur le passage secret qui permettrait aux chanteurs d'apparaître dans la régie son. Bref, cela a conclu magistralement cette première journée !
+Meilleure découverte de la journée. Du hardcore mélangé à des musiques électroniques comme le dub ou l'electro. Un show incroyable avec un chanteur survolté, des effets vidéos intégrés à la prestation scénique et un public ultra-conquis. En prime ma super blague sur le passage secret qui permettrait aux chanteurs d'apparaître dans la régie son. Bref, cela a conclu magistralement cette première journée !
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6PwxotrB99xgatKVzibmkz?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
