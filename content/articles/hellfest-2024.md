@@ -20,6 +20,8 @@ Jamais entendu parler et pourtant c'est de l'excellent hardcore français "moder
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6Hye4TXeYUXzU0tWofYdhC?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+* [Lien vers le concert](https://www.arte.tv/fr/videos/119957-003-A/landmvrks/)
+
 ## Enter Shikari (Warzone)
 
 Meilleure découverte de la journée. Du hardcore mélangé à des musiques électroniques comme le dub ou l'electro. Un show incroyable avec un chanteur survolté, des effets vidéos intégrés à la prestation scénique et un public ultra-conquis. En prime ma super blague sur le passage secret qui permettrait aux chanteurs d'apparaître dans la régie son. Bref, cela a conclu magistralement cette première journée !
@@ -150,6 +152,8 @@ J'étais très curieux et c'était bien. Mais j'ai pas été touché. Aucun repr
 ## The Offspring (Main Stage)
 
 Encore un groupe dont je suis un gros fan. On était devant, sur le passage de l'autoroute du slam, au milieu du pit, ce qui a fait que j'ai été en mode survie pendant 30 minutes, entre les coups de latte, les bousculades et les gros golgoths qu'il fallait porter. Puis un mec m'a demandé si je voulais slammer, j'ai dit oui, j'ai manqué de me casser la nuque quand des gens ne m'ont pas attrapé un peu plus loin. J'ai décidé d'écouter la fin du show fan-service au calme un peu plus derrière après ça.
+
+* [Lien vers le concert](https://www.arte.tv/fr/videos/119943-000-A/the-offspring/)
 
 ## Foo Fighters (Main Stage)
 
