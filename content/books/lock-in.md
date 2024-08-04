@@ -16,7 +16,11 @@ Notre jeune enquêteur du FBI est justement atteint de ce syndrome et se déplac
 
 Et il va devoir enquêter sur une sombre histoire incluant des Hadens, des Intégrateurs, des codeurs de génie, des Navajos impuissants et des industriels puissants.
 
+> Making people change because you can’t deal with who they are isn’t how it’s supposed to be done. What needs to be done is for people to pull their heads out of their asses. You say ‘cure.’ I hear ‘you’re not human enough.
+
 Le livre soulève beaucoup de questions sur la cohabitation entre gens "normaux" et Hadens. Sur les espaces virtuels comme source de liberté par les malades. Sur l'intolérance et la peur de la différence. Sur la lutte pour les droits civils et le besoin d'appartenance à une communauté. Bien sûr, tout cela est survolé mais cela rend le livre plus intéressant qu'une bête histoire policière avec un super-humain du FBI.
+
+> “I find it comforting,” Bell said. “It reminds me of the womb. They say we don’t remember what it is like to be there, but I don’t believe that. I think deep inside we always know. It’s why children burrow under blankets and cats push their heads into your elbow when they sit beside you. I’ve not had those experiences myself, but I know why they happen. I’ve been told my liminal space is like the dark of the grave. But I think of it as the dark from the other end of life entirely. The dark of everything ahead, not everything behind.”
 
 Comme d'habitude chez Scalzi, les dialogues sont plein de punch et les personnages attachants. L'intrigue est bien ficelée même si un peu prévisible parfois.
 
