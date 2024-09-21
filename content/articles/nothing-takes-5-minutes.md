@@ -7,7 +7,7 @@ Summary: Nothing takes 5 minutes in software engineering. Nothing. Even the simp
 
 Yesterday I was reworking a test suite when I noticed that the test runner in GitHub was giving a warning:
 
-    :::
+    :::bash
     Node.js 16 actions are deprecated. Please update the following actions to use 
     Node.js 20: my_action [...]
 
@@ -27,9 +27,9 @@ Not maintained and **archived**. OK.
 
 BUT look, there are instructions from the former maintainer to use another action `setup-python` and he even provides a proper link! Neat, thanks.
 
-Spend 10 minutes in the (thorough) help page of `setup-python` to be sure I understand the difference between the action currently in use and the new recommended action.
+Spend 10 minutes in the (thorough) [README](https://github.com/actions/setup-python/blob/main/README.md) of `setup-python` to be sure I understand the difference between the action currently in use and the new recommended action.
 
-I make the changes (removed 2 lines, add one). Commit and push, create a PR to run the test workflow. Yay, almost ready!
+I make the changes (removed 2 lines, add one). Commit and push, create a Pull Request and run the test workflow. Yay, almost ready!
 
 Workflow failure. Tests don't even start. Can't find the requirements.txt.
 
@@ -37,7 +37,7 @@ Spend another 5 minutes reading more carefully in the help page. OK, my requirem
 
 Commit and push. Failure.
 
-Sudden Teams message: "Could you please join a call, we need your opinion". Sigh. OK.
+_Sudden Teams message_: "Could you please join a call, we need your opinion on &lt;topic completely different&gt;". Sigh. OK.
 
 30 minutes later, back at the failure.
 
@@ -45,13 +45,13 @@ I realize that probably it's a good idea to **first checkout the source code** b
 
 Now it will work, I'm sure.
 
-But hey, my senior colleague who wrote the test.yml years ago will review it: I must prove to him that I didn't degrade performance of the workflow...
+But hey, [my senior colleague](https://en.wikipedia.org/wiki/Gandalf#/media/File:Gandalf600ppx.jpg) who wrote the test.yml years ago will review it: I must prove to him that I didn't degrade performance of the workflow!
 
 Let's rerun it 5 times to check the timings.
 
 OK it looks even a bit faster! Nice, it will be a piece of ca-
 
-Email. Comment on the PR from the senior guy. I cached the dependencies from the wrong requirements file (yes there are several, for development, testing and production, I don't know yet why).
+_Email_: comment on the PR from the senior guy. I cached the dependencies from the wrong requirements file (yes there are several, for development, testing and production, I don't know yet why).
 
 He's right, damn it. Another stupid error.
 
@@ -59,14 +59,14 @@ Alright, easy fix.
 
 Commit, push. Rerun 5 times to check the timings.
 
-Looks good now. And my colleagues approved the PR in the meantime.
+Looks good now. And my colleague approved the PR in the meantime.
 
 But... what is this? I can still see a warning message still in the test workflow summary?
 
 Another action later in the workflow seems to trigger the same Node.js deprecation warning.
 At that stage I'm not too sure anymore. Will I be done before lunch?
 
-I check the guilty action: a pytest wrapper around `test-summary`, called `pytest-summary`. I check `test-summary`, hooray they fix the warning some months ago! And the `pytest-summary` maintainer even updated this fix! 
+I check the guilty action: a pytest wrapper around `test-summary`, called `pytest-summary`. I check `test-summary`, hooray they fix the warning some months ago! And the `pytest-summary` maintainer even updated this fix!
 
 But no recent releases of `pytest-summary`, so I can't just upgrade the version.
 
@@ -80,13 +80,26 @@ Speed up after lunch to a meeting where I play half PO, half Scrum master, make 
 
 Exit the excruciating meeting. A reply from the maintainer of `pytest-summary` saying he made the release! The power of open source software!
 
-Two commits later (typos, typos everywhere), I have a new PR settings the version straight.
+Two commits later (typos, typos everywhere), I have a new PR settings the GitHub Actions version straight.
 I quickly call my colleague reviewer, explain him. But he's busy, he says he will approve next week my (3 characters) change.
 
 It's 16:30. I thank the maintainer, tell him his latest release is working fine.
 
 I sigh, considering my day finished, and looking at my todo list with my 2 main items not touched.
 
-_It was just 5 minutes work._
+**_It was just 5 minutes work._**
 
 ---
+
+What happened in this exaggerated but true testimony?
+
+* Too much confidence and not enough self-awareness of my tired state
+* Disturbances breaking the flow: emails, meetings, barely avoidable in a team
+* Repository with enterprise commit rules: Gitflow, PR with approvals
+* Code not maintained: "it works, don't change it"
+* Dependencies on other people's code
+* Lack of focus: main tasks were actually not done
+
+Was I happy after all about my day?
+
+**YES**. Learned quite a lot technically and about myself. And I can re-use that story forever with my fellow developers 😁
