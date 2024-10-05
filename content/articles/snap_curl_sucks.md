@@ -107,3 +107,6 @@ And TADA:
 
 {% img {static}/images/posting_app.png 800 "Posting" "" %}
 
+Unbelievable that such an issue is not yet fixed by Canonical. 
+
+I hope this helps a random stranger in the future!
