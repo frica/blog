@@ -3,6 +3,7 @@ Date: 2024-09-14 15:00
 Category: Books
 Tags: scifi, reading, lectures
 Lang: fr
+Summary: Avis sur un autre classique de SF écrit par Clifford Simak.
 
 <img src="https://m.media-amazon.com/images/I/814cb+Yv7CL._SL1500_.jpg" alt="Couverture du livre Au carrefour des étoiles" width="150" height="auto">
 
