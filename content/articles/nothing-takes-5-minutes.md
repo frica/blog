@@ -1,7 +1,7 @@
 Title: Nothing ever takes 5 minutes
 Date: 2024-09-20 21:00
 Category: Tech
-Tags: engineering, software, github
+Tags: engineering, software, github, work
 Lang: en
 Summary: Nothing takes 5 minutes in software engineering. Nothing. Even the simplest things. But why do you still believe you could do it? And why does it consistently fail?
 
