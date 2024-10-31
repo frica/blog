@@ -22,4 +22,4 @@ Finalement c'est la fin qui est la plus subtile. J'ai aimé la description du m�
 
 C'est étrange aussi de finir ce roman au moment où les talibans, qui ont repris le contrôle en 2021 après le départ des Américains, viennent d'[interdire les femmes afghanes de parler entre elles](https://www.france24.com/fr/asie-pacifique/20241030-en-afghanistan-le-r%C3%A9gime-taliban-r%C3%A9duit-d%C3%A9sormais-les-femmes-au-silence)...
 
-Un roman sec, qui m'a fait penser au documentaire suédois [**Armadillo**](https://youtu.be/91A0MCZWjm8?si=9f_ZkZ08I38HSwcJ) en moins cinglant.
+Un roman sec, qui m'a fait penser au documentaire danois [**Armadillo**](https://youtu.be/91A0MCZWjm8?si=9f_ZkZ08I38HSwcJ) en moins cinglant.
