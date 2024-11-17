@@ -1,5 +1,5 @@
 Title: Outsphere, la SF devenue roman de gare
-Date: 2024-10-30 21:00
+Date: 2024-11-17 10:00
 Category: Books
 Tags: lecture, reading, scifi
 Lang: fr
