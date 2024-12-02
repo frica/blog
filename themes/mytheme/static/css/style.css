@@ -185,7 +185,7 @@ nav a:not(:last-child) {
 }
 
 hr {
-  border-top: 1px solid var(--gray);
+  border: 1px dashed var(--gray);
   margin: 1rem 0;
 }
 
