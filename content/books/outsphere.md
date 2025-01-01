@@ -5,7 +5,6 @@ Tags: lecture, reading, scifi
 Lang: fr
 Summary: Critique du livre de Guy-Roger Duvert
 
-
 <img src="https://m.media-amazon.com/images/I/610b8dOt4FL._SL1500_.jpg"
 " alt="Couverture du livre Outsphere de Guy-Roger Duvert
 " width="200" height="auto">
