@@ -27,6 +27,8 @@ Soudain Carthage mobilise son armée high-tech pour changer la donne du conflit.
 
 L'histoire suit le destin de 7 personnages : Orode, Suréna, Sillace, un soldat de Ecbatan, Ormène, un ingénieur perse, Ormuzd, une esclave mongole, Temülün et Hiarbas, super-soldat carthaginois.
 
+> Un technicien comme un autre, un de plus dans la grande armée de ceux qui ne veulent rien savoir et qui ne décident de rien, qui ne font qu’exécuter les ordres.
+
 Le dispositif narratif est spécial : par l'emploi du "Tu", le lecteur est proche des personnages et donc immergé dans l'histoire et dans le Mal qui est décrit à chaque chapitre.
 
 ## Mon avis
@@ -39,7 +41,13 @@ On pense aux dictateurs de toutes sortes du XXème et XXIème siècle, russes, i
 
 L'auteur a dit qu'il n'écrivait pas de science fiction, mais "des textes qui procurent une expérience au lecteur avec des concepts", comme l'infinité du Mal. Et effectivement le livre est une réflexion sur le mal et la violence. Littérairement une tragédie, sans héros. Tout se termine mal, pour tous le monde.
 
+> Nulle mère, nulle bien-aimée, dans cet enfer, reprend-elle comme une litanie. Nulle bienveillance. Nul espoir. Nulle compassion. Nulle charité. Nulle action de grâce. Nul bonheur. Nul bonheur.
+
+Lucazeau, Romain. Vallée du carnage (French Edition) (p. 272). Verso. Édition du Kindle. 
+
 Ce qui choque finalement, c'est l’agrégation cohérente de toutes les monstruosités déjà commises par les hommes, documentées et réalistes : massacres, viols, mutilations, bordel-usines, camps de concentration, destruction de la notion d'individu (particulièrement cruelle chez le personnage Temulun)...
+
+> L’humanité des bourreaux. Elle n’a rien de sympathique. Elle constitue même une circonstance aggravante, n’est-ce pas, Temülün ? Elle rappelle que ces gens comprennent l’immoralité des actes qu’ils font subir à une si large échelle.
 
 Lucazeau a voulu faire un vrai **roman de guerre** et la guerre est dégueulasse, sans limites, sans morale et sans droit. Le malaise vient du fait que cela ne sonne pas comme un histoire, ni comme un futur possible, mais comme quelque chose qui a déjà lieu, à quelques milliers de kilomètres de nos fauteuils confortables d'Europe de l'Ouest.
 
