@@ -81,15 +81,17 @@ Disons-le franchement, j'ai échoué à actionner un plan concret pour ma maison
 
 ### Relations sociales
 
-* J'ai fait quelque nouvelles choses, comme mon premier [meetup Python User Group]({filename}/books/first-pug.md), mais j'aurais voulu essayer plus de nouvelles expériences.
+* J'ai fait quelque nouvelles choses, comme mon premier [meetup Python User Group]({filename}/articles/first-pug.md), mais j'aurais voulu essayer plus de nouvelles expériences.
 
 * J'ai passé beaucoup de temps avec ma famille, ce qui je considère positif même si j'ai trouvé ça pesant et isolant par moments. Les rires de ma fille ont soigné beaucoup de bobos à l'âme.
 
-* J'ai continué à noter mes parties de jeux de société: en 2024 j'aurais joué **146 parties**, principalement en famille. C'est moins que les années précédentes mais j'ai joué avec plaisir et je n'ai pas acheté de jeux qui prennent la poussière. Bravo, moi ! J'ai aussi participé à quelques soirées de jeux en lignes avec mes amis français, mais sans la régularité des années Covid.
+* J'ai continué à noter mes parties de jeux de société: en 2024 j'aurais joué **146 parties**, principalement en famille. C'est moins que les années précédentes mais j'ai joué avec plaisir et je n'ai acheté que des jeux qui sortent à la maison : Draftosaurus, Happy City et [Le Chateau Blanc](https://iello.fr/jeux/le-chateau-blanc/). Bravo, moi !
+
+* J'ai aussi participé à quelques soirées de jeux en lignes avec mes amis français, mais sans la régularité des années Covid. 
 
 * Quelque chose dont je suis fier : j'ai organisé une après-midi jeu de sociéte dans l'association francophone La Bande à Gavroche !
 
-* J'ai peu vu mes amis français (à part au HellFest). Mais Hugues et sa famille nous ont rendu visite à Gand et j'ai pu voir plusieurs fois mes amis lillois le weekend.
+* J'ai peu vu mes amis français (à part au [HellFest]({filename}/articles/hellfest-2024.md)). Mais Hugues et sa famille nous ont rendu visite à Gand et j'ai pu voir plusieurs fois mes amis lillois le weekend.
 
 * Je suis un peu sorti (films, 2 fois pour des évènements d'entreprise, une fois avec un collègue...) mais rien de fou.
 
