@@ -35,15 +35,13 @@ Le dispositif narratif est spécial : par l'emploi du "Tu", le lecteur est proch
 
 Ce qui m'a attiré pour le lire, c'est que l'on quitte le genre ultra-vu du space opéra (déja abordé dans ses précédents romans) pour celui (ultra-vu aussi) de l'uchronie, qui est un genre que j'apprécie.
 
-Mais une uchronie qui n'en est pas vraiment une : c'est un autre monde, qui fait référence à l'Antiquité mais avec tous les aspects de développement technologiques modernes. Il n'a pas véritablement de point d'inflexion comme "et si les Nazis avaient gagné la guerre?". C'est comme si on lisait une métaphore antique des conflits modernes, si la guerre en Ukraine rencontrait la guerre de Troie. D'ailleurs l'auteur admet en interview que l'idée lui est venue au début de la guerre en Ukraine.
+Mais une uchronie qui n'en est pas vraiment une : c'est un autre monde, qui fait référence à l'Antiquité mais avec tous les aspects de développement technologiques modernes. Il n'y a pas véritablement de point d'inflexion comme "et si les Nazis avaient gagné la guerre?". C'est comme si on lisait une métaphore antique des conflits modernes, si la guerre en Ukraine rencontrait celle de Troie. D'ailleurs l'auteur admet en interview que l'idée lui est venue au début de la guerre en Ukraine.
 
 On pense aux dictateurs de toutes sortes du XXème et XXIème siècle, russes, iraniens, nazis, à tous les conflits qui nous font éteindre les réseaux sociaux, Israël-Iran, Russie-Ukraine, Syrie, et même les acteurs dans l'ombre sont très actuels (la Chine).
 
 L'auteur a dit qu'il n'écrivait pas de science fiction, mais "des textes qui procurent une expérience au lecteur avec des concepts", comme l'infinité du Mal. Et effectivement le livre est une réflexion sur le mal et la violence. Littérairement une tragédie, sans héros. Tout se termine mal, pour tous le monde.
 
 > Nulle mère, nulle bien-aimée, dans cet enfer, reprend-elle comme une litanie. Nulle bienveillance. Nul espoir. Nulle compassion. Nulle charité. Nulle action de grâce. Nul bonheur. Nul bonheur.
-
-Lucazeau, Romain. Vallée du carnage (French Edition) (p. 272). Verso. Édition du Kindle. 
 
 Ce qui choque finalement, c'est l’agrégation cohérente de toutes les monstruosités déjà commises par les hommes, documentées et réalistes : massacres, viols, mutilations, bordel-usines, camps de concentration, destruction de la notion d'individu (particulièrement cruelle chez le personnage Temulun)...
 
