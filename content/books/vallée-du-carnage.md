@@ -60,7 +60,7 @@ Lucazeau a voulu faire un vrai **roman de guerre** et la guerre est dégueulasse
 * [L'épisode du podcast "C'est plus que de la SF" avec interview de l'auteur](https://www.cestplusquedelasf.com/podcasts/vallee-du-carnage)
 * [Une critique du livre chez L'éclaireur](https://leclaireur.fnac.com/article/560735-romain-lucazeau-cest-le-travail-des-politiques-de-raconter-des-histoires-positives-pas-celui-des-ecrivains-de-science-fiction/)
 * [Une critique du livre chez ActuSF](https://www.actusf.com/detail-d-un-article/le-coup-de-coeur-de-jean-luc-rivera-pour-vall%C3%A9e-du-carnage-de-romain-lucazeau)
-* [_Tombeau pour 500 000 soldats_ de Pierre Guyotat](https://fr.wikipedia.org/wiki/Tombeau_pour_cinq_cent_mille_soldats) : une inspiration pour Lucazeau. Se passe aussi dans la cité d'Ecbatan (à l'époque, le livre était métaphore de la guerre d'Algérie).
+* [_Tombeau pour 500 000 soldats_ de Pierre Guyotat](https://fr.wikipedia.org/wiki/Tombeau_pour_cinq_cent_mille_soldats) : une inspiration pour Lucazeau. Se passe aussi dans la cité d'Ecbatan (à l'époque, le livre était une métaphore de la guerre d'Algérie).
 * [Salammbô de Flaubert](https://fr.wikipedia.org/wiki/Salammb%C3%B4) : une autre inspiration, qui a pour sujet la guerre des Mercenaires, au IIIe siècle av. J.-C., qui opposa la ville de Carthage à des mercenaires barbares.
 * [Roma Æterna](https://fr.wikipedia.org/wiki/Roma_%C3%86terna) : roman uchronique de Robert Silverberg paru en 2003, qui décrit une Rome qui n'est jamais tombée (je le mets sur ma liste à lire).
 * [L'histoire de Crassus, évoquée dans le livre](https://fr.wikipedia.org/wiki/Crassus): Crassus, Suréna et Orodès II ont vraiment existé.
