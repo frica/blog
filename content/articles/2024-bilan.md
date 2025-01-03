@@ -63,7 +63,7 @@ Mon top 5 de l'année :
 
 Disons-le franchement, j'ai échoué à actionner un plan concret pour ma maison. Elle a continué à se dégrader et j'ai toujours trouvé des excuses pour ne lancer aucun projet. Cette situation me fait beaucoup de mal et me donne énormément de soucis.
 
-**Objectif pas atteint ❌**
+**Objectif pas atteint ⛔**
 
 ### Moral et santé
 
