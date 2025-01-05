@@ -41,11 +41,7 @@ Et enfin j'ai redécouvert le plaisir de partager mes propres écrits sur mon no
 
 J'ai toujours lu, mais cette année particulièrement, il était important pour moi de me prouver que je pouvais me plonger dans un livre, y prendre du plaisir, et en retirer quelque chose.
 
-Je m'étais fixé un objectif de 25 livres et j'en ai lu **33** : 17 livres et 16 bédés, mangas ou romans graphiques. Le récapitulatif est disponible sur [Goodreads](https://www.goodreads.com/user/year_in_books/2024/46395244).
-
-Beaucoup de livres de science fiction (13) et des mangas (10). 12 en anglais, 11 en français.
-
-J'ai essayé de faire une critique pour chaque livre lu cette année et au lieu de mettre quelques lignes sur Goodreads (que j'utilise depuis 2017), j'ai écrit des avis plus longs sur mon blog. De manière générale, je ne veux pas perdre mes avis sur les livres lus si jamais la plateforme disparait.
+Je m'étais fixé un objectif de 25 livres et j'en ai lu **33** : 17 livres et 16 bédés, mangas ou romans graphiques. L'aperçu de mes critiques 2024 est disponible [ici]({filename}/books/lectures-2024.md).
 
 Mon top 5 de l'année :
 
