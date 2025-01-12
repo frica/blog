@@ -20,7 +20,7 @@ Voici les liens vers la plupart des critiques des livres lus:
 3. [Hirayasumi](https://www.goodreads.com/book/show/199525652-hirayasumi-vol-1): pas de critique sur mon blog mais un manga feelgood, que j'ai trouvé très touchant par la simplicité des émotions décrites
 4. [La Dernière Reine](https://www.goodreads.com/book/show/62601958-la-derni-re-reine): pas de critique détaillée mais j'ai été impressionné par l'histoire très dure de cette BD
 5. [Reasons to Be Hopeful](https://www.goodreads.com/book/show/66391065-reasons-to-be-hopeful): un livre entre le stoïcisme et la philosophie qui m'a bien aidé à relativiser certaines choses au début de l'année
-6. The Palladium Wars, de Marko Kloos ([Aftershocks #1]({filename}/books/aftershocks.md), [Ballistic #2]({filename}/books/ballistic.md), [Citadel #3]({filename}/books/citadel.md), [Descent #4]({filename}/books/descent.md)): une série de space opéra militaire qui m'a bien plus cette année
+6. The Palladium Wars, de Marko Kloos ([Aftershocks #1]({filename}/books/aftershocks.md), [Ballistic #2]({filename}/books/ballistic.md), [Citadel #3]({filename}/books/citadel.md), [Descent #4]({filename}/books/descent.md)): une série de space opéra militaire qui m'a bien plu cette année
 10. [Show your work]({filename}/books/show-your-work.md) (critique en anglais)
 11. [Jonquille. Afghanistan, 2012]({filename}/books/jonquille.md): un des rares livres de non-fiction lu cette année
 12. [Android's dream]({filename}/books/androids-dream.md), de John Scalzi
