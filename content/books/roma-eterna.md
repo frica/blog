@@ -21,7 +21,7 @@ Le livre est plein de références plus ou moins subtiles à l'évolution réell
 
 On suit les évènements souvent en arrière-plan: les narrateurs en parlent via des récits, des nouvelles des tréfonds de L'Empire. On est rarement dans l'action et tout ça manque de souffle épique dans certains chapitres.
 
-Entre les lignes, y sont décrits, la conquête de l'empire romain occidental par les Grecs, le meurtre de prophètes divers, la découverte de l'Amérique et sa tentative de colonisation échouée, un tour du monde sanglant, une période Terreur qui fait penser à la Révolution Française, le premier et second exode des Hébreux...
+Entre les lignes, y sont décrits, la conquête de l'empire romain occidental par les Grecs, le meurtre de prophètes divers, la découverte de l'Amérique et sa tentative de colonisation échouée, un tour du monde sanglant, une période de Terreur qui fait penser à la Révolution Française, le premier et second exode des Hébreux...
 
 Tout s'articule à la perfection: on suit la chronologie via des références aux empereurs ou dirigeants de l'histoire précédente. Mais voilà c'est bien écrit et on s'ennuie. Cela donne parfois l'impression d'être un peu sec, un peu mécanique.
 
