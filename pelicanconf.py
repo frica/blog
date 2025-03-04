@@ -10,7 +10,7 @@ SITEDESCRIPTION = "I'm Fabien Rica, a technology enthusiast, dad, and a French p
 PATH = "content"
 # Path to static resources
 STATIC_PATHS = ['images', 'extra', 'pages/assets']
-PLUGIN_PATHS = ['pelican-plugins']
+PLUGIN_PATHS = ['plugins/']
 PAGE_PATHS = ['pages']
 
 # overly complex config for a simple favicon but ok
