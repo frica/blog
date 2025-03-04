@@ -101,3 +101,4 @@ watchfiles==0.21.0
 wcwidth==0.2.13
 webencodings==0.5.1
 zipp==1.0.0
+feedparser==6.0.11
