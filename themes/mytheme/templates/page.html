@@ -5,4 +5,18 @@
 
     {{ page.content }}
 </section>
+
+<hr>
+
+    {% if GOODREADS_ACTIVITY_FEED %}
+    <h2>Currently reading</h2>
+    <div class="book-list">
+    {% for book in goodreads_activity.books %}
+        <a href="{{book.link}}" target="_blank" class="book-item">
+        <img src="{{book.m_cover}}" class="book-cover"/>
+        </a>
+    {% endfor %}
+    </div>
+    {% endif %}
+
 {% endblock %}

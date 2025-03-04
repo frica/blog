@@ -41,7 +41,7 @@ THEME = 'themes/mytheme'
 
 # post_stats only works if you update the template
 PLUGINS = ['liquid_tags',
-           'sitemap']
+           'sitemap', 'goodreads_activity']
 
 SITEMAP = {
     'format': 'xml',
@@ -92,3 +92,5 @@ HIDE_AUTHORS = True
 #}
 
 # BOOTSTRAP_CSS = 'http://bootswatch.com/3/united/bootstrap.min.css'
+
+GOODREADS_ACTIVITY_FEED='https://www.goodreads.com/review/list_rss/46395244?key=shzYOrsCNAprl60arNukkE7UkBNWcsHDeuOzUIZynvqOlRdy&shelf=currently-reading'
