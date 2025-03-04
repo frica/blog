@@ -20,6 +20,7 @@ exceptiongroup==1.2.0
 executing==2.0.1
 fastjsonschema==2.19.1
 feedgenerator==2.1.0
+feedparser==6.0.11
 filelock==3.6.0
 httplib2==0.20.2
 idna==3.6
@@ -101,4 +102,3 @@ watchfiles==0.21.0
 wcwidth==0.2.13
 webencodings==0.5.1
 zipp==1.0.0
-feedparser==6.0.11
