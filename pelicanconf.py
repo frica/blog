@@ -42,7 +42,7 @@ THEME = 'themes/mytheme'
 # post_stats only works if you update the template
 PLUGINS = ['liquid_tags',
            'sitemap', 
-           'pelican.plugins.goodreads_activity']
+           'goodreads_activity']
 
 SITEMAP = {
     'format': 'xml',
