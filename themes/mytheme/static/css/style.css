@@ -75,7 +75,9 @@ html,
 body,
 button,
 code {
-  font-family: iA Writer Mono, monospace;
+  /* font-family: iA Writer Mono, monospace; */
+  font-family: 'IBM Plex Mono', 'Menlo', 'Monaco', monospace;
+  font-size: 18px;
 }
 
 h1,
@@ -252,6 +254,35 @@ td {
   vertical-align: baseline;
 }
 
+.book-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.book-item {
+  margin-right: 10px;
+}
+
+.book-cover {
+  display: block; /* Override the general image centering rule */
+  margin: 0; /* Remove the auto margin */
+  max-width: 100%; /* Ensure the image fits within the container */
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  align-items: center; /* Center the icons vertically */
+  gap: 10px; /* Add space between the icons */
+  margin: 20px 0; /* Add some margin to the top and bottom */
+}
+
+.social-media-icon {
+  display: block; /* Override the general image centering rule */
+  max-width: 100%; /* Ensure the image fits within the container */
+}
+
 img {
   /* center image */
   display: flex;
@@ -294,7 +325,7 @@ blockquote {
   padding-left: 2em;
   padding-right: 1em;
   padding-top: 0.3em;
-  padding-bottom: 0em;*/
+  padding-bottom: 0em;
 }
 
 blockquote::before,
@@ -409,6 +440,8 @@ nav li {
   display: inline-block;
   margin-right: 10px;
 }
+
+
 
 /* 
 
