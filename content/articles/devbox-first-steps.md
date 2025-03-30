@@ -5,8 +5,7 @@ Tags: devbox, nix
 Lang: en
 Summary: First steps with the tool
 
-
-I recently attended a Thoughtworks webinar about their technology radar (cool idea, BTW) and I heard there about [Devbox](https://www.thoughtworks.com/radar/tools/summary/devbox). After reading a bit about it on the [Jetify webiste](https://www.jetify.com/devbox) I decided to test it a bit.
+I recently attended a Thoughtworks webinar about their technology radar (cool idea, BTW) and I heard there about [Devbox](https://www.thoughtworks.com/radar/tools/summary/devbox). After reading a bit about it on the [Jetify website](https://www.jetify.com/devbox), I decided to test it a bit.
 
 ## First steps
 
@@ -75,7 +74,7 @@ I really like the idea:
         :::bash
         git config --get user.name
 
-* It seems ideal for onboarding nex developers during the initial dev machine setup.
+* It seems ideal for onboarding new developers during the initial dev machine setup.
 
 * But Devbox is not really cross-platform: on Windows it will only work if you use the WSL.
 
