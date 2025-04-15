@@ -5,7 +5,7 @@ TIMEZONE = 'Europe/Brussels'
 DEFAULT_LANG = 'en'
 AUTHOR = "Fabien Rica"
 SITEDESCRIPTION = "Fabien Rica's homepage"
-FILENAME_METADATA = r'(?P<date>\d{4}-\d{2}-\d{2})_(?P<slug>.*)'
+FILENAME_METADATA = r'(?P<date>\d{4}-\d{2}-\d{2})_(?P<title>.*)'
 
 # Path to content directory to be processed by Pelican
 PATH = "content"
@@ -25,12 +25,13 @@ MAIN_MENU = True
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
-    ('Home', 'index.html'),
-    ('Tech', 'category/tech.html'),
-    ('Books', 'category/books.html'),
-    ('Misc', 'category/misc.html'),
-    ('Notes', 'category/notes.html'),
-    ('About', 'pages/about.html')
+    ('/home', 'index.html'),
+    ('/tech', 'category/tech.html'),
+    ('/books', 'category/books.html'),
+    ('/misc', 'category/misc.html'),
+    ('/notes', 'category/notes.html'),
+    ('/now', 'pages/now.html'),
+    ('/about', 'pages/about.html')
 )
 
 # European date format

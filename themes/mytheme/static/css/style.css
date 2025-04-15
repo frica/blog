@@ -378,8 +378,9 @@ header.h1,
   flex-wrap: wrap;
 }
 
+/* handles width of header + sections */
 .header-frame {
-  max-width: 420px;
+  max-width: 520px;
 }
 
 article :not(.article-title) {
@@ -441,7 +442,10 @@ nav li {
   margin-right: 10px;
 }
 
-
+div.ascii {
+  font: 1em/1.4 normal;
+  font-size: 0.3rem;
+}
 
 /* 
 

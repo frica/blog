@@ -8,6 +8,7 @@
 
 <hr>
 
+{% if page.title == "Now" %}
     {% if GOODREADS_ACTIVITY_FEED %}
     <h2>Currently reading</h2>
     <div class="book-list">
@@ -18,5 +19,6 @@
     {% endfor %}
     </div>
     {% endif %}
+{% endif %}
 
 {% endblock %}

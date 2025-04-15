@@ -6,7 +6,6 @@
     <meta charset="utf-8">
     <meta name="author" content="{{ AUTHOR }}" />
     <meta name="title" content="{% block title %}{{ SITENAME }}{% endblock %}" />
-    <meta name="description" content="{% block description %}{{ SITEDESCRIPTION }}{% endblock %}" />
     <meta name="generator" content="Pelican" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Link to the css inspired by https://blog.cassidoo.co/ -->
@@ -41,28 +40,28 @@
                 <div class="center">
                     <h2>{{ SITESUBTITLE }}</h2>
                 </div>
-                <nav>
-                    <ul>
-                        {% for title, link in MENUITEMS %}
-                        <li><a class="active" data-astro-cid-3ef6ksr2="" data-astro-cid-eimmu3lg=""
-                                style="text-decoration-color: rgb(36, 208, 90)" href="{{ SITEURL }}/{{ link }}">{{ title
-                                }}</a></li>
+            </div>
+            <nav>
+                <ul>
+                    {% for title, link in MENUITEMS %}
+                    <li><a class="active" data-astro-cid-3ef6ksr2="" data-astro-cid-eimmu3lg=""
+                            style="text-decoration-color: rgb(36, 208, 90)" href="{{ SITEURL }}/{{ link }}">{{ title
+                            }}</a></li>
+                    {% endfor %}
+                    {% if DISPLAY_PAGES_ON_MENU -%}
+                    {% for pg in pages %}
+                    <li{% if pg==page %} class="active" {% endif %}><a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title
+                            }}</a></li>
                         {% endfor %}
-                        {% if DISPLAY_PAGES_ON_MENU -%}
-                        {% for pg in pages %}
-                        <li{% if pg==page %} class="active" {% endif %}><a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title
-                                }}</a></li>
+                        {% endif %}
+                        {% if DISPLAY_CATEGORIES_ON_MENU -%}
+                        {% for cat, null in categories %}
+                        <li{% if cat==category %} class="active" {% endif %}><a
+                                href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
                             {% endfor %}
                             {% endif %}
-                            {% if DISPLAY_CATEGORIES_ON_MENU -%}
-                            {% for cat, null in categories %}
-                            <li{% if cat==category %} class="active" {% endif %}><a
-                                    href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-                                {% endfor %}
-                                {% endif %}
-                    </ul>
-                </nav>
-            </div>
+                </ul>
+            </nav>
         </div>
         <!-- <p>Hi, welcome to my blog! I'm Fabien and I decided to share some stuff with the world.</p> -->
     </header>
