@@ -9,26 +9,47 @@
 {% endblock %}
 
 {% block content %}
-  <p>{{ articles|count }} articles in {{ category }}</p>
-  {% for article in articles_page.object_list %}
-    <!-- Filter out all notes -->
-    <article class="row teaser">
-      <div class="col-sm-8">
-        <h4 class="title">
-          <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}{% if article.link %} <i class="fas fa-link"></i>{%
+  {% if category.name == "Links" %}
+  Here are the best and most interesting articles, blog posts, videos, podcasts, and GitHub repositories I’ve run into over the last week. 
+    {% for article in articles_page.object_list %}
+      <article class="row teaser">
+        <div class="col-sm-8">
+          <h4 class="title">
+            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}{% if article.link %} <i class="fas fa-link"></i>{%
             endif %}</a>
-        </h4>
-        <time>{{ article.locale_date }}</time> in #<a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category
-          }}</a>
-
-        <div class="content">
-          {{ article.summary|striptags }}
+          </h4>
+          <time>{{ article.locale_date }}</time> 
+            {% for tag in article.tags %}
+                #<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+            {% endfor %}
         </div>
-      </div>
-      <header class="col-sm-4 text-muted"></header>
-    </article>
-    {% if not loop.last %}
-    <hr>
-    {% endif %}
-  {% endfor %}
+      </article>
+      {% if not loop.last %}
+      <hr>
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    <p>{{ articles|count }} articles in {{ category }}</p>
+    {% for article in articles_page.object_list %}
+      <!-- Filter out all notes -->
+      <article class="row teaser">
+        <div class="col-sm-8">
+          <h4 class="title">
+            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}{% if article.link %} <i class="fas fa-link"></i>{%
+              endif %}</a>
+          </h4>
+          <time>{{ article.locale_date }}</time> in #<a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category
+            }}</a>
+
+          <div class="content">
+            {{ article.summary|striptags }}
+          </div>
+        </div>
+        <header class="col-sm-4 text-muted"></header>
+      </article>
+      {% if not loop.last %}
+      <hr>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 {% endblock %} 

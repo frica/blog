@@ -25,12 +25,13 @@ MAIN_MENU = True
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
-    ('/home', 'index.html'),
-    ('/tech', 'category/tech.html'),
+    ('/home',  'index.html'),
+    ('/tech',  'category/tech.html'),
     ('/books', 'category/books.html'),
-    ('/misc', 'category/misc.html'),
+    ('/misc',  'category/misc.html'),
     ('/notes', 'category/notes.html'),
-    ('/now', 'pages/now.html'),
+    ('/links', 'category/links.html'),
+    ('/now',   'pages/now.html'),
     ('/about', 'pages/about.html')
 )
 
