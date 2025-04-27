@@ -1,28 +1,20 @@
 Title: Interesting links - WK 17
-Date: 2025-04-20 23:00
+Date: 2025-04-27 20:00
 Category: Links
-Tags: git, AI, Python
+Tags: warp, python, ubuntu
 Lang: en
 Summary: Week 17
 
-* [Codex](https://github.com/openai/codex) from OpenAI, a lightweight coding agent that runs in your terminal
+* Spent a few evenings playing with [wrkflw](https://github.com/bahdotsh/wrkflw). Learned a bit about Docker. Discovered Podman on Linux. I reported 2 bugs and they were both fixed in a couple of days. Nice to see the creator/maintainer listening and fixing issues. It's a bit frustrating that I don't know Rust and can't really comment on the code without the help of a coding agent.
 
-* `git-who` ([link](https://github.com/sinclairtarget/git-who)):
+* [Warp](https://www.warp.dev/) has become my main terminal on all my computers. It just works. And a few times per month I'm able to spend my free credits to use their master feature: asking on the CLI in natural language :)
 
-> Unlike git-blame, which can tell you who wrote a line of code, git-who tells you the people responsible for entire components or subsystems in a codebase. You can think of git-who sort of like git-blame but for file trees rather than individual files.
+* I upgraded my work PC to Ubuntu 24.04 (Noble Numbat). Pretty smooth experience. Then of course I tried the gnome extensions and tweaks to make it even fancier. I realized pretty quickly that there was always something broken, inconsistent or not compatible with my monitors setup. Went back to defaults settings (except for some icons)...
 
-* [Long article](https://blog.glyph.im/2025/04/stop-writing-init-methods.html) about why we should stop with Python `__init__`. Yes I assure you, it can be interesting.
+* [Npm audit but for Python](https://pypi.org/project/pip-audit/)
 
-* Facebook motto is [still doing damage](https://blog.glyph.im/2023/12/safer-not-later.html):
+* [Your software is rotting](https://terminal.ahumanfuture.co/posts/2025-04-19/your-software-is-rotting/)
 
-> The motto has an implicit preamble, “Once you have done the work to make broken things safe enough, then you should move fast and break things”.
+* [NetBSD on the Wii](https://blog.infected.systems/posts/2025-04-21-this-blog-is-hosted-on-a-nintendo-wii/). Yes. Some people are weird in an amazing way.
 
-* [wrkflw](https://github.com/bahdotsh/wrkflw), to test your GitHub actions locally. I couldn't make it quite work yet.
-
-* [Do Dumb Things](https://www.youtube.com/watch?v=ej5RsTtVvQE), the last speech of Armin Ronacher at PyCon Austria 2025
-
-* [Don't have environments](https://alexgaynor.net/2016/jan/19/dont-have-environments/)
-
-> In short, every project should have what Heroku calls “Review Apps”. Every pull request gets its own deployed environment on demand, allowing it to be demoed and reviewed. Pull requests are only merged into master when they are ready to go to production, and they’re reverted if they turn out to have been unready.
-
-* And read this piece from Aftermath: [‘An Overwhelmingly Negative And Demoralizing Force’: What It’s Like Working For A Company That’s Forcing AI On Its Developers](https://aftermath.site/ai-video-game-development-art-vibe-coding-midjourney)
+* Walrus operator! Advanced f-string string formatting! Plenty of big and small things to learn in this article [Advanced Python features](https://blog.edward-li.com/tech/advanced-python-features/)
