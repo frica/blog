@@ -2,6 +2,9 @@
 @import url("pygment.css");
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans');
 
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); */
+
+
 /* Base styles */
 @font-face {
   font-family: iA Writer Mono;
@@ -64,7 +67,8 @@ html,
 body {
   margin: auto;
   padding: 20px;
-  max-width: 70ch;
+  /* Limit the content width to 75 characters for better readability */
+  max-width: 75ch;
   background-color: var(--white);
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -76,7 +80,7 @@ body,
 button,
 code {
   /* font-family: iA Writer Mono, monospace; */
-  font-family: 'IBM Plex Mono', 'Menlo', 'Monaco', monospace;
+  font-family: 'IBM Plex Mono', 'Menlo', 'Monaco', monospace; /*'Montserrat', */
   font-size: 18px;
 }
 
