@@ -31,6 +31,7 @@ MENUITEMS = (
     ('/misc',  'category/misc.html'),
     ('/notes', 'category/notes.html'),
     ('/links', 'category/links.html'),
+    ('/uses',  'pages/uses.html'),
     ('/now',   'pages/now.html'),
     ('/about', 'pages/about.html')
 )
