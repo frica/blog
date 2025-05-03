@@ -1,5 +1,5 @@
 Title: Vibe coding, is it for real?
-Date: 2025-05-03 14:00
+Date: 2025-05-03 12:00
 Category: Tech
 Tags: vibe-coding, coding-agents, AI
 Lang: en
