@@ -1,7 +1,7 @@
 Title: Interesting links - WK 18
 Date: 2025-05-03 01:00
 Category: Links
-Tags: ai, vibe-coding, tools
+Tags: AI, vibe-coding, tools
 Lang: en
 Summary: Week 18
 
@@ -11,7 +11,9 @@ Summary: Week 18
 
 > The list below may seem absurd at times, but rest assured that they are based on real life circumstances. The common thread is that people in the detail (software teams) communicate very carefully about their software, and lose sight of communication patterns in other spheres.
 
-* ChatGPT 4o becomes [a little "too nice" (to stay polite) after last update](https://openai.com/index/sycophancy-in-gpt-4o/). That's why you can't trust these tools for real analysis. The update process is way too shady.
+* ChatGPT 4o becomes [a little "too nice" (to stay polite) after last update](https://openai.com/index/sycophancy-in-gpt-4o/). That's why I can't trust these generative tools for real analysis. The update process is way too shady and impossible to control. Even the [OpenAI post-mortem](https://openai.com/index/expanding-on-sycophancy/) is not really reassuring:
+
+> But we **believe** in aggregate, these changes weakened the influence of our primary reward signal, which had been holding sycophancy in check. User feedback in particular can **sometimes** favor more agreeable responses, likely amplifying the shift we saw. We have also **seen** that in **some cases**, user memory contributes to exacerbating the effects of sycophancy, although **we don’t have evidence** that it broadly increases it.
 
 * A [Wikipedia hotspot](https://kiwix.org/en/kiwix-hotspot/). To spread knowledge and facts around you, when there's no Internet. A preppers package exists also: only problem is when the apocalypse comes, few people will have electricity (right, [Spain](https://www.bbc.com/news/articles/cd6jenl581vo)?). But ok. They sell the hardware AND the SD card with the data they downloaded from the Internet. Hmmm.
 
