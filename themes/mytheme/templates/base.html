@@ -2,13 +2,21 @@
 <html>
 
 <head>
-    <!-- Display unicode chars for French -->
     <meta charset="utf-8">
-    <meta name="author" content="{{ AUTHOR }}" />
     <meta name="title" content="{% block title %}{{ SITENAME }}{% endblock %}" />
     <meta name="generator" content="Pelican" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Link to the css inspired by https://blog.cassidoo.co/ -->
+    <meta name="author" content="{{ AUTHOR }}" />
+    {% if article %}
+    {% set description = article.summary|striptags|truncate(160) %}
+    {% elif page %}
+    {% set description = page.content|striptags|truncate(160) %}
+    {% else %}
+    {% set description = SITESUBTITLE %}
+    {% endif %}
+    <meta name="description" content="{{ description }}" />
+    {% include "partial/og.html" %}
+
     <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css">
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygment.css">
     <title>{{ SITENAME }}</title>
