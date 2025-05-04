@@ -3,21 +3,22 @@ save_as: pages/now.html
 
 Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is the important stuff right now.
 
-\- Last updated: 15-04-2025
+\- Last updated: 04-05-2025
 
 # me
 
-* Just back from one great week of holidays.
-* Mostly focussed on crafting a cozy personal place on the slow web.
+* Enjoying the nice weather
+* Waiting for a few days off at the seaside
 
 # Blog
 
-* Added this section.
-* Adapted the css a bit.
+* 15-03-2025 : Added this section.
+* 15-03-2025 : Adapted the css a bit.
+* 04-05-2025 : Fixed the meta tags to get better post preview
 
 # 💼 Work
 
-* Celebrating my 1 year anniversary @ Bricsys!
+* Busy period
 
 # 🩺 Health
 

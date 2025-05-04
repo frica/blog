@@ -1,7 +1,7 @@
 Title: Interesting links - WK 18
-Date: 2025-05-03 16:00
+Date: 2025-05-04 12:00
 Category: Links
-Tags: AI, vibe-coding, tools
+Tags: AI, vibe-coding, tools, open-graph, textual
 Lang: en
 Summary: Week 18
 
@@ -29,4 +29,8 @@ Summary: Week 18
         qw "what time is it in Tokyo?"  
         cat stderr.log | qw "have you seen anything like this before?"
 
-Smart.
+* [wrkflw](https://github.com/bahdotsh/wrkflw/releases/tag/v0.4.0) has released a version 0.4. Still not entirely convinced, but I'll follow the progress!
+
+* A [Kickstarter](https://www.kickstarter.com/projects/driscollis/creating-tui-applications-with-textual-and-python/) for a book about the Python TUI library [Textual](https://www.textualize.io/). It seems a bit obsolete to learn a tech with a book nowadays, but if it avoids countless paying subscriptions on Substack, Medium... I might pay the 15$ 🤔
+
+* Learned a bit about [Open Graph](https://ogp.me/) meta tags. I dislike a bit that it comes from FB but all my applications (Bluesky, Signal) support it today and the preview is nicer when you share a link. I modified the blog template to set them correctly.
