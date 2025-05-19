@@ -1,5 +1,5 @@
 Title: Interesting links - Week 19
-Date: 2025-05-04 12:00
+Date: 2025-05-12 12:00
 Category: Links
 Tags: pomodoro, python, ms, git, github, AI
 Lang: en
