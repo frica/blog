@@ -384,7 +384,26 @@ header.h1,
 
 /* handles width of header + sections */
 .header-frame {
-  max-width: 520px;
+  max-width: 620px;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.header-title h1 {
+    margin: 0;  /* Remove default margins from h1 */
+}
+
+.title-image {
+    margin: 0;  /* Override the default img margins */
+    height: 50px;  /* Adjust this value to match your title height */
+    width: auto;
+    display: block;  /* Remove flex display from images */
+    padding-bottom: 8px;  /* Add some padding at the bottom */
 }
 
 article :not(.article-title) {
