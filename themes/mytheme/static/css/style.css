@@ -384,7 +384,7 @@ header.h1,
 
 /* handles width of header + sections */
 .header-frame {
-  max-width: 620px;
+  max-width: 520px;
 }
 
 .header-title {
