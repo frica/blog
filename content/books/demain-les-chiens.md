@@ -14,9 +14,9 @@ Cette construction est très étonnante et donne un autre niveau de lecture au l
 
 > « Pourtant ils sont bien davantage, Grant, je vous assure. Jusqu’à présent, l’Homme était seul. Une espèce pensante, intelligente, mais isolée. Elle aurait pu aller plus vite et plus loin s’il y avait eu deux espèces, deux espèces pensantes et intelligentes pour travailler de concert. Car, enfin, elles ne penseraient pas de la même façon. Elles compareraient leurs idées. Ce que la première échouerait à concevoir, la seconde s’en chargerait. La vieille histoire des deux têtes qui valent mieux qu’une. »
 
-La nouvelle sur Jupiter est la plus *science-fiction* et celle qui m'a le plus plu. Mais c'est aussi celle qui détonne le plus. 
+La nouvelle sur Jupiter est la plus *science-fiction* et celle qui m'a le plus plu. Mais c'est aussi celle qui détonne le plus.
 
-Ce livre est un peu une fin du monde à l'envers. Ici l'humanité disparait non pas à cause d'une guerre nucléaire ou d'une invasion extraterrestre, mais parce que les hommes trouvent mieux que leur condition d'homme et sont incapables de surmonter leur lent déclin. 
+Ce livre est un peu une fin du monde à l'envers. Ici l'humanité disparait non pas à cause d'une guerre nucléaire ou d'une invasion extraterrestre, mais parce que les hommes trouvent mieux que leur condition d'homme et sont incapables de surmonter leur lent déclin.
 
 > L’homme a cessé de lutter. Il a choisi la jouissance. La réussite est devenue un facteur inconséquent et la vie un paradis insensé.
 
