@@ -51,7 +51,7 @@ Ce qui m'a frappé dans le récit, c'est l'impression de déliquescence des stru
 
 Mes passages préférés restent **les moments avec Sileqi**. L'autrice décrit avec une tendresse très touchante la relation entre l’héroïne et l'enfant.
 
-L'énorme référence finale à Clifford Simak est un peu trop évidente, mais peut-être que [je l'ai lu le chef d'oeuvre de Simak]({filename}/content/books/demain-les-chiens.md) il y a trop peu de temps. Et l'autrice ne s'en cache de toute façon pas en interview.
+L'énorme référence finale à Clifford Simak est un peu trop évidente, mais peut-être que [j'ai lu le chef d'oeuvre de Simak]({filename}/books/demain-les-chiens.md) il y a trop peu de temps. Et l'autrice ne s'en cache de toute façon pas en interview.
 
 ---
 
