@@ -1,7 +1,7 @@
 Title: Le nom sur le mur, enquête sur un oublié
 Date: 2025-03-01 17:00
 Category: Books
-Tags: lecture, reading
+Tags: lectures, reading
 Lang: fr
 Summary: Critique du livre Le nom sur le mur de Hervé le Tellier
 

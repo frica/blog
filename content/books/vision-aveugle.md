@@ -1,7 +1,7 @@
 Title: Vision Aveugle, rencontre malaisante du troisième type
 Date: 2025-03-23 17:00
 Category: Books
-Tags: lecture, reading
+Tags: lectures, reading
 Lang: fr
 Summary: Critique du livre de Peter Watts
 

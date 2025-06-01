@@ -1,7 +1,7 @@
 Title: Jonquille. Afghanistan, 2012
 Date: 2024-10-30 21:00
 Category: Books
-Tags: lecture, reading
+Tags: lectures, reading
 Lang: fr
 Summary: Petit avis sur le premier livre de Jean Michelin
 

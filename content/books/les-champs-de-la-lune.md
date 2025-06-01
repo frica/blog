@@ -1,7 +1,7 @@
 Title: Les Champs de la Lune, main verte et régolithe
 Date: 2025-05-19 21:00
 Category: Books
-Tags: lecture, reading, scifi
+Tags: lectures, reading, scifi
 Lang: fr
 Summary: Critique du livre Les Champs de la Lune, de Catherine Dufour
 

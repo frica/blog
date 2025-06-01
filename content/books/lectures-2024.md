@@ -1,7 +1,7 @@
 Title: Mes lectures de 2024
 Date: 2025-01-05 17:00
 Category: Books
-Tags: lecture, reading
+Tags: lectures, reading
 Lang: fr
 Summary: Récapitulatif des lectures de 2024
 

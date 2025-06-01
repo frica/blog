@@ -1,7 +1,7 @@
 Title: Vallée du Carnage, illustration du Mal 
 Date: 2025-01-01 17:00
 Category: Books
-Tags: lecture, reading, scifi
+Tags: lectures, reading, scifi
 Lang: fr
 Summary: Critique du livre de Romain Lucazeau
 

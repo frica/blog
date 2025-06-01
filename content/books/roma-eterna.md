@@ -1,7 +1,7 @@
 Title: Roma Æterna, une uchronie indolente
 Date: 2025-02-01 17:00
 Category: Books
-Tags: lecture, reading, scifi
+Tags: lectures, reading, scifi
 Lang: fr
 Summary: Critique du livre Roma Æterna de Robert Silverberg
 

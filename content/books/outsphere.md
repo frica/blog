@@ -1,7 +1,7 @@
 Title: Outsphere, la SF devenue roman de gare
 Date: 2024-11-17 10:00
 Category: Books
-Tags: lecture, reading, scifi
+Tags: lectures, reading, scifi
 Lang: fr
 Summary: Critique du livre de Guy-Roger Duvert
 
