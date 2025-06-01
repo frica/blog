@@ -1,6 +1,6 @@
 Title: Pixel art is fun
 Date: 2025-05-25 21:00
-Category: Tech
+Category: Misc
 Tags: pixelart
 Lang: en
 Summary: Sunday evening activity
