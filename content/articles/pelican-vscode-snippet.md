@@ -1,13 +1,13 @@
-Title: VSCode snippet for Pelican
+Title: VS Code snippet for Pelican
 Date: 2025-06-01 17:25
 Category: Tech
 Lang: en
 Tags: pelican, vscode
-Summary: A snippet to insert a Pelican header
+Summary: A snippet to insert a Pelican post header
 
-A small trick to insert easily the header of a new post in a Pelican blog: use vscode snippets.
+A small trick to insert easily the header of a new post in a Pelican blog: use VS Code snippets!
 
-Add this in a file .vscode/new-pelican-note.code-snippets
+Add this in a file `.vscode/new-pelican-note.code-snippets`:
 
     :::json
     {
@@ -25,7 +25,7 @@ Add this in a file .vscode/new-pelican-note.code-snippets
                 "",
                 "$0"
             ],
-            "description": "Create a new note for Pelican with title, date, category, and tags"
+            "description": "Create a new note for Pelican"
         }
     }
 
