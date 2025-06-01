@@ -310,6 +310,12 @@ pre>code {
   all: unset;
 }
 
+pre, pre code {
+  white-space: pre-wrap;     /* Wraps long lines */
+  word-break: break-word;    /* Breaks long words if needed */
+  overflow-x: auto;          /* Allows horizontal scroll if needed */
+}
+
 /*blockquote {
   border: 1px solid var(--gray);
   color: var(--black);

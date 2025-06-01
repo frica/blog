@@ -16,8 +16,7 @@ Add this in a file `.vscode/new-pelican-note.code-snippets`:
             "prefix": "pelican-note",
             "body": [
                 "Title: $1",
-                "Date: ${2:$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE 
-                    $CURRENT_HOUR:$CURRENT_MINUTE}",
+                "Date: ${2:$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE}",
                 "Category: ${3:${TM_DIRECTORY/(.*[\\/])?([^\\/]+)$/${2:/capitalize}/}}",
                 "Lang: fr | en",
                 "Tags: ${4:tag1, tag2}",
