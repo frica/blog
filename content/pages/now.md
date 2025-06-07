@@ -32,6 +32,6 @@ Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is 
 # ♟️ Board games
 
 * Last buy, [Zenith](https://boardgamegeek.com/boardgame/424219/zenith): I need to play it more!
-* Got[Harmonies](https://boardgamegeek.com/boardgame/414317/harmonies) and [Château Combo](https://boardgamegeek.com/boardgame/416851/castle-combo), two excellent family games.
+* Got [Harmonies](https://boardgamegeek.com/boardgame/414317/harmonies) and [Château Combo](https://boardgamegeek.com/boardgame/416851/castle-combo), two excellent family games.
 * [Happy City](https://boardgamegeek.com/boardgame/319793/happy-city) is still a banger for a quick play.
 * We play less than the last years, and mostly only with three, since the teenager rarely wants to participate...
