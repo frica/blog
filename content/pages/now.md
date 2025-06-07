@@ -3,12 +3,12 @@ save_as: pages/now.html
 
 Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is the important stuff right now.
 
-\- Last updated: 04-05-2025
+\- Last updated: 07-06-2025
 
 # me
 
-* Enjoying the nice weather
-* Waiting for a few days off at the seaside
+* Preparing summer holidays
+* Looking for sense in this upside down world
 
 # Blog
 
@@ -18,7 +18,7 @@ Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is 
 
 # 💼 Work
 
-* Busy period
+* Learning everyday...
 
 # 🩺 Health
 
@@ -31,6 +31,7 @@ Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is 
 
 # ♟️ Board games
 
-* Recently bought [Harmonies](https://boardgamegeek.com/boardgame/414317/harmonies) and [Château Combo](https://boardgamegeek.com/boardgame/416851/castle-combo), two excellent family games.
+* Last buy, [Zenith](https://boardgamegeek.com/boardgame/424219/zenith): I need to play it more!
+* Got[Harmonies](https://boardgamegeek.com/boardgame/414317/harmonies) and [Château Combo](https://boardgamegeek.com/boardgame/416851/castle-combo), two excellent family games.
 * [Happy City](https://boardgamegeek.com/boardgame/319793/happy-city) is still a banger for a quick play.
 * We play less than the last years, and mostly only with three, since the teenager rarely wants to participate...
