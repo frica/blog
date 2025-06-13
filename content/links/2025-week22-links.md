@@ -1,8 +1,8 @@
-Title:  Interesting links - Week 22
+Title: Interesting links - Week 22
 Date: 2025-06-01 15:56
 Category: Links
 Lang: en
-Tags: obsidian, AI, podcast
+Tags: obsidian, ai, podcast
 Summary: Week 22
 
 ## Tools
