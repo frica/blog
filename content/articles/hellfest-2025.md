@@ -55,7 +55,7 @@ Super set, mais beaucoup trop de basses, du coup avec les bouchons on entendait 
 
 On est resté 5 min mais leur viking folk mystique avec seulement des percussions en peaux de rennes ne nous a pas convaincu et on se fait vieux, quoi. Belle mise en scène néanmoins.
 
-## Jour 2
+# Jour 2
 
 La journée commence avec des cadeaux d'anniversaire au petit-déjeuner ❤️
 
@@ -122,7 +122,7 @@ Un concert parfait pour se rappeler pourquoi la musique est bonne pour le moral.
 
 Pas allé voir, mais des dizaines de milliers de personnes étaient là pour eux. La nouvelle chanteuse a fait le taf mais "elle s'est trop mis la pression", dixit le psychologue en chef.
 
-## Jour 4 (lundi)
+# Jour 4 (lundi)
 
 Départ pour Nantes. Moufid nous dépose là-bas. Lolo et moi et nous avons le temps de manger un ramen avant que je saute dans le train et passe la moitié de mon voyage à parler avec Thomas, un métalleux sympa de Nîmes.
 
