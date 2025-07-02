@@ -1,6 +1,6 @@
 Title: Adding a Playwright MCP server to Warp
 Date: 2025-07-02 20:38
-Category: Articles
+Category: Tech
 Lang: en
 Tags: warp, mcp-server
 Summary: How to add a Playwright MCP server to Warp
