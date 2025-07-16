@@ -44,3 +44,9 @@ Unfortunately on Substack but since the newsletter comes into your inbox, you sh
 Niche website for CLI tools aficionados, [Terminal Trove](https://terminaltrove.com/explore/) sends also a weekly newsletter.
 
 | [Link](https://terminaltrove.com/) |
+
+## Sidebar
+
+A beautiful UI/UX newsletter by [Sacha Greif](http://sachagreif.com/). It gives you the five best design links every day about UI design, typography, CSS, user research, and many other facets of design.
+
+| [Link](https://sidebar.io/) |
