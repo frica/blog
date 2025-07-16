@@ -8,7 +8,7 @@ I got the idea from [Brittany Ellich](https://bsky.app/profile/brittanyellich.co
 
 ## Cassidoo
 
-Newsletter from Cassidy Williams, someone I appreciate for her enthusiasm and who inspired me a lot to start my personal digital space. Links about colorful keyboards, fancy CSS, design and SW articles, basically what she liked in the past day. Also programming riddles and bad puns. Short and refreshing.
+Newsletter from Cassidy Williams, someone I appreciate for her enthusiasm and who inspired me a lot to start my personal digital space. Links about colorful keyboards, fancy CSS, design and SW articles, basically what she liked in the past days. Also programming riddles and bad puns. Short and refreshing.
 
 | [Link](https://cassidoo.co/newsletter/) |
 
