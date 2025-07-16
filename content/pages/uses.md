@@ -16,7 +16,7 @@ Inspired by [/uses](https://uses.tech/), this is my personal setup.
 * GitHub
 * Micro
 * bash + ohmybash
-* Warp
+* [Warp](https://www.warp.dev/)
 
 ### Notes
 

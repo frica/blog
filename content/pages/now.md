@@ -3,11 +3,11 @@ save_as: pages/now.html
 
 Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is the important stuff right now.
 
-\- Last updated: 07-06-2025
+\- Last updated: 16-07-2025
 
 # me
 
-* Preparing summer holidays
+* Enjoying my summer holidays with the family
 * Looking for sense in this upside down world
 
 # Blog
@@ -27,7 +27,7 @@ Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is 
 
 # 🎵 Concerts
 
-* I'll attend [HellFest](https://hellfest.fr/) in France in June 2025, mostly to see my friends.
+* I attended [HellFest](https://hellfest.fr/) in France in June 2025, and saw my friends. Good time.
 
 # ♟️ Board games
 
