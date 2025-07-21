@@ -17,4 +17,4 @@ Run from the root of the project, from a terminal:
 
     $ pelican && pelican -l
 
-and got to `localhost:5000`
+and go to `localhost:5000`
