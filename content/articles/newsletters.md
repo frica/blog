@@ -1,6 +1,6 @@
 Title: Newsletters that I don't report as spam
 Date: 2025-07-15 14:29
-Category: Articles
+Category: Misc
 Lang: en
 Summary: A list of some newsletters that I think are worth it
 
