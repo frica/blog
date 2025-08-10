@@ -9,27 +9,27 @@
 
 {% block content %}
   <h2>Latest articles</h2>
-  <!-- Show last 5 articles -->
-  {% for article in articles[0:10] %}
-    <!-- Filter out all notes -->
+  {# Show the latest 5 articles not in the 'Notes' category #}
+  {% set count = 0 %}
+  {% for article in articles %}
     {% if article.category != "Notes" %}
       <article class="row teaser">
         <div class="col-sm-8">
           <h4 class="title">
-            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}{% if article.link %} <i class="fas fa-link"></i>{%
-              endif %}</a>
+            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}{% if article.link %} <i class="fas fa-link"></i>{% endif %}</a>
           </h4>
-          <time>{{ article.locale_date }}</time> in #<a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category
-            }}</a>
-
+          <time>{{ article.locale_date }}</time> in #<a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
           <div class="content">
             {{ article.summary|striptags }}
           </div>
         </div>
         <header class="col-sm-4 text-muted"></header>
       </article>
-      {% if not loop.last %}
-      <hr>
+      {% set count = count + 1 %}
+      {% if count == 5 %}
+        {% break %}
+      {% else %}
+        <hr>
       {% endif %}
     {% endif %}
   {% endfor %}
