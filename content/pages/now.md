@@ -7,11 +7,12 @@ Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is 
 
 # me
 
-* Enjoying my summer holidays with the family
+* Enjoying the summer without the family, for a few days more...
 * Looking for sense in this upside down world
 
 # Blog
 
+* 10-08-2015 : Improved post preview and fixed landing page
 * 15-03-2025 : Added this section.
 * 15-03-2025 : Adapted the css a bit.
 * 04-05-2025 : Fixed the meta tags to get better post preview
