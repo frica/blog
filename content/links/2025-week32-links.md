@@ -2,7 +2,7 @@ Title: Interesting links - Week 32
 Date: 2025-08-10
 Category: Links
 Lang: en
-Tags: ai, linux, cli, blog, mcp
+Tags: ai, git, cli, web, tools
 Summary: Week 32
 
 After a long pause, I've found the time again to compile some links 😁
