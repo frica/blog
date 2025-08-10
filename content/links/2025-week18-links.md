@@ -33,4 +33,4 @@ Summary: Week 18
 
 * A [Kickstarter](https://www.kickstarter.com/projects/driscollis/creating-tui-applications-with-textual-and-python/) for a book about the Python TUI library [Textual](https://www.textualize.io/). It seems a bit obsolete to learn a tech with a book nowadays, but if it avoids countless paying subscriptions on Substack, Medium... I might pay the 15$ 🤔
 
-* Learned a bit about [Open Graph](https://ogp.me/) meta tags. I dislike a bit that it comes from FB but all my applications (Bluesky, Signal) support it today and the preview is nicer when you share a link. I modified the blog template to set them correctly.
+* Learned a bit about [Open Graph](https://ogp.me/) meta tags. I dislike a bit that it comes from FB but all my applications (Bluesky, Signal) support it today and the preview is nicer when you share a link. I modified the blog template to set them correctly, thanks to [this post from Liz Denys](https://lizdenys.com/journal/articles/adding-open-graph-to-pelican.html).
