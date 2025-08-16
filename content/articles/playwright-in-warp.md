@@ -2,7 +2,7 @@ Title: Adding a Playwright MCP server to Warp
 Date: 2025-07-02 20:38
 Category: Tech
 Lang: en
-Tags: warp, mcp-server
+Tags: warp, mcp-server, tips
 Summary: How to add a Playwright MCP server to Warp
 
 I'm spending quite some time experimenting with [**Warp**](https://www.warp.dev/) since I bought myself a Pro Plan. This agentic coding terminal is so fun and powerful, I couldn't resist.
