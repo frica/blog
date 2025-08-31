@@ -3,12 +3,11 @@ save_as: pages/now.html
 
 Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is the important stuff right now.
 
-\- Last updated: 16-07-2025
+\- Last updated: 31-08-2025
 
 # me
 
-* Enjoying the summer without the family, for a few days more...
-* Looking for sense in this upside down world
+* School starts again tomorrow! That means back to the busy family life...
 
 # Blog
 
