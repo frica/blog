@@ -3,11 +3,11 @@ save_as: pages/now.html
 
 Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is the important stuff right now.
 
-\- Last updated: 31-08-2025
+\- Last updated: 21-09-2025
 
 # me
 
-* School starts again tomorrow! That means back to the busy family life...
+* Weather starts being cold again... Complicated to stay sane with the news. Finding comfort in family and friends.
 
 # Blog
 
@@ -18,7 +18,7 @@ Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is 
 
 # 💼 Work
 
-* Learning everyday...
+* Enjoying the multiple technical challenges and being an IC.
 
 # 🩺 Health
 
@@ -31,7 +31,6 @@ Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is 
 
 # ♟️ Board games
 
-* Last buy, [Zenith](https://boardgamegeek.com/boardgame/424219/zenith): I need to play it more!
-* Got [Harmonies](https://boardgamegeek.com/boardgame/414317/harmonies) and [Château Combo](https://boardgamegeek.com/boardgame/416851/castle-combo), two excellent family games.
-* [Happy City](https://boardgamegeek.com/boardgame/319793/happy-city) is still a banger for a quick play.
-* We play less than the last years, and mostly only with three, since the teenager rarely wants to participate...
+* Last buy: [Battle of Hoth](https://boardgamegeek.com/boardgame/444481/star-wars-battle-of-hoth), excellent lightweight wargame in the Star Wars universe. Played 3 scenarios so far (out of 17!).
+* Played last week [Zenith](https://boardgamegeek.com/boardgame/424219/zenith) with a friend.
+* Other games: [Harmonies](https://boardgamegeek.com/boardgame/414317/harmonies), [Château Combo](https://boardgamegeek.com/boardgame/416851/castle-combo), [Happy City](https://boardgamegeek.com/boardgame/319793/happy-city).
