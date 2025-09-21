@@ -4,6 +4,7 @@ Category: Books
 Tags: lectures, reading, scifi
 Lang: fr
 Summary: Critique du livre The Mercy of Gods, de James S.A. Corey
+opengraph_image: mercy-of-gods.jpg
 
 <img src="https://m.media-amazon.com/images/I/81axCW+lOGL._SL1500_.jpg" alt="Couverture du livre The Mercy of Gods, de James S.A. Corey" width="200" height="auto">
 
