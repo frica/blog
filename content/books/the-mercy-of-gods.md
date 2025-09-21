@@ -43,7 +43,7 @@ Grosse différence avec _The Expanse_ : les aliens sont omniprésents. L'humanit
 
 > “The part where they chose one out of eight of us at the start? It’s just they’re the only one with eight limbs. I wonder if they have eight fingers on those small feeding arms. The others seem like . . . client races?” “Pets,” Else said, and it was almost agreement. “Slaves.”
 
-Les tentatives de Dafyd de comprendre les Carryx et de s'intégrer dans l'écosystème de la ziggurat, sont  clairement les plus captivantes du bouquin. On sent venir quelque chose de grand et d'épique (et cela arrive à la fin). Les efforts de Dafyd pour naviguer dans ce monde, comme un petit poisson qui nage dans un ocean rouge de sang et de requins, et qui commence à percer les secrets pour survivre m'ont fait pensé à la stratégie de l'[océan bleu et rouge](https://fr.m.wikipedia.org/wiki/Strat%C3%A9gie_oc%C3%A9an_bleu).
+Les tentatives de Dafyd de comprendre les Carryx et de s'intégrer dans l'écosystème de la ziggurat, sont  clairement les plus captivantes du bouquin. On sent venir quelque chose de grand et d'épique (et cela arrive à la fin). Les efforts de Dafyd pour naviguer dans ce monde, comme un petit poisson qui nage dans une mer rouge de sang et remplie de requins, et qui commence à percer les secrets pour survivre, m'ont fait pensé à la stratégie de l'[océan bleu et rouge](https://fr.m.wikipedia.org/wiki/Strat%C3%A9gie_oc%C3%A9an_bleu).
 
 > For a moment, Dafyd Alkhor saw the universe the way a Carryx would, and it was beautifully simple and utterly horrific.
 
