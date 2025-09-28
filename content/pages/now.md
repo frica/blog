@@ -11,7 +11,7 @@ Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is 
 
 # Blog
 
-* 10-08-2015 : Improved post preview and fixed landing page
+* 10-08-2025 : Improved post preview and fixed landing page
 * 15-03-2025 : Added this section.
 * 15-03-2025 : Adapted the css a bit.
 * 04-05-2025 : Fixed the meta tags to get better post preview
