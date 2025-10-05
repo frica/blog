@@ -5,7 +5,7 @@ Lang: en
 Tags: python, pyx
 Summary: A new player in Python registry landscape
 
-I listened yesterday to an interview of Charlie Marsh, the founder of Astral, which brought us `ruff` and `uv`, in an episode of The [Changelog](https://changelog.com/podcast/660).
+Yesterday, I listened to an interview with Charlie Marsh, the founder of Astral, who brought us `ruff` and `uv`, on an episode of The [Changelog](https://changelog.com/podcast/660).
 
 The interview is overall a very good one. I was amazed by the guy, honestly. Simple, to the point, very sweet but confident speech. It was interesting to hear about his background and what motivated him to start working on Python tooling.
 
