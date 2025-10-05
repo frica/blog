@@ -1,16 +1,17 @@
 Title: Adding a Redmine MCP server to Warp
-Date: 2025-07-02 20:38
-Status: draft
+Date: 2025-10-04
 Category: Tech
 Lang: en
 Tags: warp, mcp-server, tips
 Summary: How to add a Redmine MCP server to Warp
 
-Following my previous article [Adding a Playwright MCP server to Warp]({filename}/articles/playwright-in-warp.md), here is another MCP server I find useful. Not a lot of people are still using Redmine I guess, but honestly it works, so several made a MCP for it. I chose this [one](https://github.com/yonaka15/mcp-server-redmine), based on recent activity and downloads.
+Following my previous article [Adding a Playwright MCP server to Warp]({filename}/articles/playwright-in-warp.md), here is another MCP server I find useful in my daily use of [Warp](https://www.warp.dev/). Not a lot of people are still using Redmine, I guess, but honestly it works, it's open-source and it exits for 15 years, so some people made a MCP for it.
+
+I chose this [one](https://github.com/yonaka15/mcp-server-redmine), based on recent activity and downloads.
 
 Here are the steps to set this up.
 
-**Note**: I didn't set it up with npx.
+**Note**: I didn't set it up with npx, but you probably could for convenience.
 
 * Clone the [repo](https://github.com/yonaka15/mcp-server-redmine)
 * Create an local .env in the directory where you installed the tool and fill the `REDMINE_API_KEY` and `REDMINE_HOST` values in there.
@@ -25,7 +26,7 @@ Here are the steps to set this up.
         "mcp-server-redmine": {
             "command": "node",
             "args": [
-            "<dir where you installed>/dist/index.js"
+            "<local-repo-directory>/dist/index.js"
             ],
             "env": {
             "REDMINE_API_KEY": "",
