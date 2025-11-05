@@ -3,6 +3,7 @@ Date: 2025-11-05 20:00
 Category: Misc
 Tags: music, rap
 Lang: fr
+Summary: « On est pas condamné à l'échec »
 
 Hier soir, c'était une nouvelle fois soirée concert à Lille avec Pitt : on est allé voir Kery James au théâtre Sébastopol, comme la première fois pour Médine.
 
