@@ -19,9 +19,9 @@ Incomplète et dans le désordre :
 * Lettre à la République - [Paroles](https://www.azlyrics.com/lyrics/keryjames/lettrealarepublique.html)
 * Douleur ébène - [Paroles](https://www.azlyrics.com/lyrics/keryjames/douleurebene.html)
 * Vent d'état - [Paroles](https://www.azlyrics.com/lyrics/keryjames/ventdetat.html)
-* À L'ombre Du Show Business [Paroles](https://www.azlyrics.com/lyrics/keryjames/alombredushowbusiness.html)
-* La Vie en Rêve [Paroles](https://www.azlyrics.com/lyrics/keryjames/lavieenreve.html)
-* Sans moi [Paroles](https://www.azlyrics.com/lyrics/keryjames/sansmoi.html)
+* À L'ombre Du Show Business - [Paroles](https://www.azlyrics.com/lyrics/keryjames/alombredushowbusiness.html)
+* La Vie en Rêve - [Paroles](https://www.azlyrics.com/lyrics/keryjames/lavieenreve.html)
+* Sans moi - [Paroles](https://www.azlyrics.com/lyrics/keryjames/sansmoi.html)
 * Ne grandissez pas trop vite (nouvel album 2025, pas encore sorti)
 * Banlieusards - [Paroles](https://www.azlyrics.com/lyrics/keryjames/banlieusards.html)
 
