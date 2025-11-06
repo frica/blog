@@ -9,6 +9,8 @@ Hier soir, c'était une nouvelle fois soirée concert à Lille avec Pitt : on es
 
 Un setup assez similaire, rappeur accompagné de musiciens live (pianos et percus) et 2 choristes. Je l'avais jamais vu en concert et je n'avais pas écouté sa musique depuis longtemps, même si je gardais un bon souvenir de ses morceaux d'il y a 20 ans. Le lieu sentait carrément le rap embourgeoisé, mais comme tout le monde prend de l'âge, je m'y suis senti bien 😅
 
+{% img {static}/images/photos/Kery1.jpg 800 "Kery James en début de concert" %}
+
 # La set list
 
 Incomplète et dans le désordre :
