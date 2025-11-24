@@ -9,7 +9,7 @@ Summary: First impressions about Antigravity, the new agentic IDE from Google
 
 Not a sequel of the (good) movie [Gravity](https://www.imdb.com/title/tt1454468/), but yet another piece of IA software from Google. Contrary to Microsoft which pushes Copilot everywhere in its applications, Google prefers to release another app every couple of months and confuse its users.
 
-I don't mind, I love to test that kind of stuff!
+I don't mind, I love to test that kind of free stuff!
 
 ## Install
 
@@ -20,6 +20,8 @@ It's fairly easy on Linux: add the new repo in apt sources and here you go ([det
 On Windows it's simpler, as usual. Download the .exe, run the installer, check/uncheck a few options.
 
 After launching it the first time, you have to answer a couple of questions on preferences and foreseen usage, login with your google account (yes it's mandatory) and you're good to go.
+
+{% img {static}/images/antigravity-setup.png 800 "Setup screen" %}
 
 ## First look
 
@@ -37,6 +39,8 @@ The twist comes later, once you start exploring a few unusual options in the Ant
 
 * First: the Agent Manager. There is a small icon in the top bar or you can use `Ctrl-E` that will open the Agent Manager. In the Agent Manager, you can start agents on tasks like research, or background tasks and you can monitor the progress of these agents in the Inbox, check the changes in the editor view, and finally review their work when they're done. This view looks a bit like the chat version of GitHub Copilot and I like its syntax highlights and colors.
 
+{% img {static}/images/antigravity-agent-manager.png 800 "Agent Manager" %}
+
 * The Inbox is like your notification center in Warp, but the UI is simpler and easier to grasp.
 In the left pane of the Agent Manager, you also see your workspace, i.e. the projects you run the agents onto, and that simple panel is very handy.
 
@@ -52,6 +56,6 @@ I think Gemini didn't react well in some situations where the tools were not ins
 
 ## Conclusion
 
-I find Antigravity a very interesting product. I'm a big fan of Warp and its terminal integration, but I like the overview Antigravity provides on the agents tasks and the fact that you can comment on the "artifacts" produced by the agents. 
+I find Antigravity a very interesting product. I'm a big fan of Warp and its terminal integration, but I like the overview Antigravity provides on the agents tasks and the fact that you can comment on the "artifacts" produced by the agents. The user experience is rich, even a little too rich! I have the feeling I touched only 5% of the capabilities of the tool.
 
 With regards to Gemini 3, I'm not really convinced. I think its output is good, but it crashed/failed too often during my sessions.
