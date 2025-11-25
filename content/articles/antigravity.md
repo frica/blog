@@ -7,7 +7,7 @@ Summary: First impressions about Antigravity, the new agentic IDE from Google
 
 ## What is it?
 
-Not a sequel of the (good) movie [Gravity](https://www.imdb.com/title/tt1454468/), but yet another piece of IA software from Google. Contrary to Microsoft which pushes Copilot everywhere in its applications, Google prefers to release another app every couple of months and confuse its users.
+Not a sequel of the (good) movie [Gravity](https://www.imdb.com/title/tt1454468/), but yet another piece of AI software from Google. Contrary to Microsoft which pushes Copilot everywhere in its applications, Google prefers to release another app every couple of months and confuse its users.
 
 I don't mind, I love to test that kind of free stuff!
 
