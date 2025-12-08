@@ -3,11 +3,11 @@ save_as: pages/now.html
 
 Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is the important stuff right now.
 
-\- Last updated: 21-09-2025
+\- Last updated: 01-12-2025
 
 # me
 
-* Weather starts being cold again... Complicated to stay sane with the news. Finding comfort in family and friends.
+* Christmas is coming! And with it, the cold, the end-of-year stress and the new resolutions...
 
 # Blog
 
@@ -18,7 +18,7 @@ Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is 
 
 # 💼 Work
 
-* Enjoying the multiple technical challenges and being an IC.
+* Still enjoying it! I like the variety of tasks and being able to code a little.
 
 # 🩺 Health
 
@@ -27,10 +27,9 @@ Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is 
 
 # 🎵 Concerts
 
-* I attended [HellFest](https://hellfest.fr/) in France in June 2025, and saw my friends. Good time.
+* Seen a couple of hip-hop concerts in the last months, that was nice.
 
 # ♟️ Board games
 
-* Last buy: [Battle of Hoth](https://boardgamegeek.com/boardgame/444481/star-wars-battle-of-hoth), excellent lightweight wargame in the Star Wars universe. Played 3 scenarios so far (out of 17!).
-* Played last week [Zenith](https://boardgamegeek.com/boardgame/424219/zenith) with a friend.
-* Other games: [Harmonies](https://boardgamegeek.com/boardgame/414317/harmonies), [Château Combo](https://boardgamegeek.com/boardgame/416851/castle-combo), [Happy City](https://boardgamegeek.com/boardgame/319793/happy-city).
+* Last buy: [Battle of Hoth](https://boardgamegeek.com/boardgame/444481/star-wars-battle-of-hoth), excellent lightweight wargame in the Star Wars universe. Played 11 times already since September.
+* New games played recently: [Flip 7](https://boardgamegeek.com/boardgame/420087/flip-7) and [Tsuro](https://boardgamegeek.com/boardgame/16992/tsuro) with friends.
