@@ -1,7 +1,7 @@
 Title: Les 30 chefs-d’œuvre modernes de la science-fiction
 Date: 2025-12-21 22:00
 Category: Books
-Tags: lectures, reading
+Tags: lectures, reading, sf
 Lang: fr
 Summary: Ce que je pense de cette liste qui est passée sur Bluesky
 
@@ -30,7 +30,7 @@ Je ne peux qu'être d'accord. Lecture épuisante, pavé gigantesque, qui regorge
 ### Le Ministère du futur de Kim Stanley Robinson [2020] 🇺🇸
 
 En 2022, j'ai lu _Aurora_ et j'avais noté à l'époque : "Un grand roman de SF, plein de rebondissements, de sagesse, d'illusions perdues et de force de vivre".
-En 2023 j'ai lu _New York 2140_ en anglais et j'ai eu énormément de mal à lire le livre. Le découpage, les histoires décousues, l'impression constante qu'il faut connaître New York pour comprendre le cœur du scénario ? J'ai trouvé ça certainement moins bon que _Aurora_, moins agréable à lire. Mais il y a quelques fulgurances, quelques moments magiques qui font que le livre n'est pas à jeter vraiment. En tout cas c'est très étonnant de voir le style de l'auteur changer d'un livre à l'autre.
+En 2023, j'ai lu _New York 2140_ en anglais et j'ai eu énormément de mal à lire le livre. Le découpage, les histoires décousues, l'impression constante qu'il faut connaître New York pour comprendre le cœur du scénario ? J'ai trouvé ça certainement moins bon que _Aurora_, moins agréable à lire. Mais il y a quelques fulgurances, quelques moments magiques qui font que le livre n'est pas à jeter vraiment. En tout cas c'est très étonnant de voir le style de l'auteur changer d'un livre à l'autre.
 
 Bref un auteur avec lequel ça passe ou ça casse.
 
@@ -40,7 +40,7 @@ Jamais entendu parler. Dystopique, post-apo et cyberpunk ? Intéressant.
 
 ### Spin de Robert Charles Wilson [2005] 🇺🇸
 
-Découvert via cette liste et commencé peu après : **c'est un livre absolument génial**. Je range ça au niveau de Simak ([Au Carrefour des étoiles]({filename}/books/au-carrefour-des-étoiles), [Demain les chiens]({filename}/books/demain-les-chiens.md)) pour le côté "Mais comment ai-je pu passer à côté de ça ??".
+Découvert via cette liste et commencé peu après : **c'est un livre absolument génial**. Je range ça au niveau de Simak ([Au Carrefour des étoiles]({filename}/books/au-carrefour-des-étoiles.md), [Demain les chiens]({filename}/books/demain-les-chiens.md)) pour le côté "Mais comment ai-je pu passer à côté de ça ??".
 
 ### Le Fleuve des Dieux de Ian McDonald [2004] 🇬🇧
 
@@ -56,7 +56,7 @@ Commencé récemment, pas vraiment accroché. Le début est très déconcertant.
 
 ### The City & The City de China Miéville [2009] 🇬🇧
 
-Jamais entendu parler. Enquête policière dans une Europe du futur, ça me fait penser à Chien 51 et à Dantec.
+Jamais entendu parler. Enquête policière dans une Europe du futur, ça me fait penser à _Chien 51_ et à Dantec.
 
 ### La fille-automate de Paolo Bacigalupi [2009] 🇺🇸
 
@@ -88,7 +88,7 @@ Lu en 2016. J'avais bien aimé mais je ne me rappelle plus vraiment. Mais en gé
 
 ### La Ménagerie de Papier de Ken Liu [2015] 🇺🇸
 
-Cela faisait partie d'un recueil de nouvelles. Je pense l'avoir lu mais je n'en ai aucun souvenir.
+Cela faisait partie d'un recueil de nouvelles. Je pense l'avoir lu, mais je n'en ai aucun souvenir.
 
 ### Mes Vrais Enfants de Jo Walton [2014] 🇬🇧
 
@@ -109,7 +109,7 @@ Je ne connais que le jeu vidéo.
 ### Latium de Romain Lucazeau [2016] 🇫🇷
 
 Saga magistrale. Le tome 1 est tout simplement un chef-d'œuvre. Un livre ardu au début, exigeant, qui se révèle soudainement et vous entraîne dans un space opéra sombre, marqué par la culture latine et hellénistique. Le tome 2 continue une saga toujours très philosophique et empreinte de références à l'Antiquité. Conspirations et traîtrise entre Intelligences, lutte pour le pouvoir et cette question lancinante : qui est responsable de l'Hécatombe et pourquoi ? On suivra donc Othon, assoiffé de pouvoir et de gloire, et Plautine, hybride humaine-machine qui voit dans ses rêves des éléments qu'elle n'arrive pas à interpréter, suivre cette quête de l'Humain.
-La deuxième partie accorde moins d'importance aux hommes-chiens, personnages importants du premier tome. Toujours les mêmes envolées sur la liberté de choix, qu'on peut trouver agaçantes à la longue (c'est le thème du livre finalement) mais aussi beaucoup de coup de théâtre.
+La deuxième partie accorde moins d'importance aux hommes-chiens, personnages importants du premier tome. Toujours les mêmes envolées sur la liberté de choix, qu'on peut trouver agaçantes à la longue (c'est le thème du livre finalement) mais aussi beaucoup de coups de théâtre.
 
 ### La Fabrique des lendemains de Rich Larson [2020] 🇺🇸
 
