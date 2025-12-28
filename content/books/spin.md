@@ -32,19 +32,17 @@ On y parle aussi de Mars (avec l'une des idées les plus malignes du livre), de 
 
 ## Personnages
 
-* Jason Lawton : le génie scientifique qui se sent investi d'un but ultime, curieux, destiné à de grandes choses. Pendant longtemps dans l'ombre pesante de son père, jusqu'à entrer en conflit avec lui.
-
-Il est tragiquement victime d'une maladie mystérieuse (SEPA). Mourant puis ressuscité, il finit tué par son obsession :
+* Jason Lawton : le génie scientifique qui se sent investi d'un but ultime, curieux, destiné à de grandes choses. Pendant longtemps dans l'ombre pesante de son père, jusqu'à entrer en conflit avec lui. Il est tragiquement victime d'une maladie mystérieuse (la SEPA, maladie inventée même si des choses en commun avec la sclérose en plaques). Mourant puis ressuscité, il finit tué par son obsession :
 
 > C’était comme s’il avait levé le bras et touché les étoiles. Et les étoiles avaient réagi en le touchant aussi. Les étoiles l’assassinaient. Mais il mourait en état de grâce.
 
-* Diane Lawton : jumelle de Jason, caractère différent qui se tourne vers la religion à la suite du Spin.
+* Diane Lawton : jumelle de Jason, caractère différent qui se tourne vers la religion (et le fanatisme) à la suite du Spin.
 
-* Tyler Dupree : ami des jumeaux, amoureux de Diane, il devient le médecin personnel de Jason. Raisonnable, détaché à l'extrême, ami fidèle et amoureux transi de Diane. C'est lui qui raconte l'histoire.
+* Tyler Dupree : ami des jumeaux, amoureux de Diane, il devient le médecin personnel de Jason. Raisonnable, **détaché à l'extrême**, ami fidèle et amoureux transi de Diane. C'est lui qui raconte l'histoire.
 
 > Peut-être n’existait-il rien d’autre auquel je puisse m’agripper. Et peut-être n’y avait-il pas forcément de mal à cela. Si Molly avait raison, il nous avait fallu, à tous, nous agripper à quelque chose ou nous retrouver perdus. Diane s’était agrippée à la foi, Jason à la science. Et moi à Diane et Jason.
 
-* Carol : la mère des jumeaux, ancienne médecin, alcoolique pendant 30 ans.
+* Carol : la mère des jumeaux, ancienne médecin, alcoolique pendant 30 ans, qui retrouve l'amour pour ses enfants au pire des moments.
 
 * Wun Ngo Wen : l'énigmatique émissaire martien.
 
@@ -56,7 +54,7 @@ Il est tragiquement victime d'une maladie mystérieuse (SEPA). Mourant puis ress
 
 C'est une histoire qui se découvre avec patience : l'auteur dévoile son intrigue par petits bouts. Mais je n'ai jamais été frustré ou impatient, tellement j'ai trouvé ça passionnant et bien amené.
 
-Il contient des réflexions touchantes mais acérées sur comment notre espèce réagirait à un événement impossible à expliquer, mais aussi quelques phrases glaçantes :
+Il contient des réflexions touchantes et acérées sur comment notre espèce réagirait à un événement impossible à expliquer, mais aussi quelques phrases glaçantes :
 
 > Sans le Spin, on serait tous en train de mourir de faim ? — Mais les gens meurent de faim. Ils meurent de faim parce qu’on ne peut pas assurer à sept milliards d’habitants une prospérité de style nord-américain sans dépouiller la planète de ses ressources. Les chiffres sont implacables. Oui, c’est vrai. Si le Spin ne nous tue pas, nous connaîtrons tôt ou tard une régression globale de la population humaine.
 
@@ -66,9 +64,7 @@ _Spin_ fait partie d'une trilogie, l'auteur ayant apparemment encore quelques ch
 
 Par le hasard des choses, j'ai fini le livre juste après avoir fini la série Pluribus, et comme dans la série, ici un organisme extraterrestre **décide pour nous** comment nous sauver.
 
-J'ai trouvé le livre très bien écrit et très bien par Gilles Coullet.
-
-J'ai été Surpris par la justesse avec laquelle l'auteur capture les rapports humains, ses réflexions sur notre humanité et notre planète et en même temps la puissance et la créativité de ses idées de science-fiction.
+J'ai trouvé le livre très bien écrit et très bien par Gilles Coullet. Globalement j'ai été très surpris par la justesse avec laquelle l'auteur capture les rapports humains, ses réflexions sur notre humanité et notre planète et en même temps la puissance et la créativité de ses idées de science-fiction. C'est ce mélange qui rend ce roman absolument unique.
 
 ---
 
@@ -78,7 +74,7 @@ J'ai été Surpris par la justesse avec laquelle l'auteur capture les rapports h
 
 ## Liens
 
-* [Biographie de l'auteur](https://fr.wikipedia.org/wiki/Robert_Charles_Wilson) (Wikipedia)
+* La [biographie de l'auteur](https://fr.wikipedia.org/wiki/Robert_Charles_Wilson), sur Wikipedia.
 * [L’homme qui apprenait lentement, un entretien avec Robert Charles Wilson](https://blog.belial.fr/post/2009/09/11/L-homme-qui-apprenait-lentement-un-entretien-avec-Robert-Charles-Wilson), interview sur le blog du Bélial.
 * [Robert Charles Wilson : "Si le progrès existe, l'avenir pourra nous permettre de critiquer le passé"](https://www.radiofrance.fr/franceculture/podcasts/la-methode-scientifique/robert-charles-wilson-si-le-progres-existe-l-avenir-pourra-nous-permettre-de-critiquer-le-passe-4357516), podcast passé sur France Culture en 2020. L'interview commence à 14 min 20.
-* Une critique du livre sur [le blog du Chien critique](https://lechiencritique.blogspot.com/2018/02/spin.html)
+* Une critique du livre sur [le blog du Chien critique](https://lechiencritique.blogspot.com/2018/02/spin.html).
