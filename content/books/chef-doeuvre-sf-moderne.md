@@ -1,7 +1,7 @@
 Title: Les 30 chefs-d’œuvre modernes de la science-fiction
 Date: 2025-12-21 22:00
 Category: Books
-Tags: lectures, reading, sf
+Tags: lectures, reading, scifi
 Lang: fr
 Summary: Ce que je pense de cette liste qui est passée sur Bluesky
 
