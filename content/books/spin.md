@@ -68,7 +68,7 @@ J'ai trouvé le livre très bien écrit et très bien par Gilles Coullet. Global
 
 ---
 
-⭐⭐⭐⭐ Un excellent roman de SF, puissant et touchant.
+⭐⭐⭐⭐ Un excellent roman de SF, fort et touchant, qui mérite sa place dans les rayon des classiques.
 
 ---
 
