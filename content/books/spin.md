@@ -4,6 +4,7 @@ Category: Books
 Tags: lectures, reading, scifi
 Lang: fr
 Summary: Critique du livre de Robert Charles Wilson
+opengraph_image: spin.jpg
 
 <img src="https://www.babelio.com/couv/CVT_2483_703035.jpg" alt="Couverture du livre Spin, de Robert Charles Wilson" width="200" height="auto">
 
