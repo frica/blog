@@ -24,7 +24,7 @@ C'est aussi l'histoire douce-amère d'une relation à trois. Une belle histoire 
 
 > « C’est plus important que tes problèmes avec ma sœur. » Il était sérieux comme un pape. « Et je sais l’importance qu’elle a pour toi. — Elle n’a aucune importance pour moi. — Ce ne serait pas vrai même si vous n’étiez qu’amis.
 
-Le livre est narré de deux époques différentes : le présent (en 4 x 109 après JC) et le passé depuis les années 70 ? 80 ?
+Le livre est narré de deux époques différentes : le présent (en 4 x 109 après JC) et le passé depuis ce qui semble être les années 70 ou 80.
 
 Face à l'impuissance de la fin du monde, l'auteur invite à la réflexion sur les comportements humains : l'arrivée de nouvelles religions, les suicides de masse, le contrôle du pouvoir par les États‑Unis d’Amérique dans un monde qui se sent perdu.
 
@@ -52,19 +52,21 @@ On y parle aussi de Mars (avec l'une des idées les plus malignes du livre), de 
 
 ## Mon avis
 
-C'est une histoire qui se découvre avec patience : l'auteur dévoile son intrigue par petits bouts. Mais je n'ai jamais été frustré ou impatient, tellement j'ai trouvé ça passionnant et bien amené.
+C'est une histoire qui se découvre avec patience : l'auteur dévoile son intrigue par petits bouts. Jamais je n'ai été frustré ou impatient, tellement j'ai trouvé ça passionnant et bien amené.
 
 Il contient des réflexions touchantes et acérées sur comment notre espèce réagirait à un événement impossible à expliquer, mais aussi quelques phrases glaçantes :
 
 > Sans le Spin, on serait tous en train de mourir de faim ? — Mais les gens meurent de faim. Ils meurent de faim parce qu’on ne peut pas assurer à sept milliards d’habitants une prospérité de style nord-américain sans dépouiller la planète de ses ressources. Les chiffres sont implacables. Oui, c’est vrai. Si le Spin ne nous tue pas, nous connaîtrons tôt ou tard une régression globale de la population humaine.
 
-J'ai trouvé un énorme écho avec notre situation actuelle, et la catastrophe écologique qui s'annonce, qui est ignorée et que ressentent certaines personnes très durement au fond d'elles.
+J'y ai trouvé un énorme écho avec notre situation actuelle, et la catastrophe écologique qui s'annonce, qui est ignorée et que ressentent certaines personnes très durement au fond d'elles.
 
 _Spin_ fait partie d'une trilogie, l'auteur ayant apparemment encore quelques choses à dire sur cet univers à la fin du roman. Les deux tomes suivants : _Axis_ et _Vortex_ sont vus comme un peu moins bons (même l'auteur en convient).
 
 Par le hasard des choses, j'ai fini le livre juste après avoir fini la série Pluribus, et comme dans la série, ici un organisme extraterrestre **décide pour nous** comment nous sauver.
 
-J'ai trouvé le livre très bien écrit et très bien par Gilles Coullet. Globalement j'ai été très surpris par la justesse avec laquelle l'auteur capture les rapports humains, ses réflexions sur notre humanité et notre planète et en même temps la puissance et la créativité de ses idées de science-fiction. C'est ce mélange qui rend ce roman absolument unique.
+J'ai trouvé le livre très bien écrit et très bien traduit par Gilles Coullet. Globalement j'ai été surpris par la justesse avec laquelle l'auteur capture les rapports humains, ses réflexions sur notre humanité et notre planète et en même temps la puissance et la créativité de ses idées de science-fiction.
+
+C'est ce mélange qui rend ce roman absolument unique.
 
 ---
 
