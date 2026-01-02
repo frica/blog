@@ -3,11 +3,11 @@ save_as: pages/now.html
 
 Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is the important stuff right now.
 
-\- Last updated: 01-12-2025
+\- Last updated: 02-01-2026
 
 # me
 
-* Christmas is coming! And with it, the cold, the end-of-year stress and the new resolutions...
+* Christmas break is coming to an end! A welcome break, where I stayed at home, mostly sick. Starting the new year with motivation!
 
 # Blog
 
@@ -22,14 +22,14 @@ Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is 
 
 # 🩺 Health
 
-* No sport, although I know damn well how much I could benefit from it.
-* Still struggling with my sleep, because I lack discipline and time for me, so I tend to stay up late.
+* No sport, but I will try tai-chi end of the month.
+* Still struggling with my sleep, my current sickness doesn't help (strong coughing).
 
-# 🎵 Concerts
+# 🎵 Concerts/Shows
 
-* Seen a couple of hip-hop concerts in the last months, that was nice.
+* Nothing planned.
 
 # ♟️ Board games
 
-* Last buy: [Battle of Hoth](https://boardgamegeek.com/boardgame/444481/star-wars-battle-of-hoth), excellent lightweight wargame in the Star Wars universe. Played 11 times already since September.
-* New games played recently: [Flip 7](https://boardgamegeek.com/boardgame/420087/flip-7) and [Tsuro](https://boardgamegeek.com/boardgame/16992/tsuro) with friends.
+* Last discovery: [Toy Battle](https://boardgamegeek.com/boardgame/434654/toy-battle), very smart 2 players area-control game, nicely produced and with a mobile game artistic direction.
+* Last buy: [Flip 7](https://boardgamegeek.com/boardgame/420087/flip-7), decent starter game.
