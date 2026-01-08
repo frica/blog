@@ -1,7 +1,7 @@
 Title: 2026, the year of the desktop for Linux?
 Date: 2026-01-08
-Category: Technology
-Tags: linux, distro, open-source
+Category: Tech
+Tags: linux, distro
 Lang: en
 Summary: A quick overview of some modern Linux distributions
 
