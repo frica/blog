@@ -3,11 +3,11 @@ save_as: pages/now.html
 
 Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is the important stuff right now.
 
-\- Last updated: 02-01-2026
+\- Last updated: 30-01-2026
 
 # me
 
-* Christmas break is coming to an end! A welcome break, where I stayed at home, mostly sick. Starting the new year with motivation!
+* Winter, cold, fighting the blue feelings and the stress. I hate winter.
 
 # Blog
 
@@ -22,8 +22,8 @@ Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is 
 
 # 🩺 Health
 
-* No sport, but I will try tai-chi end of the month.
-* Still struggling with my sleep, my current sickness doesn't help (strong coughing).
+* The tai-chi trial lesson was nice!
+* Still struggling with my sleep discipline.
 
 # 🎵 Concerts/Shows
 
@@ -31,5 +31,5 @@ Borrowing the concept from [Derek Sivers](https://nownownow.com/about), this is 
 
 # ♟️ Board games
 
-* Last discovery: [Toy Battle](https://boardgamegeek.com/boardgame/434654/toy-battle), very smart 2 players area-control game, nicely produced and with a mobile game artistic direction.
+* Nice discovery: [Toy Battle](https://boardgamegeek.com/boardgame/434654/toy-battle), very smart 2 players area-control game, nicely produced and with a mobile game artistic direction. [Présages](https://boardgamegeek.com/boardgame/428787/presages) and [Emblèmes](https://boardgamegeek.com/boardgame/451304/emblems) were the last 2 new card-based games and they are both nice!
 * Last buy: [Flip 7](https://boardgamegeek.com/boardgame/420087/flip-7), decent starter game.
