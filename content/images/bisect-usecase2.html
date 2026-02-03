@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bisect Animation - Finding Fix</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1400px;
+      width: 100%;
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .timeline-section {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+
+    .step-indicator {
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      color: #1976D2;
+      margin-bottom: 30px;
+      min-height: 30px;
+    }
+
+    .timeline {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 40px 0;
+      padding: 0 20px;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: #666;
+      z-index: 0;
+    }
+
+    .timeline-label {
+      position: absolute;
+      top: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 14px;
+      color: #666;
+    }
+
+    .commit {
+      position: relative;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      z-index: 2;
+      transition: all 0.5s ease;
+      cursor: pointer;
+    }
+
+    .commit-label {
+      position: absolute;
+      bottom: -25px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 11px;
+      white-space: nowrap;
+      color: #333;
+      transition: opacity 0.3s ease;
+    }
+
+    .commit-sublabel {
+      position: absolute;
+      bottom: -40px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 9px;
+      white-space: nowrap;
+      color: #666;
+      transition: opacity 0.3s ease;
+    }
+
+    .commit.good {
+      background: #4CAF50;
+      border: 3px solid #2E7D32;
+      box-shadow: 0 2px 8px rgba(76, 175, 80, 0.4);
+    }
+
+    .commit.bad {
+      background: #F44336;
+      border: 3px solid #C62828;
+      box-shadow: 0 2px 8px rgba(244, 67, 54, 0.4);
+    }
+
+    .commit.unknown {
+      background: #FFC107;
+      border: 3px solid #F57F17;
+      box-shadow: 0 2px 8px rgba(255, 193, 7, 0.4);
+    }
+
+    .commit.testing {
+      background: #FF9800;
+      border: 4px solid #E65100;
+      box-shadow: 0 4px 16px rgba(255, 152, 0, 0.6);
+      animation: pulse 1s ease-in-out infinite;
+    }
+
+    .commit.target {
+      background: #9C27B0;
+      border: 4px solid #4A148C;
+      box-shadow: 0 4px 16px rgba(156, 39, 176, 0.6);
+      animation: celebrate 0.6s ease-in-out, blinkTargetGood 1.5s ease-in-out infinite 0.6s;
+    }
+
+    @keyframes blinkTargetGood {
+      0%, 100% {
+        background: #9C27B0;
+        border-color: #4A148C;
+        box-shadow: 0 4px 16px rgba(156, 39, 176, 0.6);
+      }
+      50% {
+        background: #4CAF50;
+        border-color: #2E7D32;
+        box-shadow: 0 4px 16px rgba(76, 175, 80, 0.6);
+      }
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.15);
+      }
+    }
+
+    @keyframes celebrate {
+      0% {
+        transform: scale(1);
+      }
+      25% {
+        transform: scale(1.2) rotate(5deg);
+      }
+      50% {
+        transform: scale(1.2) rotate(-5deg);
+      }
+      75% {
+        transform: scale(1.2) rotate(5deg);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .search-range {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 80px;
+      background: rgba(25, 118, 210, 0.1);
+      border: 2px dashed #1976D2;
+      border-radius: 8px;
+      z-index: 1;
+      transition: all 0.8s ease;
+      pointer-events: none;
+    }
+
+    .result-message {
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      min-height: 60px;
+      margin: 30px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .result-message.testing {
+      color: #FF9800;
+    }
+
+    .result-message.bad-result {
+      color: #F44336;
+    }
+
+    .result-message.good-result {
+      color: #4CAF50;
+    }
+
+    .result-message.found {
+      color: #9C27B0;
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 12px;
+      background: #E0E0E0;
+      border-radius: 6px;
+      overflow: hidden;
+      margin: 30px 0;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #1976D2, #42A5F5);
+      border-radius: 6px;
+      transition: width 0.3s ease;
+    }
+
+    .legend {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      margin-top: 40px;
+      padding: 20px;
+      background: #F5F5F5;
+      border-radius: 8px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+    }
+
+    .legend-circle {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 14px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      background: #1976D2;
+      color: white;
+    }
+
+    button:hover {
+      background: #1565C0;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    button:active {
+      transform: translateY(0);
+    }
+
+    button.secondary {
+      background: #757575;
+    }
+
+    button.secondary:hover {
+      background: #616161;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bisect: Finding Fix (Bad → Good)</h1>
+    
+    <div class="step-indicator" id="stepIndicator">Initial State</div>
+    
+    <div class="main-content">
+      <div class="timeline-section">
+        <div class="timeline">
+          <div class="timeline-label">Time →</div>
+          <div class="search-range" id="searchRange"></div>
+          
+          <div class="commit bad" id="build1">
+            1
+            <div class="commit-label">Bad</div>
+            <div class="commit-sublabel">(Older)</div>
+          </div>
+          
+          <div class="commit unknown" id="build2">
+            2
+            <div class="commit-label" style="opacity: 0;"></div>
+          </div>
+          
+          <div class="commit unknown" id="build3">
+            3
+            <div class="commit-label" style="opacity: 0;"></div>
+          </div>
+          
+          <div class="commit unknown" id="build4">
+            4
+            <div class="commit-label" style="opacity: 0;"></div>
+          </div>
+          
+          <div class="commit unknown" id="build5">
+            5
+            <div class="commit-label" style="opacity: 0;"></div>
+          </div>
+          
+          <div class="commit unknown" id="build6">
+            6
+            <div class="commit-label" style="opacity: 0;"></div>
+          </div>
+          
+          <div class="commit unknown" id="build7">
+            7
+            <div class="commit-label" style="opacity: 0;"></div>
+          </div>
+          
+          <div class="commit unknown" id="build8">
+            8
+            <div class="commit-label" style="opacity: 0;"></div>
+          </div>
+          
+          <div class="commit good" id="build9">
+            9
+            <div class="commit-label">Good</div>
+            <div class="commit-sublabel">(Newer)</div>
+          </div>
+        </div>
+        
+        <div class="result-message" id="resultMessage"></div>
+      </div>
+    </div>
+    
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+    </div>
+    
+    <div class="controls">
+      <button id="playPauseBtn">⏸ Pause</button>
+      <button id="restartBtn" class="secondary">↻ Restart</button>
+    </div>
+    
+    <div class="legend">
+      <div class="legend-item">
+        <div class="legend-circle" style="background: #4CAF50; border: 3px solid #2E7D32;"></div>
+        <span>Good commit</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-circle" style="background: #F44336; border: 3px solid #C62828;"></div>
+        <span>Bad commit</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-circle" style="background: #FFC107; border: 3px solid #F57F17;"></div>
+        <span>Unknown</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-circle" style="background: #FF9800; border: 4px solid #E65100;"></div>
+        <span>Testing</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-circle" style="background: #9C27B0; border: 4px solid #4A148C;"></div>
+        <span>Target found!</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const commits = {
+      1: document.getElementById('build1'),
+      2: document.getElementById('build2'),
+      3: document.getElementById('build3'),
+      4: document.getElementById('build4'),
+      5: document.getElementById('build5'),
+      6: document.getElementById('build6'),
+      7: document.getElementById('build7'),
+      8: document.getElementById('build8'),
+      9: document.getElementById('build9')
+    };
+    
+    const searchRange = document.getElementById('searchRange');
+    const stepIndicator = document.getElementById('stepIndicator');
+    const resultMessage = document.getElementById('resultMessage');
+    const progressFill = document.getElementById('progressFill');
+    const playPauseBtn = document.getElementById('playPauseBtn');
+    const restartBtn = document.getElementById('restartBtn');
+    
+    let currentStep = 0;
+    let isPlaying = true;
+    let animationInterval;
+    
+    const steps = [
+      // Step 0: Initial
+      {
+        step: 'Initial State',
+        message: 'Starting bisect between known bad (Older) and good (Newer) commits',
+        messageClass: '',
+        range: { left: '6%', width: '83%' },
+        progress: 0,
+        commits: {}
+      },
+      // Step 1: Test middle (commit 5)
+      {
+        step: 'Step 1: Test Middle Commit',
+        message: 'Testing commit 5 (middle of range)...',
+        messageClass: 'testing',
+        range: { left: '6%', width: '83%' },
+        progress: 20,
+        commits: {
+          5: { class: 'testing', label: 'Testing' }
+        }
+      },
+      // Step 1b: Result bad
+      {
+        step: 'Step 1: Result',
+        message: 'Result: BAD ❌',
+        message2: 'Fix is in right half → Search commits 6-9',
+        messageClass: 'bad-result',
+        range: { left: '6%', width: '83%' },
+        progress: 28,
+        commits: {
+          5: { class: 'bad', label: 'Bad' }
+        }
+      },
+      // Step 2: Narrow to right half
+      {
+        step: 'Step 2: Test Right Half',
+        message: 'Testing commit 7 (middle of right half)...',
+        messageClass: 'testing',
+        range: { left: '45%', width: '44%' },
+        progress: 45,
+        commits: {
+          5: { class: 'bad', label: 'Bad' },
+          7: { class: 'testing', label: 'Testing' }
+        }
+      },
+      // Step 2b: Result good
+      {
+        step: 'Step 2: Result',
+        message: 'Result: GOOD ✓',
+        message2: 'Fix is in left half → Search commit 6',
+        messageClass: 'good-result',
+        range: { left: '45%', width: '44%' },
+        progress: 55,
+        commits: {
+          5: { class: 'bad', label: 'Bad' },
+          7: { class: 'good', label: 'Good' }
+        }
+      },
+      // Step 3: Test commit 6
+      {
+        step: 'Step 3: Narrow Range',
+        message: 'Testing commit 6...',
+        messageClass: 'testing',
+        range: { left: '45%', width: '22%' },
+        progress: 65,
+        commits: {
+          5: { class: 'bad', label: 'Bad' },
+          6: { class: 'testing', label: 'Testing' },
+          7: { class: 'good', label: 'Good' }
+        }
+      },
+      // Step 3b: Result good - commit 6 is good
+      {
+        step: 'Step 3: Result',
+        message: 'Result: GOOD ✓',
+        message2: 'Commit 6 is good, commit 5 is bad → Fix in commit 6!',
+        messageClass: 'good-result',
+        range: { left: '45%', width: '22%' },
+        progress: 85,
+        commits: {
+          5: { class: 'bad', label: 'Bad' },
+          6: { class: 'good', label: 'Good' },
+          7: { class: 'good', label: 'Good' }
+        }
+      },
+      // Step 4: Found target
+      {
+        step: 'Step 4: Target Found! 🎉',
+        message: '✓ Found! Commit 6 is the first good commit',
+        message2: 'This is where the fix was introduced',
+        messageClass: 'found',
+        range: { left: '0%', width: '0%', hidden: true },
+        progress: 100,
+        commits: {
+          5: { class: 'bad', label: 'Bad' },
+          6: { class: 'target', label: 'FIRST GOOD', sublabel: 'Fix introduced!' },
+          7: { class: 'good', label: 'Good' }
+        }
+      }
+    ];
+    
+    function updateVisualization() {
+      const stepData = steps[currentStep];
+      
+      // Update step indicator
+      stepIndicator.textContent = stepData.step;
+      
+      // Update message
+      resultMessage.className = 'result-message ' + stepData.messageClass;
+      if (stepData.message2) {
+        resultMessage.innerHTML = `<div>${stepData.message}</div><div>${stepData.message2}</div>`;
+      } else {
+        resultMessage.textContent = stepData.message;
+      }
+      
+      // Update search range
+      searchRange.style.left = stepData.range.left;
+      searchRange.style.width = stepData.range.width;
+      searchRange.style.opacity = stepData.range.hidden ? '0' : '1';
+      
+      // Update progress
+      progressFill.style.width = stepData.progress + '%';
+      
+      // Reset all commits to unknown (except 1 and 9)
+      for (let i = 2; i <= 8; i++) {
+        commits[i].className = 'commit unknown';
+        commits[i].querySelector('.commit-label').textContent = '';
+        commits[i].querySelector('.commit-label').style.opacity = '0';
+        // Remove sublabel if it exists
+        const sublabel = commits[i].querySelector('.commit-sublabel');
+        if (sublabel && sublabel.textContent !== '(Older)' && sublabel.textContent !== '(Newer)') {
+          sublabel.style.opacity = '0';
+          sublabel.textContent = '';
+        }
+      }
+      
+      // Update specific commits
+      Object.keys(stepData.commits).forEach(buildNum => {
+        const commit = stepData.commits[buildNum];
+        commits[buildNum].className = 'commit ' + commit.class;
+        const label = commits[buildNum].querySelector('.commit-label');
+        label.textContent = commit.label;
+        label.style.opacity = '1';
+        
+        if (commit.sublabel) {
+          let sublabel = commits[buildNum].querySelector('.commit-sublabel');
+          if (!sublabel) {
+            sublabel = document.createElement('div');
+            sublabel.className = 'commit-sublabel';
+            commits[buildNum].appendChild(sublabel);
+          }
+          sublabel.textContent = commit.sublabel;
+          sublabel.style.opacity = '1';
+          sublabel.style.color = '#4A148C';
+        }
+      });
+
+    }
+    
+    function nextStep() {
+      if (currentStep < steps.length - 1) {
+        currentStep++;
+        updateVisualization();
+      }
+    }
+    
+    function startAnimation() {
+      if (animationInterval) clearTimeout(animationInterval);
+      if (currentStep >= steps.length - 1) {
+        isPlaying = false;
+        playPauseBtn.textContent = '▶ Play';
+        return;
+      }
+      const delay = 2500;
+      animationInterval = setTimeout(() => {
+        nextStep();
+        if (currentStep < steps.length - 1) {
+          startAnimation();
+        } else {
+          isPlaying = false;
+          playPauseBtn.textContent = '▶ Play';
+        }
+      }, delay);
+      isPlaying = true;
+      playPauseBtn.textContent = '⏸ Pause';
+    }
+    
+    function pauseAnimation() {
+      if (animationInterval) {
+        clearTimeout(animationInterval);
+        animationInterval = null;
+      }
+      isPlaying = false;
+      playPauseBtn.textContent = '▶ Play';
+    }
+    
+    function restartAnimation() {
+      currentStep = 0;
+      updateVisualization();
+      if (isPlaying) {
+        startAnimation();
+      }
+    }
+    
+    playPauseBtn.addEventListener('click', () => {
+      if (isPlaying) {
+        pauseAnimation();
+      } else {
+        startAnimation();
+      }
+    });
+    
+    restartBtn.addEventListener('click', restartAnimation);
+    
+    // Initialize
+    updateVisualization();
+    startAnimation();
+  </script>
+</body>
+</html>

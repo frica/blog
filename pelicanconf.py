@@ -11,6 +11,9 @@ FILENAME_METADATA = r'(?P<date>\d{4}-\d{2}-\d{2})_(?P<title>.*)'
 PATH = "content"
 # Path to static resources
 STATIC_PATHS = ['images', 'extra', 'pages/assets']
+
+# Exclude images from article/page processing so HTML files there aren't treated as posts
+ARTICLE_EXCLUDES = ['images']
 PLUGIN_PATHS = ['plugins/']
 PAGE_PATHS = ['pages']
 
@@ -25,15 +28,16 @@ MAIN_MENU = True
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
-    ('/home',  'index.html'),
-    ('/tech',  'category/tech.html'),
-    ('/books', 'category/books.html'),
-    ('/misc',  'category/misc.html'),
-    ('/notes', 'category/notes.html'),
-    ('/links', 'category/links.html'),
-    ('/uses',  'pages/uses.html'),
-    ('/now',   'pages/now.html'),
-    ('/about', 'pages/about.html')
+    ('/home',    'index.html'),
+    ('/tech',    'category/tech.html'),
+    ('/books',   'category/books.html'),
+    ('/misc',    'category/misc.html'),
+    ('/notes',   'category/notes.html'),
+    ('/links',   'category/links.html'),
+    #('/leaflet', 'category/leaflet.html'),
+    ('/uses',    'pages/uses.html'),
+    ('/now',     'pages/now.html'),
+    ('/about',   'pages/about.html')
 )
 
 # European date format
@@ -85,16 +89,18 @@ DEFAULT_PAGINATION = False
 
 HIDE_AUTHORS = True
 
-# customized to make admonition work but it doesn't
-#MARKDOWN = {
-#    'extension_configs': {
-#        'markdown.extensions.codehilite': {'css_class': 'highlight'},
-#        'markdown.extensions.extra': {},
-#        'markdown.extensions.meta': {},
-#        'markdown.extensions.admonition':{}
-#    },
-#    'output_format': 'html5',
-#}
+# Enable markdown extensions for Leaflet content (strikethrough, highlight, etc.)
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.meta': {},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        #'markdown.extensions.nl2br': {},  # Preserve line breaks
+        #'pymdownx.tilde': {},  # Enable strikethrough with ~~text~~
+        #'pymdownx.mark': {},   # Enable highlight with ==text==
+    },
+    'output_format': 'html5',
+}
 
 # BOOTSTRAP_CSS = 'http://bootswatch.com/3/united/bootstrap.min.css'
 
