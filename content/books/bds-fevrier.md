@@ -4,7 +4,7 @@ Category: Books
 Lang: fr
 Tags: reading, lecture, photo
 
-{% img {static}/images/bds-fevrier.png "Les dernières trouvailles de la bibli" %}
+{% img {static}/images/photos/bds-fevrier.png "Dernières trouvailles de la bibli" %}
 
 Les dernières trouvailles à la bibliothèque font plaisir:
 
