@@ -36,7 +36,7 @@ une série sur Arte qui raconte les déboires d'une copropriété à Pantin. Att
 
 * Scum - Clawfinger
 
-<iframe src="https://widget.qobuz.com/track/343060032?zone=BE-fr&display=compact" width="100%" height="390" > <p>Your browser does not support iframes.</p> </iframe>
+<iframe src="https://widget.qobuz.com/track/343060032?zone=BE-fr&display=compact" width="100%" height="102" > <p>Your browser does not support iframes.</p> </iframe>
 
 ---
 
