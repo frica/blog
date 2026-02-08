@@ -36,7 +36,7 @@ une série sur Arte qui raconte les déboires d'une copropriété à Pantin. Att
 
 * Scum - Clawfinger
 
-<iframe src="https://widget.qobuz.com/track/343060032?zone=BE-fr" width="100%" height="390" > <p>Your browser does not support iframes.</p> </iframe>
+<iframe src="https://widget.qobuz.com/track/343060032?zone=BE-fr&display=compact" width="100%" height="390" > <p>Your browser does not support iframes.</p> </iframe>
 
 ---
 
@@ -56,3 +56,5 @@ une série sur Arte qui raconte les déboires d'une copropriété à Pantin. Att
 * Un chouette outil en ligne de commande pour créer des cartes stylisées de ville: [maptoposter](https://github.com/originalankur/maptoposter).
 
 * [L’Open Source vu par une chercheuse – Amel Charleux](https://www.projets-libres.org/podcast/s4e10-open-source-vue-par-une-chercheuse/).
+
+* [FuriPhone FLX1: A Debian-powered brick that puts GNOME in your back pocket](https://www.theregister.com/2025/02/03/furiphone_flx1/) : enfin un téléphone correct sous Linux ? 500 balles quand même.
