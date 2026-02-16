@@ -5,7 +5,7 @@ Lang: en
 Tags: quotes
 Summary: Quote from Chris Loy
 
-Discovered via the Dense Discovery newsletter [#376](https://www.densediscovery.com/issues/376) :
+Discovered via the Dense Discovery newsletter [#376](https://www.densediscovery.com/issues/376):
 
 > The open question, then, is not whether industrial software will dominate, but what that dominance does to the surrounding ecosystem. Previous industrial revolutions externalised their costs onto environments that seemed infinite until they weren’t. Software ecosystems are no different: dependency chains, maintenance burdens, security surfaces that compound as output scales. Technical debt is the pollution of the digital world, invisible until it chokes the systems that depend on it. In an era of mass automation, we may find that the hardest problem is not production, but stewardship. Who maintains the software that no one owns?
 
