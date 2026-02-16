@@ -2,6 +2,7 @@ Title: The era we’re in
 Date: 2025-09-28
 Category: Misc
 Lang: en
+Tags: quotes
 Summary: Impactful quote from Dense Discovery
 
 Read in the Dense Discovery newsletter [#356](https://www.densediscovery.com/issues/356) a few days ago:
